@@ -1,4 +1,92 @@
 $primary: #ff0000;
-.test {
-  color: $primary;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.dFlex {
+  display: flex;
+
+  align-items: center;
+}
+
+//////////////////// Header Section ////////////////////
+.header {
+  width: 1920px;
+  @extend .dFlex;
+  .header-logo {
+    @extend .dFlex;
+    justify-content: center;
+    width: 320px;
+    height: 128px;
+    background: transparent url("../Images/Group 3@2x.png") 0% 0% no-repeat
+      padding-box;
+  }
+  .top-nav-header {
+    .top-header {
+      width: 1600px;
+      height: 48px;
+      background: #111111 0% 0% no-repeat padding-box;
+      opacity: 1;
+      color: #eeeeee;
+      @extend .dFlex;
+      justify-content: space-between;
+      .info-header {
+        @extend .dFlex;
+        div {
+          @extend .dFlex;
+        }
+      }
+      .social-icon {
+        @extend .dFlex;
+        div {
+          border-left: #2A2A2A 1px solid;
+          height: 100%;
+          padding: 12px
+        }
+      }
+    }
+    .nav-header {
+      @extend .dFlex;
+      justify-content: flex-end;
+      width: 1600px;
+      height: 80px;
+      .sub-nav-header {
+        @extend .dFlex;
+        .navbar {
+          @extend .dFlex;
+          justify-content: space-around;
+          width: 516px;
+          height: 21px;
+          border: #ff0000 2px solid;
+          div {
+            width: 69px;
+            height: 21px;
+            font: var(--unnamed-font-style-normal) normal
+              var(--unnamed-font-weight-normal) var(--unnamed-font-size-16) /
+              var(--unnamed-line-spacing-21) Futura;
+            letter-spacing: var(--unnamed-character-spacing-0);
+            text-align: left;
+            font: normal normal normal 16px/21px Futura;
+            letter-spacing: 0px;
+            color: #000000;
+            text-transform: uppercase;
+            opacity: 1;
+          }
+        }
+        .search-icon {
+          width: 81px;
+          height: 80px;
+          border-left: 1px solid #eeeeee;
+        }
+        .sidebar-icon {
+          @extend .dFlex;
+          justify-content: center;
+          width: 81px;
+          height: 80px;
+          background: #e41c26 0% 0% no-repeat padding-box;
+        }
+      }
+    }
+  }
 }

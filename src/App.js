@@ -1,9 +1,8 @@
-import "./App.css";
-
+import "./assets/css/style.css";
 function App() {
   return (
     <div className="App">
-      <h1>Train Hard Website</h1>
+      <h1 className="test">Train Hard Website</h1>
     </div>
   );
 }

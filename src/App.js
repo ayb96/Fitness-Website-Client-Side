@@ -5,6 +5,7 @@ import Reviews from "./component/Reviews";
 import ChooseUs from "./component/ChooseUs";
 import Video from "./component/Video";
 import Blog from "./component/Blog";
+import Subscribe from "./component/Subscribe";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <ChooseUs />
       <Video />
       <Blog />
+      <Subscribe />
     </div>
   );
 }

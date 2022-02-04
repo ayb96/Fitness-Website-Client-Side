@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.dFlex, .blog .blog-box .blog2, .blog .blog-box .blog1, .blog .blog-box, .blog, .video .video3, .chooseus .main-content .box4 .accessories, .chooseus .main-content .box4 .hoodies, .chooseus .main-content .box4 .bottoms, .chooseus .main-content .box4 .tops, .chooseus .main-content .box4, .chooseus .main-content, .chooseus, .reviews .reviews-box, .reviews, .Category .nutrition, .Category .workout, .Category .progression, .Category, .header .top-nav-header .nav-header .sub-nav-header .sidebar-icon, .header .top-nav-header .nav-header .sub-nav-header .navbar, .header .top-nav-header .nav-header .sub-nav-header, .header .top-nav-header .nav-header, .header .top-nav-header .top-header .social-icon, .header .top-nav-header .top-header .info-header div, .header .top-nav-header .top-header .info-header, .header .top-nav-header .top-header, .header .header-logo, .header {
+.dFlex, .subscribe .subscribe-box .subscribe-subbox .subscribe-subbox2, .subscribe .subscribe-box .subscribe-subbox, .subscribe .subscribe-box, .blog .blog-box .blog2, .blog .blog-box .blog1, .blog .blog-box, .blog, .video .video3, .chooseus .main-content .box4 .accessories, .chooseus .main-content .box4 .hoodies, .chooseus .main-content .box4 .bottoms, .chooseus .main-content .box4 .tops, .chooseus .main-content .box4, .chooseus .main-content, .chooseus, .reviews .reviews-box, .reviews, .Category .nutrition, .Category .workout, .Category .progression, .Category, .header .top-nav-header .nav-header .sub-nav-header .sidebar-icon, .header .top-nav-header .nav-header .sub-nav-header .navbar, .header .top-nav-header .nav-header .sub-nav-header, .header .top-nav-header .nav-header, .header .top-nav-header .top-header .social-icon, .header .top-nav-header .top-header .info-header div, .header .top-nav-header .top-header .info-header, .header .top-nav-header .top-header, .header .header-logo, .header {
   display: flex;
   align-items: center;
 }
@@ -621,6 +621,90 @@
   letter-spacing: -0.84px;
   color: #000000;
   height: 30px;
+}
+
+.subscribe {
+  width: 1920px;
+  height: 417px;
+  background: #eeeeee 0% 0% no-repeat padding-box;
+  margin-top: 309px;
+}
+.subscribe .subscribe-box {
+  border: 1px red solid;
+  width: 1283px;
+  margin: auto;
+  height: 427px;
+  position: relative;
+  bottom: 70px;
+  background: #e41c26 0% 0% no-repeat padding-box;
+  box-shadow: 0px 15px 45px #00000026;
+  border-radius: 20px;
+  justify-content: center;
+}
+.subscribe .subscribe-box .subscribe-subbox {
+  width: 1110px;
+  height: 244px;
+  border: 1px blue solid;
+}
+.subscribe .subscribe-box .subscribe-subbox .subscribe-subbox2 {
+  justify-content: center;
+}
+.subscribe .subscribe-box .subscribe-subbox .subscribe-subbox2 form input {
+  width: 300px;
+  margin-bottom: 28px;
+  height: 58px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 2px solid #ededed;
+}
+.subscribe .subscribe-box .subscribe-subbox .subscribe-subbox2 form button {
+  width: 300px;
+  height: 56px;
+  background: #111111 0% 0% no-repeat padding-box;
+  outline: none;
+  border: none;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-21) SF Pro Display;
+  text-align: center;
+  font: normal normal medium 16px/21px SF Pro Display;
+  letter-spacing: 0.8px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.subscribe .subscribe-box .subscribe-subbox .subscribe-subbox1 {
+  width: 750px;
+  border: 1px blue solid;
+  height: 244px;
+}
+.subscribe .subscribe-box .subscribe-subbox .subscribe-subbox1 .subscribe-subbox11 {
+  width: 450px;
+  height: 80px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 60px/56px Futura-Bold;
+  text-align: left;
+  font: normal normal normal 60px/56px Futura-Bold;
+  letter-spacing: 3px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.subscribe .subscribe-box .subscribe-subbox .subscribe-subbox12 {
+  width: 700px;
+  height: 48px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 36px/56px Futura;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: left;
+  font: normal normal normal 36px/56px Futura;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+.subscribe .subscribe-box .subscribe-subbox .subscribe-subbox13 {
+  width: 650px;
+  height: 55px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-24) Futura;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: left;
+  font: normal normal normal 18px/24px Futura;
+  letter-spacing: 0px;
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.dFlex, .chooseus .main-content .box4 .accessories, .chooseus .main-content .box4 .hoodies, .chooseus .main-content .box4 .bottoms, .chooseus .main-content .box4 .tops, .chooseus .main-content .box4, .chooseus .main-content, .chooseus, .reviews .reviews-box, .reviews, .Category .nutrition, .Category .workout, .Category .progression, .Category, .header .top-nav-header .nav-header .sub-nav-header .sidebar-icon, .header .top-nav-header .nav-header .sub-nav-header .navbar, .header .top-nav-header .nav-header .sub-nav-header, .header .top-nav-header .nav-header, .header .top-nav-header .top-header .social-icon, .header .top-nav-header .top-header .info-header div, .header .top-nav-header .top-header .info-header, .header .top-nav-header .top-header, .header .header-logo, .header {
+.dFlex, .video .video3, .chooseus .main-content .box4 .accessories, .chooseus .main-content .box4 .hoodies, .chooseus .main-content .box4 .bottoms, .chooseus .main-content .box4 .tops, .chooseus .main-content .box4, .chooseus .main-content, .chooseus, .reviews .reviews-box, .reviews, .Category .nutrition, .Category .workout, .Category .progression, .Category, .header .top-nav-header .nav-header .sub-nav-header .sidebar-icon, .header .top-nav-header .nav-header .sub-nav-header .navbar, .header .top-nav-header .nav-header .sub-nav-header, .header .top-nav-header .nav-header, .header .top-nav-header .top-header .social-icon, .header .top-nav-header .top-header .info-header div, .header .top-nav-header .top-header .info-header, .header .top-nav-header .top-header, .header .header-logo, .header {
   display: flex;
   align-items: center;
 }
@@ -434,6 +434,45 @@
   font: normal normal medium 18px/28px Futura;
   letter-spacing: 0px;
   color: #d1d1d1;
+}
+
+.video {
+  width: 1920px;
+  height: 741px;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 233px;
+}
+.video .video1 {
+  width: 164px;
+  height: 466px;
+  margin-top: 274.5px;
+  border: 1px red solid;
+}
+.video .video2 {
+  position: absolute;
+  z-index: 10;
+  width: 1299px;
+  height: 606px;
+  background: transparent url("../Images/Group 87.svg") 0% 0% no-repeat padding-box;
+  left: 164px;
+  bottom: 0;
+}
+.video .video3 {
+  justify-content: center;
+  position: absolute;
+  width: 1550px;
+  height: 665px;
+  right: 0;
+  top: 0;
+  background: transparent url("../Images/Rectangle 28.png") 0% 0% no-repeat padding-box;
+  z-index: 20;
+}
+.video .video3 .video32 {
+  width: 172px;
+  height: 172px;
+  background: transparent url("../Images/Group 88.svg") 0% 0% no-repeat padding-box;
 }
 
 /*# sourceMappingURL=style.css.map */

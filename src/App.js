@@ -3,6 +3,7 @@ import Header from "./component/Header";
 import Category from "./component/Category";
 import Reviews from "./component/Reviews";
 import ChooseUs from "./component/ChooseUs";
+import Video from "./component/Video";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Category />
       <Reviews />
       <ChooseUs />
+      <Video />
     </div>
   );
 }

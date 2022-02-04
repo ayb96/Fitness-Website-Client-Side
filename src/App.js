@@ -4,6 +4,7 @@ import Category from "./component/Category";
 import Reviews from "./component/Reviews";
 import ChooseUs from "./component/ChooseUs";
 import Video from "./component/Video";
+import Blog from "./component/Blog";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Reviews />
       <ChooseUs />
       <Video />
+      <Blog />
     </div>
   );
 }

@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.dFlex, .reviews .reviews-box, .reviews, .Category .nutrition, .Category .workout, .Category .progression, .Category, .header .top-nav-header .nav-header .sub-nav-header .sidebar-icon, .header .top-nav-header .nav-header .sub-nav-header .navbar, .header .top-nav-header .nav-header .sub-nav-header, .header .top-nav-header .nav-header, .header .top-nav-header .top-header .social-icon, .header .top-nav-header .top-header .info-header div, .header .top-nav-header .top-header .info-header, .header .top-nav-header .top-header, .header .header-logo, .header {
+.dFlex, .chooseus .main-content .box4 .accessories, .chooseus .main-content .box4 .hoodies, .chooseus .main-content .box4 .bottoms, .chooseus .main-content .box4 .tops, .chooseus .main-content .box4, .chooseus .main-content, .chooseus, .reviews .reviews-box, .reviews, .Category .nutrition, .Category .workout, .Category .progression, .Category, .header .top-nav-header .nav-header .sub-nav-header .sidebar-icon, .header .top-nav-header .nav-header .sub-nav-header .navbar, .header .top-nav-header .nav-header .sub-nav-header, .header .top-nav-header .nav-header, .header .top-nav-header .top-header .social-icon, .header .top-nav-header .top-header .info-header div, .header .top-nav-header .top-header .info-header, .header .top-nav-header .top-header, .header .header-logo, .header {
   display: flex;
   align-items: center;
 }
@@ -230,6 +230,210 @@
   height: 5px;
   background: #e41c26 0% 0% no-repeat padding-box;
   margin-bottom: 46px;
+}
+
+.chooseus {
+  position: relative;
+  width: 1920px;
+  height: 908px;
+  justify-content: center;
+  background: #111111 0% 0% no-repeat padding-box;
+}
+.chooseus .main-content {
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+}
+.chooseus .main-content .line1 {
+  width: 186px;
+  height: 5px;
+  background: #e41c26 0% 0% no-repeat padding-box;
+  position: relative;
+  bottom: 20px;
+}
+.chooseus .main-content .box1 {
+  width: 600px;
+  height: 79px;
+  margin-bottom: 22px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 59px/79px Futura;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: center;
+  font: normal normal bold 59px/79px Futura;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 1;
+  z-index: 20;
+}
+.chooseus .main-content .box2 {
+  width: 588px;
+  height: 128px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 96px/128px SF Pro Display;
+  text-align: center;
+  font: normal normal bold 96px/128px SF Pro Display;
+  letter-spacing: 18.72px;
+  color: #5e5e5e;
+  text-transform: uppercase;
+  position: absolute;
+  left: 600px;
+  top: 140px;
+  z-index: 10;
+}
+.chooseus .main-content .box3 {
+  width: 821px;
+  height: 59px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) 20px/27px Futura;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: center;
+  font: normal normal medium 20px/27px Futura;
+  letter-spacing: 0px;
+  color: #d1d1d1;
+  margin-bottom: 109px;
+}
+.chooseus .main-content .box4 {
+  justify-content: center;
+  width: 100%;
+}
+.chooseus .main-content .box4 .tops {
+  flex-direction: column;
+  justify-content: center;
+  border: #eee9e9 1px solid;
+  width: 299px;
+  height: 300px;
+  margin-right: 30px;
+}
+.chooseus .main-content .box4 .tops .tops1 {
+  width: 54px;
+  height: 30px;
+  margin-bottom: 21px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 22px/30px Futura;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: center;
+  font: normal normal bold 22px/30px Futura;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.chooseus .main-content .box4 .tops .tops2 {
+  width: 91px;
+  height: 99px;
+  margin-bottom: 23.5px;
+  background: transparent url("../Images/Group 22.svg") 0% 0% no-repeat padding-box;
+}
+.chooseus .main-content .box4 .tops .tops3 {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-18)/28px Futura;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: center;
+  font: normal normal medium 18px/28px Futura;
+  letter-spacing: 0px;
+  color: #d1d1d1;
+}
+.chooseus .main-content .box4 .bottoms {
+  flex-direction: column;
+  justify-content: center;
+  border: #eee9e9 1px solid;
+  margin-right: 30px;
+  width: 299px;
+  height: 300px;
+}
+.chooseus .main-content .box4 .bottoms .bottoms1 {
+  width: 106px;
+  height: 30px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 22px/30px Futura;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: center;
+  font: normal normal bold 22px/30px Futura;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 21px;
+}
+.chooseus .main-content .box4 .bottoms .bottoms2 {
+  margin-bottom: 23px;
+  width: 56px;
+  height: 99px;
+  background: transparent url("../Images/Group 22(1).svg") 0% 0% no-repeat padding-box;
+}
+.chooseus .main-content .box4 .bottoms .bottoms3 {
+  width: 265px;
+  height: 77px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-18)/28px Futura;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: center;
+  font: normal normal medium 18px/28px Futura;
+  letter-spacing: 0px;
+  color: #d1d1d1;
+}
+.chooseus .main-content .box4 .hoodies {
+  flex-direction: column;
+  justify-content: center;
+  border: #eee9e9 1px solid;
+  margin-right: 30px;
+  width: 299px;
+  height: 300px;
+}
+.chooseus .main-content .box4 .hoodies .hoodies1 {
+  width: 306px;
+  height: 30px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 22px/30px Futura;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: center;
+  font: normal normal bold 22px/30px Futura;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 21px;
+}
+.chooseus .main-content .box4 .hoodies .hoodies2 {
+  margin-bottom: 23px;
+  width: 85px;
+  height: 98px;
+  background: transparent url("../Images/Group 22(2).svg") 0% 0% no-repeat padding-box;
+}
+.chooseus .main-content .box4 .hoodies .hoodies3 {
+  width: 265px;
+  height: 77px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-18)/28px Futura;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: center;
+  font: normal normal medium 18px/28px Futura;
+  letter-spacing: 0px;
+  color: #d1d1d1;
+}
+.chooseus .main-content .box4 .accessories {
+  flex-direction: column;
+  justify-content: center;
+  border: #eee9e9 1px solid;
+  width: 299px;
+  height: 300px;
+}
+.chooseus .main-content .box4 .accessories .accessories1 {
+  width: 306px;
+  height: 30px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 22px/30px Futura;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: center;
+  font: normal normal bold 22px/30px Futura;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 21px;
+}
+.chooseus .main-content .box4 .accessories .accessories2 {
+  margin-bottom: 23px;
+  width: 100px;
+  height: 76px;
+  background: transparent url("../Images/Group 22(3).svg") 0% 0% no-repeat padding-box;
+}
+.chooseus .main-content .box4 .accessories .accessories3 {
+  width: 265px;
+  height: 77px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-18)/28px Futura;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: center;
+  font: normal normal medium 18px/28px Futura;
+  letter-spacing: 0px;
+  color: #d1d1d1;
 }
 
 /*# sourceMappingURL=style.css.map */

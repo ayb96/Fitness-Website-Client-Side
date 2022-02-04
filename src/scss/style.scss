@@ -284,3 +284,239 @@ $primary: #ff0000;
     }
   }
 }
+
+//////////////////// Choose Us Section ////////////////////
+
+.chooseus {
+  position: relative;
+  width: 1920px;
+  height: 908px;
+  @extend .dFlex;
+  justify-content: center;
+  background: #111111 0% 0% no-repeat padding-box;
+  .main-content {
+    width: 100%;
+    @extend .dFlex;
+    justify-content: center;
+    flex-direction: column;
+    // border: #17b241 2px solid;
+    .line1 {
+      width: 186px;
+      height: 5px;
+      background: #e41c26 0% 0% no-repeat padding-box;
+      position: relative;
+      bottom: 20px;
+    }
+    .box1 {
+      width: 600px;
+      height: 79px;
+      margin-bottom: 22px;
+      font: var(--unnamed-font-style-normal) normal
+        var(--unnamed-font-weight-bold) 59px/79px Futura;
+      letter-spacing: var(--unnamed-character-spacing-0);
+      text-align: center;
+      font: normal normal bold 59px/79px Futura;
+      letter-spacing: 0px;
+      color: #ffffff;
+      text-transform: uppercase;
+      opacity: 1;
+      z-index: 20;
+    }
+    .box2 {
+      width: 588px;
+      height: 128px;
+      font: var(--unnamed-font-style-normal) normal
+        var(--unnamed-font-weight-bold) 96px/128px SF Pro Display;
+      text-align: center;
+      font: normal normal bold 96px/128px SF Pro Display;
+      letter-spacing: 18.72px;
+      color: #5e5e5e;
+      text-transform: uppercase;
+      position: absolute;
+      left: 600px;
+      top: 140px;
+      z-index: 10;
+    }
+    .box3 {
+      width: 821px;
+      height: 59px;
+      font: var(--unnamed-font-style-normal) normal
+        var(--unnamed-font-weight-medium) 20px/27px Futura;
+      letter-spacing: var(--unnamed-character-spacing-0);
+      text-align: center;
+      font: normal normal medium 20px/27px Futura;
+      letter-spacing: 0px;
+      color: #d1d1d1;
+      margin-bottom: 109px;
+    }
+    .box4 {
+      @extend .dFlex;
+      justify-content: center;
+      // border: #ff0000 2px solid;
+      width: 100%;
+
+      .tops {
+        @extend .dFlex;
+        flex-direction: column;
+        justify-content: center;
+        border: #eee9e9 1px solid;
+        width: 299px;
+        height: 300px;
+        margin-right: 30px;
+        .tops1 {
+          width: 54px;
+          height: 30px;
+          margin-bottom: 21px;
+          font: var(--unnamed-font-style-normal) normal
+            var(--unnamed-font-weight-bold) 22px/30px Futura;
+          letter-spacing: var(--unnamed-character-spacing-0);
+          text-align: center;
+          font: normal normal bold 22px/30px Futura;
+          letter-spacing: 0px;
+          color: #ffffff;
+          text-transform: uppercase;
+        }
+        .tops2 {
+          width: 91px;
+          height: 99px;
+          margin-bottom: 23.5px;
+          background: transparent url("../Images/Group 22.svg") 0% 0% no-repeat
+            padding-box;
+        }
+        .tops3 {
+          font: var(--unnamed-font-style-normal) normal
+            var(--unnamed-font-weight-medium) var(--unnamed-font-size-18) / 28px
+            Futura;
+          letter-spacing: var(--unnamed-character-spacing-0);
+          text-align: center;
+          font: normal normal medium 18px/28px Futura;
+          letter-spacing: 0px;
+          color: #d1d1d1;
+        }
+      }
+      .bottoms {
+        @extend .dFlex;
+        flex-direction: column;
+        justify-content: center;
+        border: #eee9e9 1px solid;
+        margin-right: 30px;
+        width: 299px;
+        height: 300px;
+        .bottoms1 {
+          width: 106px;
+          height: 30px;
+          font: var(--unnamed-font-style-normal) normal
+            var(--unnamed-font-weight-bold) 22px/30px Futura;
+          letter-spacing: var(--unnamed-character-spacing-0);
+          text-align: center;
+          font: normal normal bold 22px/30px Futura;
+          letter-spacing: 0px;
+          color: #ffffff;
+          text-transform: uppercase;
+          margin-bottom: 21px;
+        }
+        .bottoms2 {
+          margin-bottom: 23px;
+          width: 56px;
+          height: 99px;
+          background: transparent url("../Images/Group 22(1).svg") 0% 0%
+            no-repeat padding-box;
+        }
+        .bottoms3 {
+          width: 265px;
+          height: 77px;
+          font: var(--unnamed-font-style-normal) normal
+            var(--unnamed-font-weight-medium) var(--unnamed-font-size-18) / 28px
+            Futura;
+          letter-spacing: var(--unnamed-character-spacing-0);
+          text-align: center;
+          font: normal normal medium 18px/28px Futura;
+          letter-spacing: 0px;
+          color: #d1d1d1;
+        }
+      }
+      .hoodies {
+        @extend .dFlex;
+        flex-direction: column;
+        justify-content: center;
+        border: #eee9e9 1px solid;
+        margin-right: 30px;
+        width: 299px;
+        height: 300px;
+        .hoodies1 {
+          width: 306px;
+          height: 30px;
+          font: var(--unnamed-font-style-normal) normal
+            var(--unnamed-font-weight-bold) 22px/30px Futura;
+          letter-spacing: var(--unnamed-character-spacing-0);
+          text-align: center;
+          font: normal normal bold 22px/30px Futura;
+          letter-spacing: 0px;
+          color: #ffffff;
+          text-transform: uppercase;
+          margin-bottom: 21px;
+        }
+        .hoodies2 {
+          margin-bottom: 23px;
+          width: 85px;
+          height: 98px;
+          background: transparent url("../Images/Group 22(2).svg") 0% 0%
+            no-repeat padding-box;
+        }
+        .hoodies3 {
+          width: 265px;
+          height: 77px;
+          font: var(--unnamed-font-style-normal) normal
+            var(--unnamed-font-weight-medium) var(--unnamed-font-size-18) / 28px
+            Futura;
+          letter-spacing: var(--unnamed-character-spacing-0);
+          text-align: center;
+          font: normal normal medium 18px/28px Futura;
+          letter-spacing: 0px;
+          color: #d1d1d1;
+        }
+      }
+      .accessories {
+        @extend .dFlex;
+        flex-direction: column;
+        justify-content: center;
+        border: #eee9e9 1px solid;
+
+        width: 299px;
+        height: 300px;
+        .accessories1 {
+          width: 306px;
+          height: 30px;
+          font: var(--unnamed-font-style-normal) normal
+            var(--unnamed-font-weight-bold) 22px/30px Futura;
+          letter-spacing: var(--unnamed-character-spacing-0);
+          text-align: center;
+          font: normal normal bold 22px/30px Futura;
+          letter-spacing: 0px;
+          color: #ffffff;
+          text-transform: uppercase;
+          margin-bottom: 21px;
+        }
+        .accessories2 {
+          margin-bottom: 23px;
+          width: 100px;
+          height: 76px;
+          background: transparent url("../Images/Group 22(3).svg") 0% 0%
+            no-repeat padding-box;
+        }
+        .accessories3 {
+          width: 265px;
+          height: 77px;
+          font: var(--unnamed-font-style-normal) normal
+            var(--unnamed-font-weight-medium) var(--unnamed-font-size-18) / 28px
+            Futura;
+          letter-spacing: var(--unnamed-character-spacing-0);
+          text-align: center;
+          font: normal normal medium 18px/28px Futura;
+          letter-spacing: 0px;
+          color: #d1d1d1;
+        }
+      }
+    }
+  }
+}

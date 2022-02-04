@@ -9,11 +9,40 @@ $primary: #ff0000;
 
   align-items: center;
 }
+:root {
+  /* Colors: */
+  --unnamed-color-181a27: #181a27;
+  --unnamed-color-090d17: #090d17;
+  --unnamed-color-17b241: #17b241;
+
+  /* Font/text values */
+  --unnamed-font-family-sf-compact-display: SF Compact Display;
+  --unnamed-font-style-normal: normal;
+  --unnamed-font-weight-600: 600px;
+  --unnamed-font-weight-medium: medium;
+  --unnamed-font-weight-bold: bold;
+  --unnamed-font-weight-normal: normal;
+  --unnamed-font-size-9: 9px;
+  --unnamed-font-size-11: 11px;
+  --unnamed-font-size-12: 12px;
+  --unnamed-font-size-14: 14px;
+  --unnamed-font-size-16: 16px;
+  --unnamed-font-size-18: 18px;
+  --unnamed-font-size-24: 24px;
+  --unnamed-character-spacing-0: 0px;
+  --unnamed-line-spacing-12: 12px;
+  --unnamed-line-spacing-15: 15px;
+  --unnamed-line-spacing-16: 16px;
+  --unnamed-line-spacing-19: 19px;
+  --unnamed-line-spacing-21: 21px;
+  --unnamed-line-spacing-24: 24px;
+  --unnamed-line-spacing-32: 32px;
+}
 
 //////////////////// Header Section ////////////////////
 .header {
-  width: 1920px;
   @extend .dFlex;
+  // flex-wrap: wrap;
   .header-logo {
     @extend .dFlex;
     justify-content: center;
@@ -23,8 +52,8 @@ $primary: #ff0000;
       padding-box;
   }
   .top-nav-header {
+    width: 1600px;
     .top-header {
-      width: 1600px;
       height: 48px;
       background: #111111 0% 0% no-repeat padding-box;
       opacity: 1;
@@ -40,16 +69,16 @@ $primary: #ff0000;
       .social-icon {
         @extend .dFlex;
         div {
-          border-left: #2A2A2A 1px solid;
+          border-left: #2a2a2a 1px solid;
           height: 100%;
-          padding: 12px
+          padding: 12px;
         }
       }
     }
     .nav-header {
       @extend .dFlex;
       justify-content: flex-end;
-      width: 1600px;
+
       height: 80px;
       .sub-nav-header {
         @extend .dFlex;
@@ -87,6 +116,80 @@ $primary: #ff0000;
           background: #e41c26 0% 0% no-repeat padding-box;
         }
       }
+    }
+  }
+}
+
+//////////////////// Category Section ////////////////////
+
+.Category {
+  @extend .dFlex;
+  //  flex-wrap: wrap;
+
+  .progression {
+    @extend .dFlex;
+    position: relative;
+    justify-content: flex-end;
+    width: 672px;
+    height: 391px;
+    background: hsl(0, 0%, 13%) 0% 0% no-repeat padding-box;
+    .back-image {
+      width: 166px;
+      height: 148px;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      opacity: 0.1;
+    }
+    .progression-box {
+      width: 254px;
+      text-align: center;
+      margin-right: 49px;
+      border: #eeeeee 1px solid;
+    }
+  }
+  .workout {
+    @extend .dFlex;
+    position: relative;
+    justify-content: center;
+    width: 576px;
+    height: 391px;
+    background: #eeeeee 0% 0% no-repeat padding-box;
+    .back-image {
+      width: 148px;
+      height: 148px;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      opacity: 0.1;
+    }
+    .workout-box {
+      width: 254px;
+      text-align: center;
+
+      border: #eeeeee 1px solid;
+    }
+  }
+  .nutrition {
+    @extend .dFlex;
+    position: relative;
+    width: 672px;
+    height: 391px;
+    background: #e41c26 0% 0% no-repeat padding-box;
+    .back-image {
+      width: 113px;
+      height: 148px;
+      position: absolute;
+      left: 241px;
+      bottom: 0;
+      opacity: 0.2;
+    }
+    .nutrition-box {
+      width: 254px;
+      text-align: center;
+      margin-right: 50px;
+      border: #eeeeee 1px solid;
+      margin-left: 50px;
     }
   }
 }

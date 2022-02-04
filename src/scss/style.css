@@ -4,22 +4,50 @@
   box-sizing: border-box;
 }
 
-.dFlex, .header .top-nav-header .nav-header .sub-nav-header .sidebar-icon, .header .top-nav-header .nav-header .sub-nav-header .navbar, .header .top-nav-header .nav-header .sub-nav-header, .header .top-nav-header .nav-header, .header .top-nav-header .top-header .social-icon, .header .top-nav-header .top-header .info-header div, .header .top-nav-header .top-header .info-header, .header .top-nav-header .top-header, .header .header-logo, .header {
+.dFlex, .Category .nutrition, .Category .workout, .Category .progression, .Category, .header .top-nav-header .nav-header .sub-nav-header .sidebar-icon, .header .top-nav-header .nav-header .sub-nav-header .navbar, .header .top-nav-header .nav-header .sub-nav-header, .header .top-nav-header .nav-header, .header .top-nav-header .top-header .social-icon, .header .top-nav-header .top-header .info-header div, .header .top-nav-header .top-header .info-header, .header .top-nav-header .top-header, .header .header-logo, .header {
   display: flex;
   align-items: center;
 }
 
-.header {
-  width: 1920px;
+:root {
+  /* Colors: */
+  --unnamed-color-181a27: #181a27;
+  --unnamed-color-090d17: #090d17;
+  --unnamed-color-17b241: #17b241;
+  /* Font/text values */
+  --unnamed-font-family-sf-compact-display: SF Compact Display;
+  --unnamed-font-style-normal: normal;
+  --unnamed-font-weight-600: 600px;
+  --unnamed-font-weight-medium: medium;
+  --unnamed-font-weight-bold: bold;
+  --unnamed-font-weight-normal: normal;
+  --unnamed-font-size-9: 9px;
+  --unnamed-font-size-11: 11px;
+  --unnamed-font-size-12: 12px;
+  --unnamed-font-size-14: 14px;
+  --unnamed-font-size-16: 16px;
+  --unnamed-font-size-18: 18px;
+  --unnamed-font-size-24: 24px;
+  --unnamed-character-spacing-0: 0px;
+  --unnamed-line-spacing-12: 12px;
+  --unnamed-line-spacing-15: 15px;
+  --unnamed-line-spacing-16: 16px;
+  --unnamed-line-spacing-19: 19px;
+  --unnamed-line-spacing-21: 21px;
+  --unnamed-line-spacing-24: 24px;
+  --unnamed-line-spacing-32: 32px;
 }
+
 .header .header-logo {
   justify-content: center;
   width: 320px;
   height: 128px;
   background: transparent url("../Images/Group 3@2x.png") 0% 0% no-repeat padding-box;
 }
-.header .top-nav-header .top-header {
+.header .top-nav-header {
   width: 1600px;
+}
+.header .top-nav-header .top-header {
   height: 48px;
   background: #111111 0% 0% no-repeat padding-box;
   opacity: 1;
@@ -27,13 +55,12 @@
   justify-content: space-between;
 }
 .header .top-nav-header .top-header .social-icon div {
-  border-left: #2A2A2A 1px solid;
+  border-left: #2a2a2a 1px solid;
   height: 100%;
   padding: 12px;
 }
 .header .top-nav-header .nav-header {
   justify-content: flex-end;
-  width: 1600px;
   height: 80px;
 }
 .header .top-nav-header .nav-header .sub-nav-header .navbar {
@@ -64,6 +91,69 @@
   width: 81px;
   height: 80px;
   background: #e41c26 0% 0% no-repeat padding-box;
+}
+
+.Category .progression {
+  position: relative;
+  justify-content: flex-end;
+  width: 672px;
+  height: 391px;
+  background: #212121 0% 0% no-repeat padding-box;
+}
+.Category .progression .back-image {
+  width: 166px;
+  height: 148px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  opacity: 0.1;
+}
+.Category .progression .progression-box {
+  width: 254px;
+  text-align: center;
+  margin-right: 49px;
+  border: #eeeeee 1px solid;
+}
+.Category .workout {
+  position: relative;
+  justify-content: center;
+  width: 576px;
+  height: 391px;
+  background: #eeeeee 0% 0% no-repeat padding-box;
+}
+.Category .workout .back-image {
+  width: 148px;
+  height: 148px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  opacity: 0.1;
+}
+.Category .workout .workout-box {
+  width: 254px;
+  text-align: center;
+  border: #eeeeee 1px solid;
+}
+.Category .nutrition {
+  position: relative;
+  width: 672px;
+  height: 391px;
+  background: #e41c26 0% 0% no-repeat padding-box;
+}
+.Category .nutrition .back-image {
+  width: 113px;
+  height: 148px;
+  position: absolute;
+  left: 241px;
+  bottom: 0;
+  opacity: 0.2;
+}
+.Category .nutrition .nutrition-box {
+  width: 254px;
+  text-align: center;
+  margin-right: 50px;
+  border: #eeeeee 1px solid;
+  margin-left: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */

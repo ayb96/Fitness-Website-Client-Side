@@ -7,18 +7,20 @@ import Video from "./component/Video";
 import Blog from "./component/Blog";
 import Subscribe from "./component/Subscribe";
 import Footer from "./component/Footer";
+import Slider from "./component/Slider";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Category />
+      {/* <Header /> */}
+      <Slider />
+      {/* <Category />
       <Reviews />
       <ChooseUs />
       <Video />
       <Blog />
       <Subscribe />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }

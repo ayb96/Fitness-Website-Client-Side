@@ -6,6 +6,7 @@ import ChooseUs from "./component/ChooseUs";
 import Video from "./component/Video";
 import Blog from "./component/Blog";
 import Subscribe from "./component/Subscribe";
+import Footer from "./component/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Video />
       <Blog />
       <Subscribe />
+      <Footer />
     </div>
   );
 }

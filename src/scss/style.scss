@@ -609,8 +609,6 @@ $primary: #ff0000;
           border: 1px solid green;
         }
         .blog3-info {
-          .blog3-info1 {
-          }
           .blog3-info2 {
             border: 2px red solid;
             width: 384px;
@@ -850,25 +848,23 @@ $primary: #ff0000;
 //////////////////// Blog Section ////////////////////
 
 .footer {
-  width: 1920px;
-  height: 482px;
+  margin-top: 50px;
+  // width:1920px;
+  // height: 482px;
   .footer1 {
-    height: 462px;
+    min-height: 462px;
     background: #111111 0% 0% no-repeat padding-box;
     @extend .dFlex;
     justify-content: center;
     .footer-main {
       display: flex;
-      ////////////// remove it //////////////
-      position: relative;
-      left: 100px;
-      //////////////////////////////////////
+      
       border: rgb(0, 17, 255) solid 2px;
-
+      flex-wrap: wrap;
       .footer11 {
         width: 240px;
         border: rgb(255, 0, 191) solid 2px;
-        margin-right: 245px;
+        // margin-right: 245px;
         .footer11-info {
           .footer11-info3 {
             display: flex;
@@ -954,6 +950,7 @@ $primary: #ff0000;
       .footer12 {
         border: rgb(123, 255, 0) solid 2px;
         display: flex;
+        flex-wrap: wrap;
 
         .footer12-box1 {
           border: 1px red solid;
@@ -968,6 +965,9 @@ $primary: #ff0000;
             letter-spacing: 0px;
             color: #ffffff;
             margin-bottom: 41px;
+            margin-left: 80px;
+            margin-right: 80px;
+            text-align: center;
           }
           div {
             font: var(--unnamed-font-style-normal) normal
@@ -979,7 +979,8 @@ $primary: #ff0000;
             letter-spacing: 0px;
             color: #ffffff;
             margin-bottom: 29px;
-            margin-right: 210px;
+            margin-left: 80px;
+            margin-right: 80px;
             border: 1px red solid;
           }
         }
@@ -1001,5 +1002,14 @@ $primary: #ff0000;
       letter-spacing: 0px;
       color: #ffffff;
     }
+  }
+}
+
+@media only screen and (max-width: 1088px) {
+  .footer12 {
+    justify-content: center;
+  }
+  .footer11{
+    margin: auto;
   }
 }

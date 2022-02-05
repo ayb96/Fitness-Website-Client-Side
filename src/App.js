@@ -17,10 +17,10 @@ function App() {
       <Category />
       <Reviews />
       <ChooseUs />
-      <Video /> */}
-      <Blog />
-      {/* <Subscribe />
-      <Footer /> */}
+      <Video />
+      <Blog /> */}
+      <Subscribe />
+      {/* <Footer /> */}
     </div>
   );
 }

@@ -669,15 +669,15 @@
 
 .subscribe {
   width: 1920px;
-  height: 417px;
+  min-height: 417px;
   background: #eeeeee 0% 0% no-repeat padding-box;
   margin-top: 309px;
 }
 .subscribe .subscribe-box {
   border: 1px red solid;
-  width: 1283px;
+  max-width: 1280px;
   margin: auto;
-  height: 427px;
+  min-height: 427px;
   position: relative;
   bottom: 70px;
   background: #e41c26 0% 0% no-repeat padding-box;
@@ -686,9 +686,10 @@
   justify-content: center;
 }
 .subscribe .subscribe-box .subscribe-subbox {
-  width: 1110px;
-  height: 244px;
-  border: 1px blue solid;
+  max-width: 1110px;
+  min-height: 244px;
+  border: 1px #fffb00 solid;
+  flex-wrap: wrap;
 }
 .subscribe .subscribe-box .subscribe-subbox .subscribe-subbox2 {
   justify-content: center;
@@ -714,13 +715,13 @@
   text-transform: uppercase;
 }
 .subscribe .subscribe-box .subscribe-subbox .subscribe-subbox1 {
-  width: 750px;
+  max-width: 750px;
   border: 1px blue solid;
-  height: 244px;
+  min-height: 244px;
 }
 .subscribe .subscribe-box .subscribe-subbox .subscribe-subbox1 .subscribe-subbox11 {
-  width: 450px;
-  height: 80px;
+  max-width: 450px;
+  min-height: 80px;
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 60px/56px Futura-Bold;
   text-align: left;
   font: normal normal normal 60px/56px Futura-Bold;
@@ -729,8 +730,8 @@
   text-transform: uppercase;
 }
 .subscribe .subscribe-box .subscribe-subbox .subscribe-subbox12 {
-  width: 700px;
-  height: 48px;
+  max-width: 700px;
+  min-height: 48px;
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 36px/56px Futura;
   letter-spacing: var(--unnamed-character-spacing-0);
   text-align: left;
@@ -741,8 +742,8 @@
   margin-bottom: 24px;
 }
 .subscribe .subscribe-box .subscribe-subbox .subscribe-subbox13 {
-  width: 650px;
-  height: 55px;
+  max-width: 650px;
+  min-height: 55px;
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-24) Futura;
   letter-spacing: var(--unnamed-character-spacing-0);
   text-align: left;
@@ -972,6 +973,12 @@
   bottom: 5px;
   left: -5px;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 1053px) {
+  .subscribe-subbox {
+    justify-content: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

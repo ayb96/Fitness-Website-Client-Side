@@ -643,7 +643,6 @@ $primary: #ff0000;
       @extend .dFlex;
       flex-direction: column;
       justify-content: center;
-      
 
       .blog2-box {
         max-width: 100%;
@@ -808,19 +807,19 @@ $primary: #ff0000;
   }
 }
 
-//////////////////// Blog Section ////////////////////
+//////////////////// Subscribe Section ////////////////////
 
 .subscribe {
   width: 1920px;
-  height: 417px;
+  min-height: 417px;
   background: #eeeeee 0% 0% no-repeat padding-box;
   margin-top: 309px;
 
   .subscribe-box {
     border: 1px red solid;
-    width: 1283px;
+    max-width: 1280px;
     margin: auto;
-    height: 427px;
+    min-height: 427px;
     position: relative;
     bottom: 70px;
     background: #e41c26 0% 0% no-repeat padding-box;
@@ -828,14 +827,17 @@ $primary: #ff0000;
     border-radius: 20px;
     @extend .dFlex;
     justify-content: center;
+    
     .subscribe-subbox {
-      width: 1110px;
-      height: 244px;
-      border: 1px blue solid;
+      max-width: 1110px;
+      min-height: 244px;
+      border: 1px rgb(255, 251, 0) solid;
       @extend .dFlex;
+      flex-wrap: wrap;
       .subscribe-subbox2 {
         @extend .dFlex;
         justify-content: center;
+        
         form {
           input {
             width: 300px;
@@ -862,12 +864,12 @@ $primary: #ff0000;
         }
       }
       .subscribe-subbox1 {
-        width: 750px;
+        max-width: 750px;
         border: 1px blue solid;
-        height: 244px;
+        min-height: 244px;
         .subscribe-subbox11 {
-          width: 450px;
-          height: 80px;
+          max-width: 450px;
+          min-height: 80px;
           font: var(--unnamed-font-style-normal) normal
             var(--unnamed-font-weight-normal) 60px/56px Futura-Bold;
           text-align: left;
@@ -878,8 +880,8 @@ $primary: #ff0000;
         }
       }
       .subscribe-subbox12 {
-        width: 700px;
-        height: 48px;
+        max-width: 700px;
+        min-height: 48px;
         font: var(--unnamed-font-style-normal) normal
           var(--unnamed-font-weight-normal) 36px/56px Futura;
         letter-spacing: var(--unnamed-character-spacing-0);
@@ -891,8 +893,8 @@ $primary: #ff0000;
         margin-bottom: 24px;
       }
       .subscribe-subbox13 {
-        width: 650px;
-        height: 55px;
+        max-width: 650px;
+        min-height: 55px;
         font: var(--unnamed-font-style-normal) normal
           var(--unnamed-font-weight-normal) var(--unnamed-font-size-18) /
           var(--unnamed-line-spacing-24) Futura;
@@ -1162,5 +1164,14 @@ $primary: #ff0000;
         }
       }
     }
+  }
+}
+
+
+
+ 
+@media only screen and (max-width: 1053px) {
+  .subscribe-subbox {
+    justify-content: center;
   }
 }

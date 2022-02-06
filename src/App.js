@@ -12,15 +12,15 @@ import Slider from "./component/Slider";
 function App() {
   return (
     <div className="App">
-      {/* <Header />
+      <Header />
       <Slider />
       <Category />
       <Reviews />
       <ChooseUs />
       <Video />
-      <Blog /> */}
+      <Blog />
       <Subscribe />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

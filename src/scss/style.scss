@@ -9,6 +9,9 @@ $primary: #ff0000;
 
   align-items: center;
 }
+.ViewPortWidth{
+  width: 1920px;
+}
 :root {
   /* Colors: */
   --unnamed-color-181a27: #181a27;
@@ -199,17 +202,22 @@ $primary: #ff0000;
 .reviews {
   @extend .dFlex;
   justify-content: center;
+  width: 1920px;
+  border: 2px solid blue;
+  margin-top: 79px;
+  margin-bottom: 79px;
 
   .reviews-box {
     @extend .dFlex;
     justify-content: center;
-  }
-  .reviews-box {
+    flex-wrap: wrap;
     .first-box {
       margin-right: 147px;
+      position: relative;
+      border: red 2px solid;
       .box1 {
-        width: 125px;
-        height: 22px;
+        max-width: 125px;
+        min-height: 22px;
         text-align: left;
         font: var(--unnamed-font-style-normal) normal
           var(--unnamed-font-weight-bold) 17px/22px SF Pro Display;
@@ -220,8 +228,8 @@ $primary: #ff0000;
         opacity: 1;
       }
       .box2 {
-        width: 383px;
-        height: 146px;
+        max-width: 383px;
+        min-height: 146px;
         font: var(--unnamed-font-style-normal) normal
           var(--unnamed-font-weight-bold) 59px/67px Futura;
         letter-spacing: var(--unnamed-character-spacing-0);
@@ -232,8 +240,8 @@ $primary: #ff0000;
         text-transform: capitalize;
       }
       .box3 {
-        width: 105px;
-        height: 24px;
+        max-width: 105px;
+        min-height: 24px;
         font: var(--unnamed-font-style-normal) normal
           var(--unnamed-font-weight-normal) var(--unnamed-font-size-18) /
           var(--unnamed-line-spacing-24) SF Pro Display;
@@ -245,8 +253,8 @@ $primary: #ff0000;
         margin-bottom: 10px;
       }
       .box4 {
-        width: 300px;
-        height: 30px;
+        max-width: 300px;
+        min-height: 30px;
         font: var(--unnamed-font-style-normal) normal
           var(--unnamed-font-weight-bold) 22px/30px SF Pro Display;
         text-align: left;
@@ -257,15 +265,45 @@ $primary: #ff0000;
         margin-bottom: 4px;
       }
       .box5 {
-        width: 13px;
-        height: 13px;
-        background: transparent url("../Images/Icon awesome-star.png") 0% 0%
-          no-repeat padding-box;
+        @extend .dFlex;
         margin-bottom: 44px;
+        div:nth-child(1) {
+          width: 13px;
+          height: 13px;
+          background: transparent url("../Images/Icon awesome-star.png") 0% 0%
+            no-repeat padding-box;
+        }
+        div {
+          margin-right: 9px;
+        }
+        div:nth-child(2) {
+          width: 13px;
+          height: 13px;
+          background: transparent url("../Images/Icon awesome-star.png") 0% 0%
+            no-repeat padding-box;
+        }
+        div:nth-child(3) {
+          width: 13px;
+          height: 13px;
+          background: transparent url("../Images/Icon awesome-star.png") 0% 0%
+            no-repeat padding-box;
+        }
+        div:nth-child(4) {
+          width: 13px;
+          height: 13px;
+          background: transparent url("../Images/Icon awesome-star.png") 0% 0%
+            no-repeat padding-box;
+        }
+        div:nth-child(5) {
+          width: 13px;
+          height: 13px;
+          background: transparent url("../Images/Icon awesome-star.png") 0% 0%
+            no-repeat padding-box;
+        }
       }
       .box6 {
-        width: 521px;
-        height: 137px;
+        max-width: 521px;
+        // height: 137px;
         font: var(--unnamed-font-style-normal) normal
           var(--unnamed-font-weight-medium) var(--unnamed-font-size-18) / 28px
           Futura;
@@ -280,6 +318,44 @@ $primary: #ff0000;
         height: 5px;
         background: #e41c26 0% 0% no-repeat padding-box;
         margin-bottom: 46px;
+      }
+      .box7 {
+        @extend .dFlex;
+        margin-top: 11px;
+        .box7-box2 {
+          background: transparent
+            url("../Images/Icon material-keyboard-arrow-right.svg") 0% 0%
+            no-repeat padding-box;
+          width: 8px;
+          height: 12px;
+        }
+        .box7-box1 {
+          background: transparent
+            url("../Images/Icon material-keyboard-arrow-left.svg") 0% 0%
+            no-repeat padding-box;
+          width: 8px;
+          height: 12px;
+          margin-right: 30px;
+        }
+      }
+      .review-back-img {
+        width: 152px;
+        height: 98px;
+        background: transparent url("../Images/Group 36.svg") 0% 0% no-repeat
+          padding-box;
+        position: absolute;
+        left: 417.44px;
+        bottom: 128.18px;
+      }
+    }
+    .review-img-box {
+      width: 615px;
+      height: 631px;
+      .review-img {
+        background: transparent url("../Images/Group 91.png") 0% 0% no-repeat
+          padding-box;
+        width: 100%;
+        height: 100%;
       }
     }
   }
@@ -827,7 +903,7 @@ $primary: #ff0000;
     border-radius: 20px;
     @extend .dFlex;
     justify-content: center;
-    
+
     .subscribe-subbox {
       max-width: 1110px;
       min-height: 244px;
@@ -837,7 +913,7 @@ $primary: #ff0000;
       .subscribe-subbox2 {
         @extend .dFlex;
         justify-content: center;
-        
+
         form {
           input {
             width: 300px;
@@ -1167,9 +1243,6 @@ $primary: #ff0000;
   }
 }
 
-
-
- 
 @media only screen and (max-width: 1053px) {
   .subscribe-subbox {
     justify-content: center;

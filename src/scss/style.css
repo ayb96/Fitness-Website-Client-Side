@@ -4,13 +4,17 @@
   box-sizing: border-box;
 }
 
-.dFlex, .footer .footer2, .footer .footer1, .subscribe .subscribe-box .subscribe-subbox .subscribe-subbox2, .subscribe .subscribe-box .subscribe-subbox, .subscribe .subscribe-box, .blog .blog3 .blog3-box .blog3-info .blog3-info4, .blog .blog3 .blog3-box .blog3-info .blog3-info1, .blog .blog3, .blog .blog-box .blog2, .blog .blog-box .blog1, .blog .blog-box, .blog, .video .video3, .chooseus .main-content .box4 .accessories, .chooseus .main-content .box4 .hoodies, .chooseus .main-content .box4 .bottoms, .chooseus .main-content .box4 .tops, .chooseus .main-content .box4, .chooseus .main-content, .chooseus, .reviews .reviews-box .first-box .box7, .reviews .reviews-box .first-box .box5, .reviews .reviews-box, .reviews, .Category .nutrition, .Category .workout, .Category .progression, .Category, .header .top-nav-header .nav-header .sub-nav-header .sidebar-icon, .header .top-nav-header .nav-header .sub-nav-header .navbar, .header .top-nav-header .nav-header .sub-nav-header, .header .top-nav-header .nav-header, .header .top-nav-header .top-header .social-icon, .header .top-nav-header .top-header .info-header div, .header .top-nav-header .top-header .info-header, .header .top-nav-header .top-header, .header .header-logo, .header {
+.dFlex, .footer .footer2, .footer .footer1, .subscribe .subscribe-box .subscribe-subbox .subscribe-subbox2, .subscribe .subscribe-box .subscribe-subbox, .subscribe .subscribe-box, .blog .blog3 .blog3-box .blog3-info .blog3-info4, .blog .blog3 .blog3-box .blog3-info .blog3-info1, .blog .blog3, .blog .blog-box .blog2, .blog .blog-box .blog1, .blog .blog-box, .blog, .video .video3, .chooseus .main-content .box4 .accessories, .chooseus .main-content .box4 .hoodies, .chooseus .main-content .box4 .bottoms, .chooseus .main-content .box4 .tops, .chooseus .main-content .box4, .chooseus .main-content, .chooseus, .reviews .reviews-box .first-box .box7, .reviews .reviews-box .first-box .box5, .reviews .reviews-box, .reviews, .Category .nutrition .nutrition-box, .Category .nutrition, .Category .workout .workout-box, .Category .workout, .Category .progression .progression-box .progression-box1, .Category .progression, .Category, .header .top-nav-header .nav-header .sub-nav-header .sidebar-icon, .header .top-nav-header .nav-header .sub-nav-header .navbar, .header .top-nav-header .nav-header .sub-nav-header, .header .top-nav-header .nav-header, .header .top-nav-header .top-header .social-icon, .header .top-nav-header .top-header .info-header div, .header .top-nav-header .top-header .info-header, .header .top-nav-header .top-header, .header .header-logo, .header {
   display: flex;
   align-items: center;
 }
 
-.ViewPortWidth {
+.ViewPortWidth, .Category {
   width: 1920px;
+}
+
+.ViewPortHeight {
+  width: 1080px;
 }
 
 :root {
@@ -118,6 +122,36 @@
   margin-right: 49px;
   border: #eeeeee 1px solid;
 }
+.Category .progression .progression-box .progression-box1 {
+  justify-content: center;
+  border: #17b241 2px solid;
+  margin-bottom: 23px;
+}
+.Category .progression .progression-box .progression-box1 div {
+  width: 79px;
+  height: 70px;
+  background: transparent url("../Images/16-express.svg") 0% 0% no-repeat padding-box;
+}
+.Category .progression .progression-box .progression-box2 {
+  border: #17b241 2px solid;
+  margin-bottom: 20px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 26px/35px Futura;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: left;
+  font: normal normal bold 26px/35px Futura;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+}
+.Category .progression .progression-box .progression-box3 {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/28px SF Pro Display;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: center;
+  font: normal normal normal 16px/28px SF Pro Display;
+  letter-spacing: 0px;
+  color: #dedede;
+}
 .Category .workout {
   position: relative;
   justify-content: center;
@@ -136,7 +170,32 @@
 .Category .workout .workout-box {
   width: 254px;
   text-align: center;
+  flex-direction: column;
+  justify-content: center;
   border: #eeeeee 1px solid;
+}
+.Category .workout .workout-box .workout-box1 {
+  width: 68px;
+  height: 68px;
+  margin-bottom: 23.8px;
+}
+.Category .workout .workout-box .workout-box2 {
+  margin-bottom: 20px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 26px/35px Futura;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: left;
+  font: normal normal bold 26px/35px Futura;
+  letter-spacing: 0px;
+  color: #e41c26;
+  text-transform: uppercase;
+}
+.Category .workout .workout-box .workout-box3 {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/28px SF Pro Display;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: center;
+  font: normal normal normal 16px/28px SF Pro Display;
+  letter-spacing: 0px;
+  color: #515151;
 }
 .Category .nutrition {
   position: relative;
@@ -153,11 +212,36 @@
   opacity: 0.2;
 }
 .Category .nutrition .nutrition-box {
+  flex-direction: column;
+  justify-content: center;
   width: 254px;
   text-align: center;
   margin-right: 50px;
   border: #eeeeee 1px solid;
   margin-left: 50px;
+}
+.Category .nutrition .nutrition-box .nutrition-box1 {
+  width: 52px;
+  height: 69px;
+  margin-bottom: 23.8px;
+}
+.Category .nutrition .nutrition-box .nutrition-box2 {
+  margin-bottom: 20px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 26px/35px Futura;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: left;
+  font: normal normal bold 26px/35px Futura;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.Category .nutrition .nutrition-box .nutrition-box3 {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/28px SF Pro Display;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: center;
+  font: normal normal normal 16px/28px SF Pro Display;
+  letter-spacing: 0px;
+  color: #dedede;
 }
 
 .reviews {

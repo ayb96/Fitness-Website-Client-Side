@@ -9,8 +9,11 @@ $primary: #ff0000;
 
   align-items: center;
 }
-.ViewPortWidth{
+.ViewPortWidth {
   width: 1920px;
+}
+.ViewPortHeight {
+  width: 1080px;
 }
 :root {
   /* Colors: */
@@ -126,6 +129,7 @@ $primary: #ff0000;
 //////////////////// Category Section ////////////////////
 
 .Category {
+  @extend .ViewPortWidth;
   @extend .dFlex;
   //  flex-wrap: wrap;
 
@@ -149,6 +153,42 @@ $primary: #ff0000;
       text-align: center;
       margin-right: 49px;
       border: #eeeeee 1px solid;
+      .progression-box1 {
+        @extend .dFlex;
+        justify-content: center;
+        border: #17b241 2px solid;
+        margin-bottom: 23px;
+        div {
+          width: 79px;
+          height: 70px;
+          background: transparent url("../Images/16-express.svg") 0% 0%
+            no-repeat padding-box;
+        }
+      }
+      .progression-box2 {
+        border: #17b241 2px solid;
+        margin-bottom: 20px;
+
+        font: var(--unnamed-font-style-normal) normal
+          var(--unnamed-font-weight-bold) 26px/35px Futura;
+        letter-spacing: var(--unnamed-character-spacing-0);
+        text-align: left;
+        font: normal normal bold 26px/35px Futura;
+        letter-spacing: 0px;
+        color: #ffffff;
+        text-transform: uppercase;
+        text-align: center;
+      }
+      .progression-box3 {
+        font: var(--unnamed-font-style-normal) normal
+          var(--unnamed-font-weight-normal) var(--unnamed-font-size-16) / 28px
+          SF Pro Display;
+        letter-spacing: var(--unnamed-character-spacing-0);
+        text-align: center;
+        font: normal normal normal 16px/28px SF Pro Display;
+        letter-spacing: 0px;
+        color: #dedede;
+      }
     }
   }
   .workout {
@@ -169,8 +209,36 @@ $primary: #ff0000;
     .workout-box {
       width: 254px;
       text-align: center;
-
+      @extend .dFlex;
+      flex-direction: column;
+      justify-content: center;
       border: #eeeeee 1px solid;
+      .workout-box1 {
+        width: 68px;
+        height: 68px;
+        margin-bottom: 23.8px;
+      }
+      .workout-box2 {
+        margin-bottom: 20px;
+        font: var(--unnamed-font-style-normal) normal
+          var(--unnamed-font-weight-bold) 26px/35px Futura;
+        letter-spacing: var(--unnamed-character-spacing-0);
+        text-align: left;
+        font: normal normal bold 26px/35px Futura;
+        letter-spacing: 0px;
+        color: #e41c26;
+        text-transform: uppercase;
+      }
+      .workout-box3 {
+        font: var(--unnamed-font-style-normal) normal
+          var(--unnamed-font-weight-normal) var(--unnamed-font-size-16) / 28px
+          SF Pro Display;
+        letter-spacing: var(--unnamed-character-spacing-0);
+        text-align: center;
+        font: normal normal normal 16px/28px SF Pro Display;
+        letter-spacing: 0px;
+        color: #515151;
+      }
     }
   }
   .nutrition {
@@ -188,11 +256,40 @@ $primary: #ff0000;
       opacity: 0.2;
     }
     .nutrition-box {
+      @extend .dFlex;
+      flex-direction: column;
+      justify-content: center;
       width: 254px;
       text-align: center;
       margin-right: 50px;
       border: #eeeeee 1px solid;
       margin-left: 50px;
+      .nutrition-box1 {
+        width: 52px;
+        height: 69px;
+        margin-bottom: 23.8px;
+      }
+      .nutrition-box2 {
+        margin-bottom: 20px;
+        font: var(--unnamed-font-style-normal) normal
+          var(--unnamed-font-weight-bold) 26px/35px Futura;
+        letter-spacing: var(--unnamed-character-spacing-0);
+        text-align: left;
+        font: normal normal bold 26px/35px Futura;
+        letter-spacing: 0px;
+        color: #ffffff;
+        text-transform: uppercase;
+      }
+      .nutrition-box3 {
+        font: var(--unnamed-font-style-normal) normal
+          var(--unnamed-font-weight-normal) var(--unnamed-font-size-16) / 28px
+          SF Pro Display;
+        letter-spacing: var(--unnamed-character-spacing-0);
+        text-align: center;
+        font: normal normal normal 16px/28px SF Pro Display;
+        letter-spacing: 0px;
+        color: #dedede;
+      }
     }
   }
 }

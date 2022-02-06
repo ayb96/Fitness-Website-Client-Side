@@ -2,7 +2,7 @@ import React from "react";
 import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 import sliderImage from "../Images/Group 13.png";
-import nutrition2Icon from "../Images/clipboard@2x.png";
+
 export default function Slider() {
   const slideImages = [
     {

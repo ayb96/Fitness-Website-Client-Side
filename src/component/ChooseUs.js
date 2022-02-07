@@ -6,7 +6,7 @@ export default function ChooseUs() {
       <div className="main-content">
         <div className="box1">WHY CHOOSE US</div>
         <div className="line1"></div>
-        <div className="box2">FEATURES</div>
+        {/* <div className="box2">FEATURES</div> */}
         <div className="box3">
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
           nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.

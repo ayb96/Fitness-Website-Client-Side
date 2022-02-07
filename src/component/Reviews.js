@@ -1,6 +1,5 @@
 import React from "react";
 
-
 export default function Reviews() {
   return (
     <div className="reviews">
@@ -9,9 +8,12 @@ export default function Reviews() {
           <div className="box1">TESTIMONIAL</div>
           <div className="box2">Reviews From YOU</div>
           <div className="box"></div>
-          <div className="box3">Nutritionist</div>
+          <div className="box3">
+            <div>Nutritionist</div> <div className="review-back-img"></div>
+          </div>
           <div className="box4">JEREMY GEORGE</div>
           <div className="box5">
+            
             <div></div>
             <div></div>
             <div></div>
@@ -28,11 +30,13 @@ export default function Reviews() {
             <div className="box7-box1"></div>
             <div className="box7-box2"></div>
           </div>
-          <div className="review-back-img"></div>
+          {/* <div>
+            <div className="review-back-img"></div>
+          </div> */}
         </div>
-        <div className="review-img-box">
+        {/* <div className="review-img-box">
           <div className="review-img"></div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

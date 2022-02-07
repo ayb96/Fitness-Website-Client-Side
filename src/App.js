@@ -17,15 +17,17 @@ function App() {
     landscape: "width=1920",
   };
   console.log("viewports", viewports);
-  // var viewport_set = function () {
-  //   if (Screen.width > 768)
-  //     viewport_meta.setAttribute("content", viewports.landscape);
-  //   else viewport_meta.setAttribute("content", viewports.default);
-  // };
-  // viewport_set();
-  // window.onresize = function () {
-  //   viewport_set();
-  // };
+  console.log("window.innerHeight", window.innerHeight);
+  console.log("window.innerWidth", window.innerWidth);
+  var viewport_set = function () {
+    if (Screen.width > 768)
+      viewport_meta.setAttribute("root", viewports.landscape);
+    else viewport_meta.setAttribute("content", viewports.default);
+  };
+  viewport_set();
+  window.onresize = function () {
+    viewport_set();
+  };
   return (
     <div className="App">
       <Header />

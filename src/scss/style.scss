@@ -49,7 +49,7 @@ $primary: #ff0000;
 .header {
   @extend .dFlex;
   // width: 1920px;
-  // flex-wrap: wrap;
+  flex-wrap: wrap;
   .header-logo {
     @extend .dFlex;
     justify-content: center;
@@ -59,7 +59,7 @@ $primary: #ff0000;
     background-color: #e41c26;
   }
   .top-nav-header {
-    width: 1600px;
+    width: 800px;
     .top-header {
       min-height: 48px;
       background: #111111 0% 0% no-repeat padding-box;
@@ -154,7 +154,7 @@ $primary: #ff0000;
 //////////////////// Category Section ////////////////////
 
 .Category {
-  @extend .ViewPortWidth;
+  // @extend .ViewPortWidth;
   @extend .dFlex;
   //  flex-wrap: wrap;
 
@@ -562,9 +562,9 @@ $primary: #ff0000;
         flex-direction: column;
         justify-content: center;
         padding: 16px;
-        max-width: 299px;
-        min-height: 300px;
-        margin-right: 30px;
+        max-width: 16rem;
+        min-height: 16rem;
+        margin: 10px;
         background: #2a2a2a 0% 0% no-repeat padding-box;
         .tops1 {
           width: 54px;
@@ -602,9 +602,9 @@ $primary: #ff0000;
         flex-direction: column;
         justify-content: center;
         padding: 16px;
-        margin-right: 30px;
-        max-width: 299px;
-        min-height: 300px;
+        margin: 10px;
+        max-width: 16rem;
+        min-height: 16rem;
         background: #2a2a2a 0% 0% no-repeat padding-box;
         .bottoms1 {
           width: 106px;
@@ -642,9 +642,9 @@ $primary: #ff0000;
         flex-direction: column;
         justify-content: center;
         padding: 16px;
-        margin-right: 30px;
-        max-width: 299px;
-        min-height: 300px;
+        margin: 10px;
+        max-width: 16rem;
+        min-height: 16rem;
         background: #2a2a2a 0% 0% no-repeat padding-box;
         .hoodies1 {
           width: 306px;
@@ -682,9 +682,10 @@ $primary: #ff0000;
         flex-direction: column;
         justify-content: center;
         padding: 16px;
+        margin: 10px;
         background: #2a2a2a 0% 0% no-repeat padding-box;
-        max-width: 299px;
-        min-height: 300px;
+         max-width: 16rem;
+        min-height: 16rem;
         .accessories1 {
           width: 306px;
           height: 30px;
@@ -723,7 +724,7 @@ $primary: #ff0000;
 //////////////////// Video Section ////////////////////
 
 .video {
-  width: 1920px;
+  // width: 1920px;
   height: 741px;
 
   position: relative;
@@ -754,7 +755,7 @@ $primary: #ff0000;
   .video2 {
     position: absolute;
     z-index: 10;
-    width: 1299px;
+    width: 875px;
     height: 606px;
     background: transparent url("../Images/Group 87.svg") 0% 0% no-repeat
       padding-box;
@@ -765,7 +766,7 @@ $primary: #ff0000;
     @extend .dFlex;
     justify-content: center;
     position: absolute;
-    width: 1550px;
+    width: 1044px;
     height: 665px;
     right: 0;
     top: 0;
@@ -1075,7 +1076,7 @@ $primary: #ff0000;
 
   .subscribe-box {
     border: 1px red solid;
-    max-width: 1280px;
+    max-width: 70rem;
     margin: auto;
     min-height: 427px;
     position: relative;
@@ -1087,7 +1088,7 @@ $primary: #ff0000;
     justify-content: center;
 
     .subscribe-subbox {
-      max-width: 1110px;
+      max-width: 70rem;
       min-height: 244px;
       border: 1px rgb(255, 0, 157) solid;
       margin: 20px;
@@ -1099,7 +1100,7 @@ $primary: #ff0000;
 
         form {
           input {
-            width: 300px;
+            width: 18.75rem;
             margin-bottom: 28px;
             height: 58px;
             background: #ffffff 0% 0% no-repeat padding-box;
@@ -1123,11 +1124,12 @@ $primary: #ff0000;
         }
       }
       .subscribe-subbox1 {
-        max-width: 750px;
+        // max-width: 750px;
         border: 1px blue solid;
         min-height: 244px;
+        margin-bottom: 1rem;
         .subscribe-subbox11 {
-          max-width: 450px;
+          // max-width: 450px;
           min-height: 80px;
           font: var(--unnamed-font-style-normal) normal
             var(--unnamed-font-weight-normal) 60px/56px Futura-Bold;
@@ -1139,8 +1141,8 @@ $primary: #ff0000;
         }
       }
       .subscribe-subbox12 {
-        max-width: 700px;
-        min-height: 48px;
+        // max-width: 700px;
+        // min-height: 48px;
         font: var(--unnamed-font-style-normal) normal
           var(--unnamed-font-weight-normal) 36px/56px Futura;
         letter-spacing: var(--unnamed-character-spacing-0);

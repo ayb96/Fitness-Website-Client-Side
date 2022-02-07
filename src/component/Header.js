@@ -11,14 +11,10 @@ import MailOutlineOutlinedIcon from "@mui/icons-material/MailOutlineOutlined";
 import SearchIcon from "@mui/icons-material/Search";
 
 export default function Header() {
-  function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
-  }
+  const runMe = () => {
+    const navbarLinks = document.getElementsByClassName("navbar-links")[0];
+    navbarLinks.classList.toggle("active");
+  };
   return (
     <div className="header">
       <div className="header-logo">
@@ -56,27 +52,51 @@ export default function Header() {
           </div>
         </div>
         <div className="nav-header">
-          <div className="sub-nav-header">
-            <div class="topnav" id="myTopnav">
-              <a href="#home">HOME</a>
-              <a href="#shop">SHOP</a>
-              <a href="#about">ABOUT</a>
-              <a href="#contact">CONTACT</a>
-              <a href="#faq">FAQ</a>
-
-              {/* <a class="icon" onClick={myFunction}>
-                eewewvwevwv
-              </a> */}
+          <nav className="navbar">
+            <div className="navbar-links">
+              <ul>
+                <li>
+                  <a href="#" className="home">HOME</a>
+                </li>
+                <li>
+                  <a href="#">SHOP</a>
+                </li>
+                <li>
+                  <a href="#">ABOUT</a>
+                </li>
+                <li>
+                  <a href="#">CONTACT</a>
+                </li>
+                <li>
+                  <a href="#">FAQ</a>
+                </li>
+              </ul>
             </div>
-            <div style={{ display: "flex"}}>
-              <div className="search-icon">
+            <div style={{ display: "flex" }}>
+              <div
+                className="search-title"
+                style={{
+                  display: "block",
+                  padding: "1rem",
+                  borderLeft: "1px #D1D1D1 solid",
+                  borderBottom: "1px #D1D1D1 solid",
+                }}
+              >
                 <SearchIcon />
               </div>
-              <div className="sidebar-icon" onClick={myFunction}>
-                <img src={sideBarIcon} alt="SideBar Icon" />
+              <div
+                className="toggle-button"
+                style={{
+                  display: "block",
+                  padding: "1rem",
+                  backgroundColor: "#E41C26",
+                }}
+                onClick={runMe}
+              >
+                <img src={sideBarIcon} alt="" />
               </div>
             </div>
-          </div>
+          </nav>
         </div>
       </div>
     </div>

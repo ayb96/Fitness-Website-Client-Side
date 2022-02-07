@@ -84,24 +84,23 @@ export default function Slider() {
               key={obj.index}
               className="each-slide slider"
               style={{ height: "830px" }}
-            >
-              <div className="slider-content">
-                <div className="slider-content-sub1"></div>
-                <div className="slider-content-sub">
-                  <div>Tageline here</div>
-                  <div>Title Here</div>
-                  <div>Description Here</div>
-                  <div>
-                    <div id="join-text">JOIN US NOW</div>
-                  </div>
-                  <div id="join-box"></div>
-                </div>
-                <div className="slider-content-sub2"></div>
-              </div>
-            </div>
+            ></div>
           );
         })}
       </Slide>
+      <div className="slider-content">
+        <div className="slider-content-sub1"></div>
+        <div className="slider-content-sub">
+          <div>Tageline here</div>
+          <div>Title Here</div>
+          <div>Description Here</div>
+          <div>
+            <div id="join-text">JOIN US NOW</div>
+          </div>
+          <div id="join-box"></div>
+        </div>
+        <div className="slider-content-sub2"></div>
+      </div>
     </div>
   );
 }

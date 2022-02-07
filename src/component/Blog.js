@@ -2,7 +2,7 @@ import React from "react";
 import CalendarTodayIcon from "@mui/icons-material/CalendarToday";
 import MessageIcon from "@mui/icons-material/Message";
 import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
-
+import nutrition2Icon from "../Images/Rectangle 32.png";
 export default function Blog() {
   return (
     <div className="blog">
@@ -30,13 +30,18 @@ export default function Blog() {
               <div>Annual Package</div>
             </div>
           </div>
-          
         </div>
       </div>
 
       <div className="blog3">
+        {/* First Box */}
         <div className="blog3-box">
-          <div className="blog3-img1"></div>
+          <div className="blog3-img1">
+            <div className="blog3-img1-date">
+              <div className="blog3-date1">23 </div>
+              <div className="blog3-date2">JAN </div>
+            </div>
+          </div>
           <div className="blog3-info">
             <div className="blog3-info1">
               <div>
@@ -66,7 +71,12 @@ export default function Blog() {
         </div>
         {/* Second Box */}
         <div className="blog3-box">
-          <div className="blog3-img2"></div>
+          <div className="blog3-img2">
+            <div className="blog3-img1-date">
+              <div className="blog3-date1">14</div>
+              <div className="blog3-date2">JAN </div>
+            </div>
+          </div>
           <div className="blog3-info">
             <div className="blog3-info1">
               <div>
@@ -76,7 +86,7 @@ export default function Blog() {
               <div>
                 <CalendarTodayIcon className="blog-icon" />
               </div>
-              <div className="blog-icon-text">23 JAN</div>
+              <div className="blog-icon-text">14 JAN</div>
 
               <div>
                 <MessageIcon className="blog-icon" />
@@ -96,7 +106,12 @@ export default function Blog() {
         </div>
         {/* Third Box */}
         <div className="blog3-box">
-          <div className="blog3-img3"></div>
+          <div className="blog3-img3">
+            <div className="blog3-img1-date">
+              <div className="blog3-date1">05</div>
+              <div className="blog3-date2">JAN </div>
+            </div>
+          </div>
           <div className="blog3-info">
             <div className="blog3-info1">
               <div>
@@ -106,7 +121,7 @@ export default function Blog() {
               <div>
                 <CalendarTodayIcon className="blog-icon" />
               </div>
-              <div className="blog-icon-text">23 JAN</div>
+              <div className="blog-icon-text">05 JAN</div>
 
               <div>
                 <MessageIcon className="blog-icon" />
@@ -126,7 +141,12 @@ export default function Blog() {
         </div>
         {/* Forth Box */}
         <div className="blog3-box">
-          <div className="blog3-img1"></div>
+          <div className="blog3-img1">
+            <div className="blog3-img1-date">
+              <div className="blog3-date1">23 </div>
+              <div className="blog3-date2">JAN </div>
+            </div>
+          </div>
           <div className="blog3-info">
             <div className="blog3-info1">
               <div>
@@ -156,7 +176,12 @@ export default function Blog() {
         </div>
         {/* Fifth Box */}
         <div className="blog3-box">
-          <div className="blog3-img2"></div>
+          <div className="blog3-img2">
+            <div className="blog3-img1-date">
+              <div className="blog3-date1">14 </div>
+              <div className="blog3-date2">JAN </div>
+            </div>
+          </div>
           <div className="blog3-info">
             <div className="blog3-info1">
               <div>
@@ -166,7 +191,7 @@ export default function Blog() {
               <div>
                 <CalendarTodayIcon className="blog-icon" />
               </div>
-              <div className="blog-icon-text">23 JAN</div>
+              <div className="blog-icon-text">14 JAN</div>
 
               <div>
                 <MessageIcon className="blog-icon" />
@@ -186,7 +211,12 @@ export default function Blog() {
         </div>
         {/* Sixth Box */}
         <div className="blog3-box">
-          <div className="blog3-img3"></div>
+          <div className="blog3-img3">
+            <div className="blog3-img1-date">
+              <div className="blog3-date1">05 </div>
+              <div className="blog3-date2">JAN </div>
+            </div>
+          </div>
           <div className="blog3-info">
             <div className="blog3-info1">
               <div>
@@ -196,7 +226,7 @@ export default function Blog() {
               <div>
                 <CalendarTodayIcon className="blog-icon" />
               </div>
-              <div className="blog-icon-text">23 JAN</div>
+              <div className="blog-icon-text">05 JAN</div>
 
               <div>
                 <MessageIcon className="blog-icon" />

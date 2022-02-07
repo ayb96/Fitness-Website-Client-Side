@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.dFlex, .footer .footer2, .footer .footer1, .subscribe .subscribe-box .subscribe-subbox .subscribe-subbox2, .subscribe .subscribe-box .subscribe-subbox, .subscribe .subscribe-box, .blog .blog3 .blog3-box .blog3-info .blog3-info4, .blog .blog3 .blog3-box .blog3-info .blog3-info1, .blog .blog3, .blog .blog-box .blog2, .blog .blog-box .blog1, .blog .blog-box, .blog, .video .video3, .chooseus .main-content .box4 .accessories, .chooseus .main-content .box4 .hoodies, .chooseus .main-content .box4 .bottoms, .chooseus .main-content .box4 .tops, .chooseus .main-content .box4, .chooseus .main-content, .chooseus, .reviews .reviews-box .first-box .box7, .reviews .reviews-box .first-box .box5, .reviews .reviews-box, .reviews, .Category .nutrition .nutrition-box, .Category .nutrition, .Category .workout .workout-box, .Category .workout, .Category .progression .progression-box .progression-box1, .Category .progression, .Category, .header .top-nav-header .top-header .social-icon, .header .top-nav-header .top-header .info-header .info-header2, .header .top-nav-header .top-header .info-header .info-header1, .header .top-nav-header .top-header .info-header, .header .top-nav-header .top-header, .header .header-logo, .header {
+.dFlex, .footer .footer2, .footer .footer1, .subscribe .subscribe-box .subscribe-subbox .subscribe-subbox2, .subscribe .subscribe-box .subscribe-subbox, .subscribe .subscribe-box, .blog .blog3 .blog3-box .blog3-info .blog3-info4, .blog .blog3 .blog3-box .blog3-info .blog3-info1, .blog .blog3, .blog .blog-box .blog2, .blog .blog-box .blog1, .blog .blog-box, .blog, .chooseus .main-content .box4 .accessories, .chooseus .main-content .box4 .hoodies, .chooseus .main-content .box4 .bottoms, .chooseus .main-content .box4 .tops, .chooseus .main-content .box4, .chooseus .main-content, .chooseus, .reviews .reviews-box .review-img-box, .reviews .reviews-box .first-box .box7, .reviews .reviews-box .first-box .box5, .reviews .reviews-box, .reviews, .Category .nutrition .nutrition-box, .Category .nutrition, .Category .workout .workout-box, .Category .workout, .Category .progression .progression-box .progression-box1, .Category .progression, .Category, .header .top-nav-header .top-header .social-icon, .header .top-nav-header .top-header .info-header .info-header2, .header .top-nav-header .top-header .info-header .info-header1, .header .top-nav-header .top-header .info-header, .header .top-nav-header .top-header, .header .header-logo, .header {
   display: flex;
   align-items: center;
 }
@@ -396,13 +396,14 @@
   right: 0;
 }
 .reviews .reviews-box .review-img-box {
-  width: 615px;
-  height: 631px;
+  max-width: 30rem;
+  border: 2px solid red;
+  justify-content: center;
 }
 .reviews .reviews-box .review-img-box .review-img {
-  background: transparent url("../Images/Group 91.png") 0% 0% no-repeat padding-box;
   width: 100%;
   height: 100%;
+  border: 1px solid blue;
 }
 
 .chooseus {
@@ -611,18 +612,19 @@
 }
 
 .video {
-  height: 741px;
+  height: 570px;
+  border: 1px red solid;
   position: relative;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   margin-top: 233px;
 }
 .video .video1 {
+  border: 2px #ff009d solid;
   width: 164px;
-  min-height: 466px;
+  height: 466px;
 }
 .video .video1 div {
-  margin-top: 150px;
   transform: rotate(90deg);
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 123px/164px SF Pro Display;
   text-align: center;
@@ -636,26 +638,24 @@
 .video .video2 {
   position: absolute;
   z-index: 10;
-  width: 875px;
-  height: 606px;
-  background: transparent url("../Images/Group 87.svg") 0% 0% no-repeat padding-box;
+  max-width: 54.688rem;
+  height: 37.875rem;
+  object-fit: cover;
   left: 164px;
   bottom: 0;
 }
+.video .video2 img {
+  width: 100%;
+}
 .video .video3 {
-  justify-content: center;
-  position: absolute;
-  width: 1044px;
-  height: 665px;
-  right: 0;
-  top: 0;
-  background: transparent url("../Images/Rectangle 28.png") 0% 0% no-repeat padding-box;
+  border: 2px black dotted;
+  max-width: 944px;
+  height: 465px;
   z-index: 20;
 }
-.video .video3 .video32 {
-  width: 172px;
-  height: 172px;
-  background: transparent url("../Images/Group 88.svg") 0% 0% no-repeat padding-box;
+.video .video3 .video3-content img {
+  width: 100%;
+  height: 100%;
 }
 
 .blog {
@@ -982,24 +982,21 @@
 }
 
 .footer {
-  width: 1920px;
-  height: 482px;
+  margin-top: 50px;
 }
 .footer .footer1 {
-  height: 462px;
+  min-height: 462px;
   background: #111111 0% 0% no-repeat padding-box;
   justify-content: center;
 }
 .footer .footer1 .footer-main {
   display: flex;
-  position: relative;
-  left: 100px;
   border: #0011ff solid 2px;
+  flex-wrap: wrap;
 }
 .footer .footer1 .footer-main .footer11 {
   width: 240px;
   border: #ff00bf solid 2px;
-  margin-right: 245px;
 }
 .footer .footer1 .footer-main .footer11 .footer11-info .footer11-info3 {
   display: flex;
@@ -1072,6 +1069,9 @@
 .footer .footer1 .footer-main .footer12 {
   border: #7bff00 solid 2px;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 .footer .footer1 .footer-main .footer12 .footer12-box1 {
   border: 1px red solid;
@@ -1084,6 +1084,9 @@
   letter-spacing: 0px;
   color: #ffffff;
   margin-bottom: 41px;
+  margin-left: 80px;
+  margin-right: 80px;
+  text-align: center;
 }
 .footer .footer1 .footer-main .footer12 .footer12-box1 div {
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-21) Futura;
@@ -1093,7 +1096,8 @@
   letter-spacing: 0px;
   color: #ffffff;
   margin-bottom: 29px;
-  margin-right: 210px;
+  margin-left: 80px;
+  margin-right: 80px;
   border: 1px red solid;
 }
 .footer .footer2 {
@@ -1111,7 +1115,9 @@
 }
 
 .slider {
-  background: transparent url("../Images/Group 13.png") 0% 0% no-repeat padding-box;
+  background-image: url("../Images/Group 13.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 830px;
 }
 
@@ -1205,6 +1211,28 @@
   cursor: pointer;
 }
 
+@media only screen and (max-width: 1053px) {
+  .subscribe-subbox {
+    justify-content: center;
+  }
+
+  .footer-main {
+    justify-content: center;
+  }
+
+  .header .header-logo {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .video {
+    display: flex;
+    flex-direction: column;
+  }
+  .video .video1 {
+    transform: rotate(-90deg);
+  }
+}
 @media screen and (max-width: 700px) {
   .header .header-logo {
     width: 100%;
@@ -1235,15 +1263,6 @@
   }
   .header .top-nav-header .info-header {
     justify-content: center;
-  }
-}
-@media only screen and (max-width: 1053px) {
-  .subscribe-subbox {
-    justify-content: center;
-  }
-
-  .header .header-logo {
-    width: 100%;
   }
 }
 

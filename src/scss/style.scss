@@ -471,13 +471,17 @@ $primary: #ff0000;
       }
     }
     .review-img-box {
-      width: 615px;
-      height: 631px;
+      max-width: 30rem;
+      // min-height: 40rem;
+      border: 2px solid red;
+      @extend .dFlex;
+      justify-content: center;
       .review-img {
-        background: transparent url("../Images/Group 91.png") 0% 0% no-repeat
-          padding-box;
+        // background: transparent url("../Images/Group 91.png") 0% 0% no-repeat
+        //   padding-box;
         width: 100%;
         height: 100%;
+        border: 1px solid blue;
       }
     }
   }
@@ -684,7 +688,7 @@ $primary: #ff0000;
         padding: 16px;
         margin: 10px;
         background: #2a2a2a 0% 0% no-repeat padding-box;
-         max-width: 16rem;
+        max-width: 16rem;
         min-height: 16rem;
         .accessories1 {
           width: 306px;
@@ -725,21 +729,18 @@ $primary: #ff0000;
 
 .video {
   // width: 1920px;
-  height: 741px;
-
+  height: 570px;
+  border: 1px red solid;
   position: relative;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   margin-top: 233px;
   .video1 {
+    border: 2px rgb(255, 0, 157) solid;
     width: 164px;
-    min-height: 466px;
-    // margin-top: 274.5px;
-    // @extend .dFlex;
-    // justify-content: center;
-    div {
-      margin-top: 150px;
+    height: 466px;
 
+    div {
       transform: rotate(90deg);
       font: var(--unnamed-font-style-normal) normal
         var(--unnamed-font-weight-bold) 123px/164px SF Pro Display;
@@ -755,30 +756,28 @@ $primary: #ff0000;
   .video2 {
     position: absolute;
     z-index: 10;
-    width: 875px;
-    height: 606px;
-    background: transparent url("../Images/Group 87.svg") 0% 0% no-repeat
-      padding-box;
+    max-width: 54.688rem;
+    height: 37.875rem;
+    object-fit: cover;
+    img {
+      width: 100%;
+      // height: 100%;
+    }
+
     left: 164px;
     bottom: 0;
   }
   .video3 {
-    @extend .dFlex;
-    justify-content: center;
-    position: absolute;
-    width: 1044px;
-    height: 665px;
-    right: 0;
-    top: 0;
-    background: transparent url("../Images/Rectangle 28.png") 0% 0% no-repeat
-      padding-box;
-    z-index: 20;
+    border: 2px black dotted;
+    max-width: 944px;
+    height: 465px;
 
-    .video32 {
-      width: 172px;
-      height: 172px;
-      background: transparent url("../Images/Group 88.svg") 0% 0% no-repeat
-        padding-box;
+    z-index: 20;
+    .video3-content {
+      img {
+        width: 100%;
+        height: 100%;
+      }
     }
   }
 }
@@ -1172,25 +1171,23 @@ $primary: #ff0000;
 //////////////////// Footer Section ////////////////////
 
 .footer {
-  width: 1920px;
-  height: 482px;
+  margin-top: 50px;
+  // width:1920px;
+  // height: 482px;
   .footer1 {
-    height: 462px;
+    min-height: 462px;
     background: #111111 0% 0% no-repeat padding-box;
     @extend .dFlex;
     justify-content: center;
     .footer-main {
       display: flex;
-      ////////////// remove it //////////////
-      position: relative;
-      left: 100px;
-      //////////////////////////////////////
-      border: rgb(0, 17, 255) solid 2px;
 
+      border: rgb(0, 17, 255) solid 2px;
+      flex-wrap: wrap;
       .footer11 {
         width: 240px;
         border: rgb(255, 0, 191) solid 2px;
-        margin-right: 245px;
+        // margin-right: 245px;
         .footer11-info {
           .footer11-info3 {
             display: flex;
@@ -1276,6 +1273,9 @@ $primary: #ff0000;
       .footer12 {
         border: rgb(123, 255, 0) solid 2px;
         display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
 
         .footer12-box1 {
           border: 1px red solid;
@@ -1290,6 +1290,9 @@ $primary: #ff0000;
             letter-spacing: 0px;
             color: #ffffff;
             margin-bottom: 41px;
+            margin-left: 80px;
+            margin-right: 80px;
+            text-align: center;
           }
           div {
             font: var(--unnamed-font-style-normal) normal
@@ -1301,7 +1304,8 @@ $primary: #ff0000;
             letter-spacing: 0px;
             color: #ffffff;
             margin-bottom: 29px;
-            margin-right: 210px;
+            margin-left: 80px;
+            margin-right: 80px;
             border: 1px red solid;
           }
         }
@@ -1329,8 +1333,9 @@ $primary: #ff0000;
 //////////////////// Slider Section ////////////////////
 
 .slider {
-  background: transparent url("../Images/Group 13.png") 0% 0% no-repeat
-    padding-box;
+  background-image: url("../Images/Group 13.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 
   height: 830px;
 }
@@ -1428,6 +1433,34 @@ $primary: #ff0000;
     }
   }
 }
+@media only screen and (max-width: 1053px) {
+  .subscribe-subbox {
+    justify-content: center;
+  }
+  .footer-main {
+    justify-content: center;
+  }
+  .header {
+    .header-logo {
+      width: 100%;
+    }
+  }
+}
+@media only screen and (max-width: 800px) {
+  .video {
+    // background-color: red;
+    display: flex;
+    flex-direction: column;
+    .video1 {
+      transform: rotate(-90deg);
+      div {
+        // margin-top: -150px;
+
+        // margin-top: 150px;
+      }
+    }
+  }
+}
 
 @media screen and (max-width: 700px) {
   .header {
@@ -1464,17 +1497,6 @@ $primary: #ff0000;
       .info-header {
         justify-content: center;
       }
-    }
-  }
-}
-
-@media only screen and (max-width: 1053px) {
-  .subscribe-subbox {
-    justify-content: center;
-  }
-  .header {
-    .header-logo {
-      width: 100%;
     }
   }
 }

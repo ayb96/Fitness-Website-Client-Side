@@ -1,6 +1,6 @@
 import React from "react";
 import sideBarIcon from "../Images/Group 5.svg";
-import logoIcon from "../Images/Group 204.svg";
+import logoIcon from "../Images/Group 204-header.svg";
 
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";

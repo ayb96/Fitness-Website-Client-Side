@@ -10,29 +10,11 @@ import Footer from "./component/Footer";
 import Slider from "./component/Slider";
 
 function App() {
-  var viewport_meta = document.getElementById("root");
-  console.log("viewport_meta", viewport_meta);
-  var viewports = {
-    default: viewport_meta.getAttribute("content"),
-    landscape: "width=1920",
-  };
-  console.log("viewports", viewports);
-  console.log("window.innerHeight", window.innerHeight);
-  console.log("window.innerWidth", window.innerWidth);
-  var viewport_set = function () {
-    if (Screen.width > 768)
-      viewport_meta.setAttribute("root", viewports.landscape);
-    else viewport_meta.setAttribute("content", viewports.default);
-  };
-  viewport_set();
-  window.onresize = function () {
-    viewport_set();
-  };
   return (
     <div className="App">
       <Header />
-      <Slider />
-      <Category />
+      {/* <Slider /> */}
+      {/* <Category /> */}
       <Reviews />
       <ChooseUs />
       <Video />

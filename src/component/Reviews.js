@@ -1,5 +1,5 @@
 import React from "react";
-
+import reviewpic from "../Images/Group 91.png";
 export default function Reviews() {
   return (
     <div className="reviews">
@@ -13,7 +13,6 @@ export default function Reviews() {
           </div>
           <div className="box4">JEREMY GEORGE</div>
           <div className="box5">
-            
             <div></div>
             <div></div>
             <div></div>
@@ -34,9 +33,10 @@ export default function Reviews() {
             <div className="review-back-img"></div>
           </div> */}
         </div>
-        {/* <div className="review-img-box">
-          <div className="review-img"></div>
-        </div> */}
+        <div className="review-img-box">
+          <img className="review-img" src={reviewpic} alt="" />
+          {/* <div className="review-img"></div> */}
+        </div>
       </div>
     </div>
   );

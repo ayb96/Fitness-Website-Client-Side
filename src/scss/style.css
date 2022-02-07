@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.dFlex, .footer .footer2, .footer .footer1, .subscribe .subscribe-box .subscribe-subbox .subscribe-subbox2, .subscribe .subscribe-box .subscribe-subbox, .subscribe .subscribe-box, .blog .blog3 .blog3-box .blog3-info .blog3-info4, .blog .blog3 .blog3-box .blog3-info .blog3-info1, .blog .blog3, .blog .blog-box .blog2, .blog .blog-box .blog1, .blog .blog-box, .blog, .chooseus .main-content .box4 .accessories, .chooseus .main-content .box4 .hoodies, .chooseus .main-content .box4 .bottoms, .chooseus .main-content .box4 .tops, .chooseus .main-content .box4, .chooseus .main-content, .chooseus, .reviews .reviews-box .review-img-box, .reviews .reviews-box .first-box .box7, .reviews .reviews-box .first-box .box5, .reviews .reviews-box, .reviews, .Category .nutrition .nutrition-box, .Category .nutrition, .Category .workout .workout-box, .Category .workout, .Category .progression .progression-box .progression-box1, .Category .progression, .Category, .header .top-nav-header .top-header .social-icon, .header .top-nav-header .top-header .info-header .info-header2, .header .top-nav-header .top-header .info-header .info-header1, .header .top-nav-header .top-header .info-header, .header .top-nav-header .top-header, .header .header-logo, .header {
+.dFlex, .footer .footer2, .footer .footer1, .subscribe .subscribe-box .subscribe-subbox .subscribe-subbox2, .subscribe .subscribe-box .subscribe-subbox, .subscribe .subscribe-box, .blog .blog3 .blog3-box .blog3-info .blog3-info4, .blog .blog3 .blog3-box .blog3-info .blog3-info1, .blog .blog3, .blog .blog-box .blog2, .blog .blog-box .blog1, .blog .blog-box, .blog, .chooseus .main-content .box4 .accessories, .chooseus .main-content .box4 .hoodies, .chooseus .main-content .box4 .bottoms, .chooseus .main-content .box4 .tops, .chooseus .main-content .box4, .chooseus .main-content, .chooseus, .reviews .reviews-box .review-img-box, .reviews .reviews-box .first-box .box7, .reviews .reviews-box .first-box .box5, .reviews .reviews-box, .reviews, .Category .nutrition .nutrition-box, .Category .nutrition, .Category .workout .workout-box, .Category .workout, .Category .progression .progression-box .progression-box1, .Category .progression, .header .top-header .social-icon, .header .top-header .info-header .info-header2, .header .top-header .info-header .info-header1, .header .top-header .info-header, .header .top-header, .header .header-logo {
   display: flex;
   align-items: center;
 }
@@ -47,21 +47,22 @@
 }
 
 .header {
-  justify-content: space-between;
-  flex-wrap: wrap;
+  width: 100%;
+  border: 2px solid red;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  grid-template-areas: "logo top" "logo nav";
 }
 .header .header-logo {
+  grid-area: logo;
+  padding: 10px;
   cursor: pointer;
   justify-content: center;
-  width: 320px;
-  height: 128px;
   border: 2px #000 dotted;
   background-color: #e41c26;
 }
-.header .top-nav-header {
-  width: 800px;
-}
-.header .top-nav-header .top-header {
+.header .top-header {
+  grid-area: top;
   min-height: 48px;
   background: #111111 0% 0% no-repeat padding-box;
   opacity: 1;
@@ -69,50 +70,51 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.header .top-nav-header .top-header .info-header {
+.header .top-header .info-header {
   flex-wrap: wrap;
 }
-.header .top-nav-header .top-header .info-header .info-header1 {
+.header .top-header .info-header .info-header1 {
   margin-right: 70.95px;
   margin-left: 20.4px;
 }
-.header .top-nav-header .top-header .info-header .info-header1 div {
+.header .top-header .info-header .info-header1 div {
   margin-right: 12.6px;
   cursor: pointer;
 }
-.header .top-nav-header .top-header .info-header .info-header2 div {
+.header .top-header .info-header .info-header2 div {
   margin-right: 12.6px;
   cursor: pointer;
 }
-.header .top-nav-header .top-header .social-icon div {
+.header .top-header .social-icon div {
   height: 100%;
   padding: 10px;
   cursor: pointer;
 }
-.header .top-nav-header .top-header .social-icon div:hover {
+.header .top-header .social-icon div:hover {
   background-color: #5e5e5e;
 }
-.header .top-nav-header .top-header .social-icon .instagram-icon {
+.header .top-header .social-icon .instagram-icon {
   border-right: #2a2a2a 1px solid;
 }
-.header .top-nav-header .nav-header {
+.header .nav-header {
+  grid-area: nav;
   border: #050505 2px solid;
 }
-.header .top-nav-header .nav-header .navbar {
+.header .nav-header .navbar {
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
-.header .top-nav-header .nav-header .navbar .navbar-links .home {
+.header .nav-header .navbar .navbar-links .home {
   color: #e41c26;
 }
-.header .top-nav-header .nav-header .navbar .navbar-links ul {
+.header .nav-header .navbar .navbar-links ul {
   display: flex;
 }
-.header .top-nav-header .nav-header .navbar .navbar-links ul li {
+.header .nav-header .navbar .navbar-links ul li {
   list-style: none;
 }
-.header .top-nav-header .nav-header .navbar .navbar-links ul li a {
+.header .nav-header .navbar .navbar-links ul li a {
   text-decoration: none;
   color: #111111;
   padding: 1rem;
@@ -124,18 +126,23 @@
   color: #000000;
   text-transform: uppercase;
 }
-.header .top-nav-header .nav-header .navbar .navbar-links ul li:hover {
+.header .nav-header .navbar .navbar-links ul li:hover {
   background-color: #5e5e5e;
 }
-.header .top-nav-header .nav-header .navbar .navbar-links ul li:hover a {
+.header .nav-header .navbar .navbar-links ul li:hover a {
   color: white;
 }
 
+.Category {
+  display: grid;
+  grid-template-columns: 1.7fr 1fr 1.7fr;
+  grid-template-areas: "box1 box2 box3";
+  grid-auto-rows: 391px;
+}
 .Category .progression {
   position: relative;
   justify-content: flex-end;
-  width: 672px;
-  height: 391px;
+  grid-area: box1;
   background: #212121 0% 0% no-repeat padding-box;
 }
 .Category .progression .back-image {
@@ -185,8 +192,7 @@
 .Category .workout {
   position: relative;
   justify-content: center;
-  width: 576px;
-  height: 391px;
+  grid-area: box2;
   background: #eeeeee 0% 0% no-repeat padding-box;
 }
 .Category .workout .back-image {
@@ -229,8 +235,7 @@
 }
 .Category .nutrition {
   position: relative;
-  width: 672px;
-  height: 391px;
+  grid-area: box3;
   background: #e41c26 0% 0% no-repeat padding-box;
 }
 .Category .nutrition .back-image {
@@ -1229,6 +1234,34 @@
     width: 100%;
   }
 }
+@media only screen and (max-width: 950px) {
+  .header {
+    grid-template-areas: "logo logo" "top top" "nav nav";
+  }
+
+  .Category {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "box1" "box2" "box3";
+  }
+  .Category .progression {
+    grid-column: 1/-1;
+    justify-content: center;
+  }
+  .Category .progression .progression-box {
+    margin-right: 0px;
+  }
+  .Category .workout {
+    grid-column: 1/-1;
+  }
+  .Category .nutrition {
+    grid-column: 1/-1;
+    justify-content: center;
+    margin-left: -50px;
+  }
+  .Category .nutrition .nutrition-box {
+    margin-right: 0px;
+  }
+}
 @media only screen and (max-width: 800px) {
   .video {
     display: flex;
@@ -1242,31 +1275,31 @@
   .header .header-logo {
     width: 100%;
   }
-  .header .top-nav-header .nav-header .navbar-links {
+  .header .nav-header .navbar-links {
     display: none;
   }
-  .header .top-nav-header .nav-header .navbar {
+  .header .nav-header .navbar {
     flex-direction: column-reverse;
     align-items: flex-end;
   }
-  .header .top-nav-header .nav-header .navbar-links {
+  .header .nav-header .navbar-links {
     width: 100%;
   }
-  .header .top-nav-header .nav-header .navbar-links ul {
+  .header .nav-header .navbar-links ul {
     border: white solid 1px;
     flex-direction: column;
     width: 100%;
   }
-  .header .top-nav-header .nav-header .navbar-links li {
+  .header .nav-header .navbar-links li {
     text-align: center;
   }
-  .header .top-nav-header .nav-header .navbar-links.active {
+  .header .nav-header .navbar-links.active {
     display: flex;
   }
-  .header .top-nav-header .top-header {
+  .header .top-header {
     justify-content: center;
   }
-  .header .top-nav-header .info-header {
+  .header .info-header {
     justify-content: center;
   }
 }

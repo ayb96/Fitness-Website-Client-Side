@@ -47,12 +47,15 @@
 }
 
 .header {
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 .header .header-logo {
+  cursor: pointer;
   justify-content: center;
   width: 320px;
   height: 128px;
+  border: 2px #000 dotted;
   background-color: #e41c26;
 }
 .header .top-nav-header {
@@ -75,9 +78,11 @@
 }
 .header .top-nav-header .top-header .info-header .info-header1 div {
   margin-right: 12.6px;
+  cursor: pointer;
 }
 .header .top-nav-header .top-header .info-header .info-header2 div {
   margin-right: 12.6px;
+  cursor: pointer;
 }
 .header .top-nav-header .top-header .social-icon div {
   height: 100%;
@@ -120,7 +125,7 @@
   text-transform: uppercase;
 }
 .header .top-nav-header .nav-header .navbar .navbar-links ul li:hover {
-  background-color: #111111;
+  background-color: #5e5e5e;
 }
 .header .top-nav-header .nav-header .navbar .navbar-links ul li:hover a {
   color: white;

@@ -1,7 +1,6 @@
 import React from "react";
 import sideBarIcon from "../Images/Group 5.svg";
 import logoIcon from "../Images/Group 204-header.svg";
-
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import YouTubeIcon from "@mui/icons-material/YouTube";
@@ -56,7 +55,9 @@ export default function Header() {
             <div className="navbar-links">
               <ul>
                 <li>
-                  <a href="#" className="home">HOME</a>
+                  <a href="#" className="home">
+                    HOME
+                  </a>
                 </li>
                 <li>
                   <a href="#">SHOP</a>
@@ -80,6 +81,7 @@ export default function Header() {
                   padding: "1rem",
                   borderLeft: "1px #D1D1D1 solid",
                   borderBottom: "1px #D1D1D1 solid",
+                  cursor: "pointer",
                 }}
               >
                 <SearchIcon />
@@ -90,6 +92,7 @@ export default function Header() {
                   display: "block",
                   padding: "1rem",
                   backgroundColor: "#E41C26",
+                  cursor: "pointer",
                 }}
                 onClick={runMe}
               >

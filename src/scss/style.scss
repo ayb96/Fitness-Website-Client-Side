@@ -48,14 +48,15 @@ $primary: #ff0000;
 //////////////////// Header Section ////////////////////
 .header {
   @extend .dFlex;
-  // width: 1920px;
+  justify-content: space-between;
   flex-wrap: wrap;
   .header-logo {
+    cursor: pointer;
     @extend .dFlex;
     justify-content: center;
     width: 320px;
     height: 128px;
-    // border: 2px #000 dotted;
+    border: 2px #000 dotted;
     background-color: #e41c26;
   }
   .top-nav-header {
@@ -80,6 +81,7 @@ $primary: #ff0000;
           margin-left: 20.4px;
           div {
             margin-right: 12.6px;
+            cursor: pointer;
           }
         }
         .info-header2 {
@@ -87,6 +89,7 @@ $primary: #ff0000;
 
           div {
             margin-right: 12.6px;
+            cursor: pointer;
           }
         }
       }
@@ -139,7 +142,7 @@ $primary: #ff0000;
               }
             }
             li:hover {
-              background-color: #111111;
+              background-color: #5e5e5e;
               a {
                 color: white;
               }

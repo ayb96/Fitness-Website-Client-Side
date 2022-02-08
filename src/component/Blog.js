@@ -44,19 +44,24 @@ export default function Blog() {
           </div>
           <div className="blog3-info">
             <div className="blog3-info1">
-              <div>
-                <PersonOutlineIcon className="blog-icon" />
+              <div className="blog-icon-flex">
+                <div>
+                  <PersonOutlineIcon className="blog-icon" />
+                </div>
+                <div className="blog-icon-text">ADMIN</div>
               </div>
-              <div className="blog-icon-text">ADMIN</div>
-              <div>
-                <CalendarTodayIcon className="blog-icon" />
+              <div className="blog-icon-flex">
+                <div>
+                  <CalendarTodayIcon className="blog-icon" />
+                </div>
+                <div className="blog-icon-text">23 JAN</div>
               </div>
-              <div className="blog-icon-text">23 JAN</div>
-
-              <div>
-                <MessageIcon className="blog-icon" />
+              <div className="blog-icon-flex">
+                <div>
+                  <MessageIcon className="blog-icon" />
+                </div>
+                <div className="blog-icon-text">COMMENT</div>
               </div>
-              <div className="blog-icon-text">COMMENT</div>
             </div>
             <div className="blog3-info2">LOREM IPSUM DOLOR SIT</div>
             <div className="blog3-info3">
@@ -71,27 +76,32 @@ export default function Blog() {
         </div>
         {/* Second Box */}
         <div className="blog3-box">
-          <div className="blog3-img2">
+          <div className="blog3-img1">
             <div className="blog3-img1-date">
-              <div className="blog3-date1">14</div>
+              <div className="blog3-date1">23 </div>
               <div className="blog3-date2">JAN </div>
             </div>
           </div>
           <div className="blog3-info">
             <div className="blog3-info1">
-              <div>
-                <PersonOutlineIcon className="blog-icon" />
+              <div className="blog-icon-flex">
+                <div>
+                  <PersonOutlineIcon className="blog-icon" />
+                </div>
+                <div className="blog-icon-text">ADMIN</div>
               </div>
-              <div className="blog-icon-text">ADMIN</div>
-              <div>
-                <CalendarTodayIcon className="blog-icon" />
+              <div className="blog-icon-flex">
+                <div>
+                  <CalendarTodayIcon className="blog-icon" />
+                </div>
+                <div className="blog-icon-text">23 JAN</div>
               </div>
-              <div className="blog-icon-text">14 JAN</div>
-
-              <div>
-                <MessageIcon className="blog-icon" />
+              <div className="blog-icon-flex">
+                <div>
+                  <MessageIcon className="blog-icon" />
+                </div>
+                <div className="blog-icon-text">COMMENT</div>
               </div>
-              <div className="blog-icon-text">COMMENT</div>
             </div>
             <div className="blog3-info2">LOREM IPSUM DOLOR SIT</div>
             <div className="blog3-info3">
@@ -104,42 +114,7 @@ export default function Blog() {
             </div>
           </div>
         </div>
-        {/* Third Box */}
-        <div className="blog3-box">
-          <div className="blog3-img3">
-            <div className="blog3-img1-date">
-              <div className="blog3-date1">05</div>
-              <div className="blog3-date2">JAN </div>
-            </div>
-          </div>
-          <div className="blog3-info">
-            <div className="blog3-info1">
-              <div>
-                <PersonOutlineIcon className="blog-icon" />
-              </div>
-              <div className="blog-icon-text">ADMIN</div>
-              <div>
-                <CalendarTodayIcon className="blog-icon" />
-              </div>
-              <div className="blog-icon-text">05 JAN</div>
-
-              <div>
-                <MessageIcon className="blog-icon" />
-              </div>
-              <div className="blog-icon-text">COMMENT</div>
-            </div>
-            <div className="blog3-info2">LOREM IPSUM DOLOR SIT</div>
-            <div className="blog3-info3">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-              erat.
-            </div>
-            <div className="blog3-info4">
-              <div>READ MORE</div>
-            </div>
-          </div>
-        </div>
-        {/* Forth Box */}
+        {/* Second Box */}
         <div className="blog3-box">
           <div className="blog3-img1">
             <div className="blog3-img1-date">
@@ -149,19 +124,24 @@ export default function Blog() {
           </div>
           <div className="blog3-info">
             <div className="blog3-info1">
-              <div>
-                <PersonOutlineIcon className="blog-icon" />
+              <div className="blog-icon-flex">
+                <div>
+                  <PersonOutlineIcon className="blog-icon" />
+                </div>
+                <div className="blog-icon-text">ADMIN</div>
               </div>
-              <div className="blog-icon-text">ADMIN</div>
-              <div>
-                <CalendarTodayIcon className="blog-icon" />
+              <div className="blog-icon-flex">
+                <div>
+                  <CalendarTodayIcon className="blog-icon" />
+                </div>
+                <div className="blog-icon-text">23 JAN</div>
               </div>
-              <div className="blog-icon-text">23 JAN</div>
-
-              <div>
-                <MessageIcon className="blog-icon" />
+              <div className="blog-icon-flex">
+                <div>
+                  <MessageIcon className="blog-icon" />
+                </div>
+                <div className="blog-icon-text">COMMENT</div>
               </div>
-              <div className="blog-icon-text">COMMENT</div>
             </div>
             <div className="blog3-info2">LOREM IPSUM DOLOR SIT</div>
             <div className="blog3-info3">
@@ -174,29 +154,34 @@ export default function Blog() {
             </div>
           </div>
         </div>
-        {/* Fifth Box */}
+        {/* Second Box */}
         <div className="blog3-box">
-          <div className="blog3-img2">
+          <div className="blog3-img1">
             <div className="blog3-img1-date">
-              <div className="blog3-date1">14 </div>
+              <div className="blog3-date1">23 </div>
               <div className="blog3-date2">JAN </div>
             </div>
           </div>
           <div className="blog3-info">
             <div className="blog3-info1">
-              <div>
-                <PersonOutlineIcon className="blog-icon" />
+              <div className="blog-icon-flex">
+                <div>
+                  <PersonOutlineIcon className="blog-icon" />
+                </div>
+                <div className="blog-icon-text">ADMIN</div>
               </div>
-              <div className="blog-icon-text">ADMIN</div>
-              <div>
-                <CalendarTodayIcon className="blog-icon" />
+              <div className="blog-icon-flex">
+                <div>
+                  <CalendarTodayIcon className="blog-icon" />
+                </div>
+                <div className="blog-icon-text">23 JAN</div>
               </div>
-              <div className="blog-icon-text">14 JAN</div>
-
-              <div>
-                <MessageIcon className="blog-icon" />
+              <div className="blog-icon-flex">
+                <div>
+                  <MessageIcon className="blog-icon" />
+                </div>
+                <div className="blog-icon-text">COMMENT</div>
               </div>
-              <div className="blog-icon-text">COMMENT</div>
             </div>
             <div className="blog3-info2">LOREM IPSUM DOLOR SIT</div>
             <div className="blog3-info3">
@@ -209,29 +194,34 @@ export default function Blog() {
             </div>
           </div>
         </div>
-        {/* Sixth Box */}
+        {/* Second Box */}
         <div className="blog3-box">
-          <div className="blog3-img3">
+          <div className="blog3-img1">
             <div className="blog3-img1-date">
-              <div className="blog3-date1">05 </div>
+              <div className="blog3-date1">23 </div>
               <div className="blog3-date2">JAN </div>
             </div>
           </div>
           <div className="blog3-info">
             <div className="blog3-info1">
-              <div>
-                <PersonOutlineIcon className="blog-icon" />
+              <div className="blog-icon-flex">
+                <div>
+                  <PersonOutlineIcon className="blog-icon" />
+                </div>
+                <div className="blog-icon-text">ADMIN</div>
               </div>
-              <div className="blog-icon-text">ADMIN</div>
-              <div>
-                <CalendarTodayIcon className="blog-icon" />
+              <div className="blog-icon-flex">
+                <div>
+                  <CalendarTodayIcon className="blog-icon" />
+                </div>
+                <div className="blog-icon-text">23 JAN</div>
               </div>
-              <div className="blog-icon-text">05 JAN</div>
-
-              <div>
-                <MessageIcon className="blog-icon" />
+              <div className="blog-icon-flex">
+                <div>
+                  <MessageIcon className="blog-icon" />
+                </div>
+                <div className="blog-icon-text">COMMENT</div>
               </div>
-              <div className="blog-icon-text">COMMENT</div>
             </div>
             <div className="blog3-info2">LOREM IPSUM DOLOR SIT</div>
             <div className="blog3-info3">
@@ -244,6 +234,47 @@ export default function Blog() {
             </div>
           </div>
         </div>
+        {/* Second Box */}
+        <div className="blog3-box">
+          <div className="blog3-img1">
+            <div className="blog3-img1-date">
+              <div className="blog3-date1">23 </div>
+              <div className="blog3-date2">JAN </div>
+            </div>
+          </div>
+          <div className="blog3-info">
+            <div className="blog3-info1">
+              <div className="blog-icon-flex">
+                <div>
+                  <PersonOutlineIcon className="blog-icon" />
+                </div>
+                <div className="blog-icon-text">ADMIN</div>
+              </div>
+              <div className="blog-icon-flex">
+                <div>
+                  <CalendarTodayIcon className="blog-icon" />
+                </div>
+                <div className="blog-icon-text">23 JAN</div>
+              </div>
+              <div className="blog-icon-flex">
+                <div>
+                  <MessageIcon className="blog-icon" />
+                </div>
+                <div className="blog-icon-text">COMMENT</div>
+              </div>
+            </div>
+            <div className="blog3-info2">LOREM IPSUM DOLOR SIT</div>
+            <div className="blog3-info3">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+              erat.
+            </div>
+            <div className="blog3-info4">
+              <div>READ MORE</div>
+            </div>
+          </div>
+        </div>
+        {/* Second Box */}
       </div>
     </div>
   );

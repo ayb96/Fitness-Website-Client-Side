@@ -29,7 +29,7 @@ export default function ChooseUs() {
             </div>
           </div>
           <div className="hoodies">
-            <div className="hoodies1">HOODIES & JACKETS</div>
+            <div className="hoodies1">HOODIE & JACKET</div>
             <div className="hoodies2"></div>
             <div className="hoodies3">
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam

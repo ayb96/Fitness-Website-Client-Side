@@ -48,7 +48,7 @@ $primary: #ff0000;
 //////////////////// Header Section ////////////////////
 .header {
   width: 100%;
-  border: 2px solid red;
+  // border: 2px solid red;
 
   // flex-wrap: wrap;
   display: grid;
@@ -65,7 +65,7 @@ $primary: #ff0000;
     justify-content: center;
     // width: 320px;
     // height: 128px;
-    border: 2px #000 dotted;
+    // border: 2px #000 dotted;
     background-color: #e41c26;
   }
   // .top-nav-header {
@@ -122,7 +122,7 @@ $primary: #ff0000;
   }
   .nav-header {
     grid-area: nav;
-    border: #050505 2px solid;
+    // border: #050505 2px solid;
 
     .navbar {
       display: flex;
@@ -192,11 +192,11 @@ $primary: #ff0000;
       width: 254px;
       text-align: center;
       margin-right: 49px;
-      border: #eeeeee 1px solid;
+      // border: #eeeeee 1px solid;
       .progression-box1 {
         @extend .dFlex;
         justify-content: center;
-        border: #17b241 2px solid;
+        // border: #17b241 2px solid;
         margin-bottom: 23px;
         div {
           width: 79px;
@@ -206,7 +206,7 @@ $primary: #ff0000;
         }
       }
       .progression-box2 {
-        border: #17b241 2px solid;
+        // border: #17b241 2px solid;
         margin-bottom: 20px;
 
         font: var(--unnamed-font-style-normal) normal
@@ -253,7 +253,7 @@ $primary: #ff0000;
       @extend .dFlex;
       flex-direction: column;
       justify-content: center;
-      border: #eeeeee 1px solid;
+      // border: #eeeeee 1px solid;
       .workout-box1 {
         width: 68px;
         height: 68px;
@@ -304,7 +304,7 @@ $primary: #ff0000;
       width: 254px;
       text-align: center;
       margin-right: 50px;
-      border: #eeeeee 1px solid;
+      // border: #eeeeee 1px solid;
       margin-left: 50px;
       .nutrition-box1 {
         width: 52px;
@@ -342,7 +342,7 @@ $primary: #ff0000;
   @extend .dFlex;
   justify-content: center;
   // width: 1920px;
-  border: 2px solid blue;
+  // border: 2px solid blue;
   margin-top: 79px;
   margin-bottom: 79px;
 
@@ -351,9 +351,10 @@ $primary: #ff0000;
     justify-content: center;
     flex-wrap: wrap;
     .first-box {
-      margin-right: 147px;
+      // margin-right: 147px;
+      margin: 0 20px 0 20px;
       position: relative;
-      border: red 2px solid;
+      // border: red 2px solid;
       .box1 {
         max-width: 125px;
         min-height: 22px;
@@ -489,8 +490,9 @@ $primary: #ff0000;
     }
     .review-img-box {
       max-width: 30rem;
+      margin: 0 20px 0 20px;
       // min-height: 40rem;
-      border: 2px solid red;
+      // border: 2px solid red;
       @extend .dFlex;
       justify-content: center;
       .review-img {
@@ -498,7 +500,7 @@ $primary: #ff0000;
         //   padding-box;
         width: 100%;
         height: 100%;
-        border: 1px solid blue;
+        // border: 1px solid blue;
       }
     }
   }
@@ -508,7 +510,7 @@ $primary: #ff0000;
 
 .chooseus {
   position: relative;
-  // width: 1920px;
+
   min-height: 908px;
 
   @extend .dFlex;
@@ -555,8 +557,8 @@ $primary: #ff0000;
       color: #5e5e5e;
       text-transform: uppercase;
       position: absolute;
-      left: 600px;
-      top: 140px;
+      left: 300px;
+      top: 150px;
       z-index: 10;
     }
     .box3 {
@@ -806,7 +808,7 @@ $primary: #ff0000;
   min-height: 1583px;
   @extend .dFlex;
   flex-direction: column;
-  border: #000000 2px dashed;
+  // border: #000000 2px dashed;
 
   justify-content: center;
   .blog-box {
@@ -817,7 +819,7 @@ $primary: #ff0000;
 
     max-width: 1283px;
 
-    border: #1cc6e4 2px solid;
+    // border: #1cc6e4 2px solid;
     margin-top: 18.4.5px;
     margin-bottom: 73px;
     .blog1 {
@@ -826,7 +828,7 @@ $primary: #ff0000;
       flex-direction: column;
       max-width: 821px;
       min-height: 158px;
-      border: #e41c26 2px solid;
+      // border: #e41c26 2px solid;
       .blog11 {
         max-width: 714px;
         min-height: 79px;
@@ -861,7 +863,7 @@ $primary: #ff0000;
     .blog2 {
       max-width: 1100px;
       min-height: 75px;
-      border: #000000 dotted 1px;
+      // border: #000000 dotted 1px;
       margin-top: 59.5px;
       @extend .dFlex;
       flex-direction: column;
@@ -924,66 +926,66 @@ $primary: #ff0000;
     }
   }
   .blog3 {
-    max-width: 1283px;
-    border: yellow 3px solid;
+    max-width: 1100px;
+    // border: yellow 3px solid;
     @extend .dFlex;
     justify-content: space-around;
     flex-wrap: wrap;
 
     .blog3-box {
-      border: #181a27 2px solid;
-      max-width: 390px;
-      min-height: 400px;
+      // border: #181a27 2px solid;
+      max-width: 320px;
+      min-height: 300px;
       margin: 10px;
       .blog3-img1 {
         max-width: 100%;
-        min-height: 252px;
+        min-height: 200px;
         background-image: url("../Images/Group 13.png");
         background-size: 100% 100%;
         box-shadow: 0px 6px 25px #0000000f;
         border-radius: 20px;
-        border: 1px dashed rgb(128, 0, 0);
+        // border: 1px dashed rgb(128, 0, 0);
         position: relative;
 
         .blog3-img1-date {
-          width: 76px;
-          height: 73px;
+          width: 66px;
+          height: 63px;
           text-align: center;
 
           color: #ffffff;
           text-transform: uppercase;
           background: #e41c26 0% 0% no-repeat padding-box;
           position: absolute;
-          bottom: 20px;
-          left: 20px;
+          bottom: 15px;
+          left: 15px;
           .blog3-date1 {
-            font-size: xx-large;
+            font-size: x-large;
             margin-top: 5px;
           }
         }
       }
       .blog3-img2 {
         max-width: 100%;
-        min-height: 252px;
+        min-height: 200px;
         background: transparent url("../Images/Rectangle 33.png") 0% 0%
           no-repeat padding-box;
         box-shadow: 0px 6px 25px #0000000f;
         border-radius: 20px;
-        border: 1px solid green;
+        // border: 1px solid green;
         position: relative;
         .blog3-img1-date {
-          width: 76px;
-          height: 73px;
+          width: 66px;
+          height: 63px;
           text-align: center;
 
           color: #ffffff;
           text-transform: uppercase;
           background: #e41c26 0% 0% no-repeat padding-box;
           position: absolute;
-          bottom: 20px;
-          left: 20px;
+          bottom: 15px;
+          left: 15px;
           .blog3-date1 {
-            font-size: xx-large;
+            font-size: x-large;
             margin-top: 5px;
           }
         }
@@ -991,59 +993,64 @@ $primary: #ff0000;
       .blog3-img3 {
         max-width: 100%;
         position: relative;
-        min-height: 252px;
+        min-height: 200px;
         background: transparent url("../Images/Rectangle 34.png") 0% 0%
           no-repeat padding-box;
         box-shadow: 0px 6px 25px #0000000f;
         border-radius: 20px;
-        border: 1px solid green;
+        // border: 1px solid green;
         .blog3-img1-date {
-          width: 76px;
-          height: 73px;
+          width: 66px;
+          height: 63px;
           text-align: center;
 
           color: #ffffff;
           text-transform: uppercase;
           background: #e41c26 0% 0% no-repeat padding-box;
           position: absolute;
-          bottom: 20px;
-          left: 20px;
+          bottom: 15px;
+          left: 15px;
           .blog3-date1 {
-            font-size: xx-large;
+            font-size: x-large;
             margin-top: 5px;
           }
         }
       }
       .blog3-info {
         .blog3-info1 {
-          border: #17b241 2px solid;
+          // border: #17b241 2px solid;
           @extend .dFlex;
-          margin-top: 34px;
-          margin-bottom: 22px;
-          .blog-icon {
-            color: #e41c26;
-            margin-right: 5px;
-          }
-          .blog-icon-text {
-            font: var(--unnamed-font-style-normal) normal
-              var(--unnamed-font-weight-normal) var(--unnamed-font-size-14) /
-              var(--unnamed-line-spacing-19) SF Pro Display;
-            text-align: left;
-            font: normal normal normal 14px/19px SF Pro Display;
-            letter-spacing: 1.05px;
-            color: #7e7e7e;
-            text-transform: uppercase;
-            margin-right: 10px;
+          justify-content: space-around;
+          flex-wrap: wrap;
+          margin-top: 24px;
+          margin-bottom: 12px;
+          .blog-icon-flex {
+            display: flex;
+            .blog-icon {
+              color: #e41c26;
+              margin-right: 5px;
+            }
+            .blog-icon-text {
+              font: var(--unnamed-font-style-normal) normal
+                var(--unnamed-font-weight-normal) var(--unnamed-font-size-14) /
+                var(--unnamed-line-spacing-19) SF Pro Display;
+              text-align: left;
+              font: normal normal normal 12px/19px SF Pro Display;
+              letter-spacing: 1.05px;
+              color: #7e7e7e;
+              text-transform: uppercase;
+              margin-right: 10px;
+            }
           }
         }
         .blog3-info2 {
-          border: 2px red solid;
+          // border: 2px red solid;
           max-width: 384px;
-          min-height: 55px;
+          min-height: 45px;
           font: var(--unnamed-font-style-normal) normal
-            var(--unnamed-font-weight-bold) 22px/30px SF Pro Display;
+            var(--unnamed-font-weight-bold) 16px/30px SF Pro Display;
           text-align: left;
-          font: normal normal bold 22px/30px SF Pro Display;
+          font: normal normal bold 16px/30px SF Pro Display;
           letter-spacing: 1.65px;
           color: #000000;
           text-transform: uppercase;
@@ -1061,8 +1068,8 @@ $primary: #ff0000;
           color: #7e7e7e;
         }
         .blog3-info4 {
-          max-width: 196px;
-          min-height: 56px;
+          max-width: 180px;
+          min-height: 50px;
           border: 1px solid #000000;
           @extend .dFlex;
           justify-content: center;
@@ -1071,7 +1078,7 @@ $primary: #ff0000;
               var(--unnamed-font-size-16) / var(--unnamed-line-spacing-21) SF
               Pro Display;
             text-align: center;
-            font: normal normal 300 16px/21px SF Pro Display;
+            font: normal normal 300 14px/21px SF Pro Display;
             letter-spacing: 0.8px;
             color: #000000;
             text-transform: uppercase;
@@ -1085,13 +1092,12 @@ $primary: #ff0000;
 //////////////////// Subscribe Section ////////////////////
 
 .subscribe {
-  // width: 1920px;
   min-height: 417px;
   background: #eeeeee 0% 0% no-repeat padding-box;
   margin-top: 309px;
 
   .subscribe-box {
-    border: 1px red solid;
+    // border: 1px red solid;
     max-width: 70rem;
     margin: auto;
     min-height: 427px;
@@ -1106,7 +1112,7 @@ $primary: #ff0000;
     .subscribe-subbox {
       max-width: 70rem;
       min-height: 244px;
-      border: 1px rgb(255, 0, 157) solid;
+      // border: 1px rgb(255, 0, 157) solid;
       margin: 20px;
       @extend .dFlex;
       flex-wrap: wrap;
@@ -1117,7 +1123,8 @@ $primary: #ff0000;
         form {
           input {
             width: 18.75rem;
-            margin-bottom: 28px;
+            margin: 0px 10px 28px 10px;
+
             height: 58px;
             background: #ffffff 0% 0% no-repeat padding-box;
             border: 2px solid #ededed;
@@ -1125,6 +1132,7 @@ $primary: #ff0000;
           button {
             width: 300px;
             height: 56px;
+            margin-left: 10px;
             background: #111111 0% 0% no-repeat padding-box;
             outline: none;
             border: none;
@@ -1140,12 +1148,11 @@ $primary: #ff0000;
         }
       }
       .subscribe-subbox1 {
-        // max-width: 750px;
-        border: 1px blue solid;
+        // border: 1px blue solid;
+        max-width: 600px;
         min-height: 244px;
         margin-bottom: 1rem;
         .subscribe-subbox11 {
-          // max-width: 450px;
           min-height: 80px;
           font: var(--unnamed-font-style-normal) normal
             var(--unnamed-font-weight-normal) 60px/56px Futura-Bold;
@@ -1157,8 +1164,6 @@ $primary: #ff0000;
         }
       }
       .subscribe-subbox12 {
-        // max-width: 700px;
-        // min-height: 48px;
         font: var(--unnamed-font-style-normal) normal
           var(--unnamed-font-weight-normal) 36px/56px Futura;
         letter-spacing: var(--unnamed-character-spacing-0);
@@ -1170,8 +1175,8 @@ $primary: #ff0000;
         margin-bottom: 24px;
       }
       .subscribe-subbox13 {
-        max-width: 650px;
-        min-height: 55px;
+        // max-width: 650px;
+        // min-height: 55px;
         font: var(--unnamed-font-style-normal) normal
           var(--unnamed-font-weight-normal) var(--unnamed-font-size-18) /
           var(--unnamed-line-spacing-24) Futura;
@@ -1189,8 +1194,7 @@ $primary: #ff0000;
 
 .footer {
   margin-top: 50px;
-  // width:1920px;
-  // height: 482px;
+
   .footer1 {
     min-height: 462px;
     background: #111111 0% 0% no-repeat padding-box;
@@ -1199,11 +1203,11 @@ $primary: #ff0000;
     .footer-main {
       display: flex;
 
-      border: rgb(0, 17, 255) solid 2px;
+      // border: rgb(0, 17, 255) solid 2px;
       flex-wrap: wrap;
       .footer11 {
         width: 240px;
-        border: rgb(255, 0, 191) solid 2px;
+        // border: rgb(255, 0, 191) solid 2px;
         // margin-right: 245px;
         .footer11-info {
           .footer11-info3 {
@@ -1288,14 +1292,14 @@ $primary: #ff0000;
         }
       }
       .footer12 {
-        border: rgb(123, 255, 0) solid 2px;
+        // border: rgb(123, 255, 0) solid 2px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
 
         .footer12-box1 {
-          border: 1px red solid;
+          // border: 1px red solid;
 
           h1 {
             font: var(--unnamed-font-style-normal) normal
@@ -1323,7 +1327,7 @@ $primary: #ff0000;
             margin-bottom: 29px;
             margin-left: 80px;
             margin-right: 80px;
-            border: 1px red solid;
+            // border: 1px red solid;
           }
         }
       }
@@ -1450,13 +1454,29 @@ $primary: #ff0000;
     }
   }
 }
+
+@media only screen and (max-width: 1178px) {
+  .footer-main {
+    justify-content: center;
+  }
+  .footer11 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+  .reviews {
+    .reviews-box {
+      .first-box {
+        // margin: 0px;
+      }
+    }
+  }
+}
+
 @media only screen and (max-width: 1053px) {
   .subscribe-subbox {
     justify-content: center;
   }
-  .footer-main {
-    justify-content: center;
-  }
+
   .header {
     .header-logo {
       width: 100%;
@@ -1479,9 +1499,8 @@ $primary: #ff0000;
     .progression {
       grid-column: 1 / -1;
       justify-content: center;
-      //
+
       .progression-box {
-        // width: 100%;
         margin-right: 0px;
       }
     }
@@ -1491,7 +1510,7 @@ $primary: #ff0000;
     .nutrition {
       grid-column: 1 / -1;
       justify-content: center;
-      // 
+
       margin-left: -50px;
       .nutrition-box {
         margin-right: 0px;
@@ -1501,15 +1520,11 @@ $primary: #ff0000;
 }
 @media only screen and (max-width: 800px) {
   .video {
-    // background-color: red;
     display: flex;
     flex-direction: column;
     .video1 {
       transform: rotate(-90deg);
       div {
-        // margin-top: -150px;
-
-        // margin-top: 150px;
       }
     }
   }
@@ -1520,7 +1535,7 @@ $primary: #ff0000;
     .header-logo {
       width: 100%;
     }
-    // .top-nav-header {
+
     .nav-header {
       .navbar-links {
         display: none;
@@ -1550,6 +1565,5 @@ $primary: #ff0000;
     .info-header {
       justify-content: center;
     }
-    // }
   }
 }

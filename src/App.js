@@ -13,11 +13,11 @@ function App() {
   return (
     <div className="App">
       <Header />
-      {/* <Slider /> */}
+      <Slider />
       <Category />
       <Reviews />
       <ChooseUs />
-      {/* <Video /> */}
+      <Video />
       <Blog />
       <Subscribe />
       <Footer />

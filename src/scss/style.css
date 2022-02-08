@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.dFlex, .footer .footer2, .footer .footer1, .subscribe .subscribe-box .subscribe-subbox .subscribe-subbox2, .subscribe .subscribe-box .subscribe-subbox, .subscribe .subscribe-box, .blog .blog3 .blog3-box .blog3-info .blog3-info4, .blog .blog3 .blog3-box .blog3-info .blog3-info1, .blog .blog3, .blog .blog-box .blog2, .blog .blog-box .blog1, .blog .blog-box, .blog, .chooseus .main-content .box4 .accessories, .chooseus .main-content .box4 .hoodies, .chooseus .main-content .box4 .bottoms, .chooseus .main-content .box4 .tops, .chooseus .main-content .box4, .chooseus .main-content, .chooseus, .reviews .reviews-box .review-img-box, .reviews .reviews-box .first-box .box7, .reviews .reviews-box .first-box .box5, .reviews .reviews-box, .reviews, .Category .nutrition .nutrition-box, .Category .nutrition, .Category .workout .workout-box, .Category .workout, .Category .progression .progression-box .progression-box1, .Category .progression, .header .top-header .social-icon, .header .top-header .info-header .info-header2, .header .top-header .info-header .info-header1, .header .top-header .info-header, .header .top-header, .header .header-logo {
+.dFlex, .slide-show .slider-content .slider-content-sub div:nth-child(4), .footer .footer2, .footer .footer1, .subscribe .subscribe-box .subscribe-subbox .subscribe-subbox2, .subscribe .subscribe-box .subscribe-subbox, .subscribe .subscribe-box, .blog .blog3 .blog3-box .blog3-info .blog3-info4, .blog .blog3 .blog3-box .blog3-info .blog3-info1, .blog .blog3, .blog .blog-box .blog2, .blog .blog-box .blog1, .blog .blog-box, .blog, .chooseus .main-content .box4 .accessories, .chooseus .main-content .box4 .hoodies, .chooseus .main-content .box4 .bottoms, .chooseus .main-content .box4 .tops, .chooseus .main-content .box4, .chooseus .main-content, .chooseus, .reviews .reviews-box .review-img-box, .reviews .reviews-box .first-box .box7, .reviews .reviews-box .first-box .box5, .reviews .reviews-box, .reviews, .Category .nutrition .nutrition-box, .Category .nutrition, .Category .workout .workout-box, .Category .workout, .Category .progression .progression-box .progression-box1, .Category .progression, .header .top-header .social-icon, .header .top-header .info-header .info-header2, .header .top-header .info-header .info-header1, .header .top-header .info-header, .header .top-header, .header .header-logo {
   display: flex;
   align-items: center;
 }
@@ -132,7 +132,7 @@
 
 .Category {
   display: grid;
-  grid-template-columns: 1.7fr 1fr 1.7fr;
+  grid-template-columns: 1.3fr 1fr 1.3fr;
   grid-template-areas: "box1 box2 box3";
   grid-auto-rows: 391px;
 }
@@ -444,12 +444,12 @@
   min-height: 128px;
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 96px/128px SF Pro Display;
   text-align: center;
-  font: normal normal bold 96px/128px SF Pro Display;
+  font: normal normal bold 99px/128px SF Pro Display;
   letter-spacing: 18.72px;
   color: #5e5e5e;
   text-transform: uppercase;
   position: absolute;
-  left: 300px;
+  left: 250px;
   top: 150px;
   z-index: 10;
 }
@@ -611,28 +611,30 @@
 }
 
 .video {
-  height: 570px;
+  max-height: 600px;
   border: 1px red solid;
   position: relative;
   display: flex;
   justify-content: space-between;
-  margin-top: 233px;
+  margin-top: 80px;
 }
 .video .video1 {
-  border: 2px #ff009d solid;
-  width: 164px;
-  height: 466px;
+  border: 2px #e5ff00 solid;
+  width: 120px;
+  margin-top: 60px;
+  height: 366px;
 }
 .video .video1 div {
   transform: rotate(90deg);
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 123px/164px SF Pro Display;
   text-align: center;
-  font: normal normal bold 123px/164px SF Pro Display;
+  font: normal normal bold 8vw/164px SF Pro Display;
   letter-spacing: 23.98px;
   color: #5e5e5e;
   text-transform: uppercase;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 2px;
+  border: #17b241 2px solid;
 }
 .video .video2 {
   position: absolute;
@@ -1101,21 +1103,19 @@
   background-image: url("../Images/Group 13.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 830px;
 }
 
 .slide-show {
   position: relative;
 }
 .slide-show .slider-content {
-  max-width: 329px;
-  min-height: 399px;
+  max-width: 28vw;
   border-left: 10px solid #f60000;
   border-top: 10px solid #f60000;
   border-bottom: 10px solid #f60000;
   position: absolute;
-  top: 215px;
-  left: 220px;
+  top: 115px;
+  left: 17vw;
 }
 .slide-show .slider-content .slider-content-sub1 {
   border-right: 10px #f60000 solid;
@@ -1136,9 +1136,9 @@
   min-height: 44px;
   border-left: 3px solid #f60000;
   border-bottom: 3px solid #f60000;
-  position: absolute;
-  left: 13px;
-  bottom: 40px;
+  position: relative;
+  left: -7px;
+  bottom: 15px;
 }
 .slide-show .slider-content .slider-content-sub div:nth-child(1) {
   margin-top: 31.5px;
@@ -1152,13 +1152,12 @@
   color: #ffffff;
 }
 .slide-show .slider-content .slider-content-sub div:nth-child(2) {
-  width: 600px;
+  width: 47vw;
   min-height: 132px;
-  outline: 2px #ccc8c8 solid;
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 99px/132px Futura;
   letter-spacing: var(--unnamed-character-spacing-0);
   text-align: left;
-  font: normal normal bold 99px/132px Futura;
+  font: normal normal bold 7vw/132px Futura;
   letter-spacing: 0px;
   color: #ffffff;
   text-transform: capitalize;
@@ -1176,11 +1175,16 @@
 }
 .slide-show .slider-content .slider-content-sub div:nth-child(4) {
   position: relative;
-  max-width: 189px;
+  width: 189px;
   min-height: 57px;
   border: 1px solid #ffffff;
+  justify-content: center;
+  margin-bottom: -20px;
 }
 .slide-show .slider-content .slider-content-sub div:nth-child(4) #join-text {
+  cursor: pointer;
+  position: relative;
+  bottom: 13px;
   font: var(--unnamed-font-style-normal) normal 300 20px/27px SF Pro Display;
   letter-spacing: var(--unnamed-character-spacing-0);
   text-align: center;
@@ -1188,10 +1192,6 @@
   letter-spacing: 0px;
   color: #ffffff;
   text-transform: uppercase;
-  position: absolute;
-  bottom: 5px;
-  left: -5px;
-  cursor: pointer;
 }
 
 @media only screen and (max-width: 1178px) {
@@ -1247,7 +1247,9 @@
     flex-direction: column;
   }
   .video .video1 {
+    margin-left: 80px;
     transform: rotate(-90deg);
+    width: 74px;
   }
 }
 @media screen and (max-width: 700px) {
@@ -1280,6 +1282,11 @@
   }
   .header .info-header {
     justify-content: center;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .video {
+    height: 450px;
   }
 }
 

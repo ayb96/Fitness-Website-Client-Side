@@ -4,9 +4,12 @@ export default function ChooseUs() {
   return (
     <div className="chooseus">
       <div className="main-content">
-        <div className="box1">WHY CHOOSE US</div>
+        <div className="box1">
+          {/* <div style={{zIndex:"20"}}>WHY CHOOSE US</div> */}
+          <div className="box2">FEATURES</div>
+        </div>
         <div className="line1"></div>
-        {/* <div className="box2">FEATURES</div> */}
+
         <div className="box3">
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
           nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.

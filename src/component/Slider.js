@@ -77,16 +77,16 @@ export default function Slider() {
 
   return (
     <div className="slide-show" style={{ border: "1px red solid" }}>
-      <Slide style={{ height: "830px" }} {...properties}>
+      <Slide style={{ height: "630px" }} {...properties}>
         {slideImages.map((obj, index) => {
           return (
             <div
               key={obj.index}
               className="each-slide slider"
-              style={{ height: "830px" }}
+              style={{ height: "630px" }}
             ></div>
           );
-        })}
+        })}0.
       </Slide>
       <div className="slider-content">
         <div className="slider-content-sub1"></div>

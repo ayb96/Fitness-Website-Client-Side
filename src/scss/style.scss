@@ -6,7 +6,6 @@ $primary: #ff0000;
 }
 .dFlex {
   display: flex;
-
   align-items: center;
 }
 .ViewPortWidth {
@@ -169,15 +168,13 @@ $primary: #ff0000;
 
 .Category {
   display: grid;
-  grid-template-columns: 1.7fr 1fr 1.7fr;
+  grid-template-columns: 1.3fr 1fr 1.3fr;
   grid-template-areas: "box1 box2 box3";
   grid-auto-rows: 391px;
   .progression {
     @extend .dFlex;
     position: relative;
     justify-content: flex-end;
-    // width: 672px;
-    // height: 391px;
     grid-area: box1;
     background: hsl(0, 0%, 13%) 0% 0% no-repeat padding-box;
     .back-image {
@@ -552,12 +549,12 @@ $primary: #ff0000;
       font: var(--unnamed-font-style-normal) normal
         var(--unnamed-font-weight-bold) 96px/128px SF Pro Display;
       text-align: center;
-      font: normal normal bold 96px/128px SF Pro Display;
+      font: normal normal bold 99px/128px SF Pro Display;
       letter-spacing: 18.72px;
       color: #5e5e5e;
       text-transform: uppercase;
       position: absolute;
-      left: 300px;
+      left: 250px;
       top: 150px;
       z-index: 10;
     }
@@ -747,29 +744,30 @@ $primary: #ff0000;
 //////////////////// Video Section ////////////////////
 
 .video {
-  // width: 1920px;
-  height: 570px;
+  max-height: 600px;
   border: 1px red solid;
   position: relative;
   display: flex;
   justify-content: space-between;
-  margin-top: 233px;
+  margin-top: 80px;
   .video1 {
-    border: 2px rgb(255, 0, 157) solid;
-    width: 164px;
-    height: 466px;
+    border: 2px rgb(229, 255, 0) solid;
+    width: 120px;
+    margin-top: 60px;
+    height: 366px;
 
     div {
       transform: rotate(90deg);
       font: var(--unnamed-font-style-normal) normal
         var(--unnamed-font-weight-bold) 123px/164px SF Pro Display;
       text-align: center;
-      font: normal normal bold 123px/164px SF Pro Display;
+      font: normal normal bold 8vw/164px SF Pro Display;
       letter-spacing: 23.98px;
       color: #5e5e5e;
       text-transform: uppercase;
       -webkit-text-fill-color: transparent;
       -webkit-text-stroke-width: 2px;
+      border: #17b241 2px solid;
     }
   }
   .video2 {
@@ -1358,19 +1356,19 @@ $primary: #ff0000;
   background-repeat: no-repeat;
   background-size: cover;
 
-  height: 830px;
+  // height: 630px;
 }
 .slide-show {
   position: relative;
   .slider-content {
-    max-width: 329px;
-    min-height: 399px;
+    max-width: 28vw;
+    // min-height: 40vw;
     border-left: 10px solid #f60000;
     border-top: 10px solid #f60000;
     border-bottom: 10px solid #f60000;
     position: absolute;
-    top: 215px;
-    left: 220px;
+    top: 115px;
+    left: 17vw;
     .slider-content-sub1 {
       border-right: 10px #f60000 solid;
       min-height: 20px;
@@ -1389,9 +1387,9 @@ $primary: #ff0000;
         min-height: 44px;
         border-left: 3px solid #f60000;
         border-bottom: 3px solid #f60000;
-        position: absolute;
-        left: 13px;
-        bottom: 40px;
+        position: relative;
+        left: -7px;
+        bottom: 15px;
       }
       div:nth-child(1) {
         margin-top: 31.5px;
@@ -1406,14 +1404,14 @@ $primary: #ff0000;
         color: #ffffff;
       }
       div:nth-child(2) {
-        width: 600px;
+        width: 47vw;
         min-height: 132px;
-        outline: 2px rgb(204, 200, 200) solid;
+        // outline: 2px rgb(204, 200, 200) solid;
         font: var(--unnamed-font-style-normal) normal
           var(--unnamed-font-weight-bold) 99px/132px Futura;
         letter-spacing: var(--unnamed-character-spacing-0);
         text-align: left;
-        font: normal normal bold 99px/132px Futura;
+        font: normal normal bold 7vw/132px Futura;
         letter-spacing: 0px;
         color: #ffffff;
         text-transform: capitalize;
@@ -1432,11 +1430,16 @@ $primary: #ff0000;
       }
       div:nth-child(4) {
         position: relative;
-        max-width: 189px;
+        width: 189px;
         min-height: 57px;
         border: 1px solid #ffffff;
-
+        @extend .dFlex;
+        justify-content: center;
+        margin-bottom: -20px;
         #join-text {
+          cursor: pointer;
+          position: relative;
+          bottom: 13px;
           font: var(--unnamed-font-style-normal) normal 300 20px/27px SF Pro
             Display;
           letter-spacing: var(--unnamed-character-spacing-0);
@@ -1445,10 +1448,6 @@ $primary: #ff0000;
           letter-spacing: 0px;
           color: #ffffff;
           text-transform: uppercase;
-          position: absolute;
-          bottom: 5px;
-          left: -5px;
-          cursor: pointer;
         }
       }
     }
@@ -1523,7 +1522,9 @@ $primary: #ff0000;
     display: flex;
     flex-direction: column;
     .video1 {
+      margin-left: 80px;
       transform: rotate(-90deg);
+      width: 74px;
       div {
       }
     }
@@ -1564,6 +1565,13 @@ $primary: #ff0000;
     }
     .info-header {
       justify-content: center;
+    }
+  }
+}
+@media only screen and (max-width: 400px) {
+  .video {
+    height: 450px;
+    .video1 {
     }
   }
 }

@@ -1099,6 +1099,18 @@
   color: #ffffff;
 }
 
+.leftarrown-container {
+  width: 70px;
+  margin-right: -30px;
+  position: absolute;
+}
+.leftarrown-container .leftarrown {
+  margin-left: 20px;
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+}
+
 .slider {
   background-image: url("../Images/Group 13.png");
   background-repeat: no-repeat;

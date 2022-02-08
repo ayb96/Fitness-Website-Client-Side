@@ -15,19 +15,12 @@ export default function Slider() {
     infinite: true,
     prevArrow: (
       <div
-        style={{
-          width: "70px",
-          marginRight: "-30px",
-          border: "1px re solid",
-          position: "absolute",
-        }}
+      className="leftarrown-container"
+       
       >
         <svg
-          style={{
-            marginLeft: "20px",
-            cursor: "pointer",
-            border: "2px red solid",
-          }}
+          
+          className="leftarrown"
           xmlns="http://www.w3.org/2000/svg"
           width="13"
           height="21"
@@ -47,13 +40,10 @@ export default function Slider() {
       <div
         style={{
           width: "70px",
-          //   padding: "5px",
-          //   backgroundColor:"#7e7e7e",
-          //   border: "2px #7e7e7e solid",
+          
           position: "absolute",
           right: "0",
 
-          //   borderRadius: "50%",
         }}
       >
         <svg
@@ -86,7 +76,7 @@ export default function Slider() {
               style={{ height: "630px" }}
             ></div>
           );
-        })}0.
+        })}
       </Slide>
       <div className="slider-content">
         <div className="slider-content-sub1"></div>

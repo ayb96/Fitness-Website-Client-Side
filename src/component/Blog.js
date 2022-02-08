@@ -2,7 +2,7 @@ import React from "react";
 import CalendarTodayIcon from "@mui/icons-material/CalendarToday";
 import MessageIcon from "@mui/icons-material/Message";
 import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
-import nutrition2Icon from "../Images/Rectangle 32.png";
+
 export default function Blog() {
   return (
     <div className="blog">

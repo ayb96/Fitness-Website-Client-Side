@@ -407,7 +407,7 @@
 
 .chooseus {
   position: relative;
-  min-height: 908px;
+  min-height: 650px;
   justify-content: center;
   background: #111111 0% 0% no-repeat padding-box;
 }
@@ -468,6 +468,7 @@
   justify-content: center;
   flex-wrap: wrap;
   width: 100%;
+  margin-top: -50px;
 }
 .chooseus .main-content .box4 .tops {
   flex-direction: column;
@@ -612,16 +613,14 @@
 
 .video {
   max-height: 600px;
-  border: 1px red solid;
   position: relative;
   display: flex;
   justify-content: space-between;
   margin-top: 80px;
 }
 .video .video1 {
-  border: 2px #e5ff00 solid;
   width: 120px;
-  margin-top: 60px;
+  margin-top: 40px;
   height: 366px;
 }
 .video .video1 div {
@@ -634,7 +633,6 @@
   text-transform: uppercase;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 2px;
-  border: #17b241 2px solid;
 }
 .video .video2 {
   position: absolute;
@@ -643,7 +641,8 @@
   height: 37.875rem;
   object-fit: cover;
   left: 164px;
-  bottom: 0;
+  top: 0px;
+  margin-top: 50px;
 }
 .video .video2 img {
   width: 100%;
@@ -660,8 +659,9 @@
 }
 
 .blog {
-  min-height: 1583px;
+  min-height: 1400px;
   flex-direction: column;
+  border: #000000 2px dashed;
   justify-content: center;
 }
 .blog .blog-box {
@@ -709,7 +709,7 @@
 .blog .blog-box .blog2 {
   max-width: 1100px;
   min-height: 75px;
-  margin-top: 59.5px;
+  margin-top: 30px;
   flex-direction: column;
   justify-content: center;
 }
@@ -895,9 +895,8 @@
 }
 
 .subscribe {
-  min-height: 417px;
   background: #eeeeee 0% 0% no-repeat padding-box;
-  margin-top: 309px;
+  margin-top: 109px;
 }
 .subscribe .subscribe-box {
   max-width: 70rem;
@@ -977,7 +976,7 @@
   margin-top: 50px;
 }
 .footer .footer1 {
-  min-height: 462px;
+  min-height: 400px;
   background: #111111 0% 0% no-repeat padding-box;
   justify-content: center;
 }
@@ -1231,7 +1230,6 @@
   }
 
   .Category {
-    grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: "box1" "box2" "box3";
   }
   .Category .progression {
@@ -1257,11 +1255,16 @@
   .video {
     display: flex;
     flex-direction: column;
+    margin-top: 0px;
   }
   .video .video1 {
     margin-left: 80px;
     transform: rotate(-90deg);
     width: 74px;
+    margin-top: 0px;
+  }
+  .video .video2 {
+    display: none;
   }
 }
 @media screen and (max-width: 700px) {
@@ -1298,7 +1301,7 @@
 }
 @media only screen and (max-width: 400px) {
   .video {
-    height: 450px;
+    height: 350px;
   }
 }
 

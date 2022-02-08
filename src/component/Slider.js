@@ -66,7 +66,7 @@ export default function Slider() {
   };
 
   return (
-    <div className="slide-show" style={{ border: "1px red solid" }}>
+    <div className="slide-show">
       <Slide style={{ height: "630px" }} {...properties}>
         {slideImages.map((obj, index) => {
           return (

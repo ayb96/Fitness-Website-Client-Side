@@ -5,9 +5,9 @@ export default function ChooseUs() {
     <div className="chooseus">
       <div className="main-content">
         <div className="box1">
-          {/* <div style={{zIndex:"20"}}>WHY CHOOSE US</div> */}
-          <div className="box2">FEATURES</div>
+          <div >WHY CHOOSE US</div>
         </div>
+        {/* <div className="box2">FEATURES</div> */}
         <div className="line1"></div>
 
         <div className="box3">

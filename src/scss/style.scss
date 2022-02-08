@@ -508,7 +508,7 @@ $primary: #ff0000;
 .chooseus {
   position: relative;
 
-  min-height: 908px;
+  min-height:650px;
 
   @extend .dFlex;
   justify-content: center;
@@ -576,6 +576,7 @@ $primary: #ff0000;
       flex-wrap: wrap;
       // border: #ff0000 2px solid;
       width: 100%;
+      margin-top: -50px;
 
       .tops {
         @extend .dFlex;
@@ -745,15 +746,15 @@ $primary: #ff0000;
 
 .video {
   max-height: 600px;
-  border: 1px red solid;
+  // border: 1px red solid;
   position: relative;
   display: flex;
   justify-content: space-between;
   margin-top: 80px;
   .video1 {
-    border: 2px rgb(229, 255, 0) solid;
+    // border: 2px rgb(229, 255, 0) solid;
     width: 120px;
-    margin-top: 60px;
+    margin-top: 40px;
     height: 366px;
 
     div {
@@ -767,7 +768,7 @@ $primary: #ff0000;
       text-transform: uppercase;
       -webkit-text-fill-color: transparent;
       -webkit-text-stroke-width: 2px;
-      border: #17b241 2px solid;
+      // border: #17b241 2px solid;
     }
   }
   .video2 {
@@ -776,13 +777,15 @@ $primary: #ff0000;
     max-width: 54.688rem;
     height: 37.875rem;
     object-fit: cover;
+    left: 164px;
+    top:0px;
+    margin-top: 50px;
+
     img {
       width: 100%;
-      // height: 100%;
     }
 
-    left: 164px;
-    bottom: 0;
+    
   }
   .video3 {
     border: 2px black dotted;
@@ -803,10 +806,10 @@ $primary: #ff0000;
 
 .blog {
   // width: 1920px;
-  min-height: 1583px;
+  min-height: 1400px;
   @extend .dFlex;
   flex-direction: column;
-  // border: #000000 2px dashed;
+  border: #000000 2px dashed;
 
   justify-content: center;
   .blog-box {
@@ -862,7 +865,7 @@ $primary: #ff0000;
       max-width: 1100px;
       min-height: 75px;
       // border: #000000 dotted 1px;
-      margin-top: 59.5px;
+      margin-top: 30px;
       @extend .dFlex;
       flex-direction: column;
       justify-content: center;
@@ -1090,9 +1093,9 @@ $primary: #ff0000;
 //////////////////// Subscribe Section ////////////////////
 
 .subscribe {
-  min-height: 417px;
+  // min-height: 400px;
   background: #eeeeee 0% 0% no-repeat padding-box;
-  margin-top: 309px;
+  margin-top: 109px;
 
   .subscribe-box {
     // border: 1px red solid;
@@ -1194,7 +1197,7 @@ $primary: #ff0000;
   margin-top: 50px;
 
   .footer1 {
-    min-height: 462px;
+    min-height: 400px;
     background: #111111 0% 0% no-repeat padding-box;
     @extend .dFlex;
     justify-content: center;
@@ -1353,12 +1356,10 @@ $primary: #ff0000;
 .leftarrown-container {
   width: 70px;
   margin-right: -30px;
-
   position: absolute;
   .leftarrown {
     margin-left: 20px;
     cursor: pointer;
-
     width: 25px;
     height: 25px;
   }
@@ -1368,8 +1369,6 @@ $primary: #ff0000;
   background-image: url("../Images/Group 13.png");
   background-repeat: no-repeat;
   background-size: cover;
-
-  // height: 630px;
 }
 .slide-show {
   position: relative;
@@ -1419,7 +1418,6 @@ $primary: #ff0000;
       div:nth-child(2) {
         width: 47vw;
         min-height: 132px;
-        // outline: 2px rgb(204, 200, 200) solid;
         font: var(--unnamed-font-style-normal) normal
           var(--unnamed-font-weight-bold) 99px/132px Futura;
         letter-spacing: var(--unnamed-character-spacing-0);
@@ -1475,13 +1473,6 @@ $primary: #ff0000;
     margin-top: 50px;
     margin-bottom: 10px;
   }
-  // .reviews {
-  //   .reviews-box {
-  //     .first-box {
-  //       // margin: 0px;
-  //     }
-  //   }
-  // }
 }
 
 @media only screen and (max-width: 1053px) {
@@ -1503,7 +1494,7 @@ $primary: #ff0000;
       "nav nav";
   }
   .Category {
-    grid-template-columns: 1fr 1fr 1fr;
+    // grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
       "box1"
       "box2"
@@ -1534,10 +1525,17 @@ $primary: #ff0000;
   .video {
     display: flex;
     flex-direction: column;
+    margin-top: 0px;
+    
     .video1 {
       margin-left: 80px;
       transform: rotate(-90deg);
       width: 74px;
+      margin-top: 0px;
+    }
+    
+    .video2 {
+      display: none;
     }
   }
 }
@@ -1581,6 +1579,6 @@ $primary: #ff0000;
 }
 @media only screen and (max-width: 400px) {
   .video {
-    height: 450px;
+    height: 350px;
   }
 }

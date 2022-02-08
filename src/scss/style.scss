@@ -349,7 +349,7 @@ $primary: #ff0000;
     flex-wrap: wrap;
     .first-box {
       // margin-right: 147px;
-      margin: 0 20px 0 20px;
+      margin: 0 20px 30px 20px;
       position: relative;
       // border: red 2px solid;
       .box1 {
@@ -788,7 +788,7 @@ $primary: #ff0000;
     
   }
   .video3 {
-    border: 2px black dotted;
+    // border: 2px black dotted;
     max-width: 944px;
     height: 465px;
 
@@ -809,7 +809,7 @@ $primary: #ff0000;
   min-height: 1400px;
   @extend .dFlex;
   flex-direction: column;
-  border: #000000 2px dashed;
+  // border: #000000 2px dashed;
 
   justify-content: center;
   .blog-box {

@@ -1199,6 +1199,11 @@
   .header .header-logo {
     width: 100%;
   }
+
+  .chooseus .main-content {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
 }
 @media only screen and (max-width: 950px) {
   .header {

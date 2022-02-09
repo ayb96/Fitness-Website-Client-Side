@@ -1,9 +1,26 @@
-import React from "react";
+import React, { useEffect } from "react";
 import CalendarTodayIcon from "@mui/icons-material/CalendarToday";
 import MessageIcon from "@mui/icons-material/Message";
 import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
 
 export default function Blog() {
+  useEffect(() => {
+    var btnContainer = document.getElementById("hovering");
+    console.log(btnContainer);
+    var btns = btnContainer.getElementsByClassName("btnz");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function () {
+        var current = document.getElementsByClassName("activate");
+        current[0].className = current[0].className.replace(" activate");
+        this.className += " activate";
+      });
+    }
+    console.log(btns);
+  }, []);
+
+  //
+
+  // console.log(btnContainer);
   return (
     <div className="blog">
       <div className="blog-box">
@@ -16,18 +33,18 @@ export default function Blog() {
           </div>
         </div>
         <div className="blog2">
-          <div className="blog2-box">
-            <div className="blog21">
-              <div>The Weekend Break</div>
+          <div id="hovering" className="blog2-box">
+            <div className="btnz activate">
+              <div className="blog21">The Weekend Break</div>
             </div>
-            <div className="blog22">
-              <div>The Package Holiday</div>
+            <div className="btnz">
+              <div className="blog21">The Package Holiday</div>
             </div>
-            <div className="blog23">
-              <div>The Group Package</div>
+            <div className="btnz">
+              <div className="blog21">The Group Package</div>
             </div>
-            <div className="blog24">
-              <div>Annual Package</div>
+            <div className="btnz">
+              <div className="blog21">Annual Package</div>
             </div>
           </div>
         </div>

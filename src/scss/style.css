@@ -721,39 +721,15 @@
 }
 .blog .blog-box .blog2 .blog2-box .blog21 {
   padding: 20px;
-  border-bottom: 5px solid #163235;
+  border-bottom: 1px solid #a7a7a7;
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) 22px/30px Proxima Nova Alt;
   text-align: left;
   font: normal normal 600 22px/30px Proxima Nova Alt;
   letter-spacing: -0.84px;
   color: #163235;
 }
-.blog .blog-box .blog2 .blog2-box .blog22 {
-  border-bottom: 1px solid #a7a7a7;
-  padding: 20px;
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) 22px/30px Proxima Nova Alt;
-  text-align: left;
-  font: normal normal 600 22px/30px Proxima Nova Alt;
-  letter-spacing: -0.84px;
-  color: #000000;
-}
-.blog .blog-box .blog2 .blog2-box .blog23 {
-  padding: 20px;
-  border-bottom: 1px solid #a7a7a7;
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) 22px/30px Proxima Nova Alt;
-  text-align: left;
-  font: normal normal 600 22px/30px Proxima Nova Alt;
-  letter-spacing: -0.84px;
-  color: #000000;
-}
-.blog .blog-box .blog2 .blog2-box .blog24 {
-  padding: 20px;
-  border-bottom: 1px solid #a7a7a7;
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) 22px/30px Proxima Nova Alt;
-  text-align: left;
-  font: normal normal 600 22px/30px Proxima Nova Alt;
-  letter-spacing: -0.84px;
-  color: #000000;
+.blog .blog-box .blog2 .blog2-box .activate {
+  border-bottom: 5px solid #163235;
 }
 .blog .blog3 {
   max-width: 1100px;

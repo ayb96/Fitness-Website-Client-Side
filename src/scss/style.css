@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.dFlex, .slide-show .slider-content .slider-content-sub div:nth-child(4), .footer .footer2, .footer .footer1, .subscribe .subscribe-box .subscribe-subbox .subscribe-subbox2, .subscribe .subscribe-box .subscribe-subbox, .subscribe .subscribe-box, .blog .blog3 .blog3-box .blog3-info .blog3-info4, .blog .blog3 .blog3-box .blog3-info .blog3-info1, .blog .blog3, .blog .blog-box .blog2, .blog .blog-box .blog1, .blog .blog-box, .blog, .chooseus .main-content .box4 .accessories, .chooseus .main-content .box4 .hoodies, .chooseus .main-content .box4 .bottoms, .chooseus .main-content .box4 .tops, .chooseus .main-content .box4, .chooseus .main-content, .chooseus, .reviews .reviews-box .review-img-box, .reviews .reviews-box .first-box .box7, .reviews .reviews-box .first-box .box5, .reviews .reviews-box, .reviews, .Category .nutrition .nutrition-box, .Category .nutrition, .Category .workout .workout-box, .Category .workout, .Category .progression .progression-box .progression-box1, .Category .progression, .header .top-header .social-icon, .header .top-header .info-header .info-header2, .header .top-header .info-header .info-header1, .header .top-header .info-header, .header .top-header, .header .header-logo {
+.dFlex, .mySwiper .swiper-box, .slide-show .slider-content .slider-content-sub div:nth-child(4), .footer .footer2, .footer .footer1, .subscribe .subscribe-box .subscribe-subbox .subscribe-subbox2, .subscribe .subscribe-box .subscribe-subbox, .subscribe .subscribe-box, .blog .blog3 .blog3-box .blog3-info .blog3-info4, .blog .blog3 .blog3-box .blog3-info .blog3-info1, .blog .blog3, .blog .blog-box .blog2, .blog .blog-box .blog1, .blog .blog-box, .blog, .chooseus .main-content .box4 .accessories, .chooseus .main-content .box4 .hoodies, .chooseus .main-content .box4 .bottoms, .chooseus .main-content .box4 .tops, .chooseus .main-content .box4, .chooseus .main-content, .chooseus, .reviews .reviews-box .review-img-box, .reviews .reviews-box .first-box .box7, .reviews .reviews-box .first-box .box5, .reviews .reviews-box, .reviews, .Category .nutrition .nutrition-box, .Category .nutrition, .Category .workout .workout-box, .Category .workout, .Category .progression .progression-box .progression-box1, .Category .progression, .header .top-header .social-icon, .header .top-header .info-header .info-header2, .header .top-header .info-header .info-header1, .header .top-header .info-header, .header .top-header, .header .header-logo {
   display: flex;
   align-items: center;
 }
@@ -485,8 +485,6 @@
   background: #2a2a2a 0% 0% no-repeat padding-box;
 }
 .chooseus .main-content .box4 .tops .tops1 {
-  width: 54px;
-  height: 30px;
   margin-bottom: 21px;
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 22px/30px Futura;
   letter-spacing: var(--unnamed-character-spacing-0);
@@ -1183,6 +1181,61 @@
   letter-spacing: 0px;
   color: #ffffff;
   text-transform: uppercase;
+}
+
+.mySwiper {
+  max-width: 70rem;
+}
+.mySwiper .swiper-box {
+  border: 2px red solid;
+  height: 16rem;
+  background-color: #2a2a2a;
+  width: 16rem;
+  padding: 16px;
+  flex-direction: column;
+  justify-content: center;
+}
+.mySwiper .swiper-box .tops1 {
+  margin-bottom: 0.7rem;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 22px/30px Futura;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: center;
+  font: normal normal bold 1rem/30px Futura;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.mySwiper .swiper-box .tops2 {
+  width: 91px;
+  height: 99px;
+  margin-bottom: 23.5px;
+  background: transparent url("../Images/Group 22.svg") 0% 0% no-repeat padding-box;
+}
+.mySwiper .swiper-box .bottoms2 {
+  margin-bottom: 23px;
+  width: 56px;
+  height: 99px;
+  background: transparent url("../Images/Group 22(1).svg") 0% 0% no-repeat padding-box;
+}
+.mySwiper .swiper-box .hoodies2 {
+  margin-bottom: 23px;
+  width: 85px;
+  height: 98px;
+  background: transparent url("../Images/Group 22(2).svg") 0% 0% no-repeat padding-box;
+}
+.mySwiper .swiper-box .accessories2 {
+  margin-bottom: 23px;
+  width: 100px;
+  height: 98px;
+  background: transparent url("../Images/Group 22(3).svg") 0% 0% no-repeat padding-box;
+}
+.mySwiper .swiper-box .tops3 {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-18)/28px Futura;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: center;
+  font: normal normal medium 18px/28px Futura;
+  letter-spacing: 0px;
+  color: #d1d1d1;
 }
 
 @media only screen and (max-width: 1178px) {

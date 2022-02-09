@@ -575,8 +575,8 @@ $primary: #ff0000;
         margin: 10px;
         background: #2a2a2a 0% 0% no-repeat padding-box;
         .tops1 {
-          width: 54px;
-          height: 30px;
+          // width: 54px;
+          // height: 30px;
           margin-bottom: 21px;
           font: var(--unnamed-font-style-normal) normal
             var(--unnamed-font-weight-bold) 22px/30px Futura;
@@ -843,7 +843,7 @@ $primary: #ff0000;
     .blog2 {
       max-width: 1100px;
       min-height: 75px;
- 
+
       margin-top: 30px;
       @extend .dFlex;
       flex-direction: column;
@@ -878,13 +878,12 @@ $primary: #ff0000;
   }
   .blog3 {
     max-width: 1100px;
-  
+
     @extend .dFlex;
     justify-content: space-around;
     flex-wrap: wrap;
 
     .blog3-box {
-   
       max-width: 320px;
       min-height: 300px;
       margin: 10px;
@@ -895,7 +894,7 @@ $primary: #ff0000;
         background-size: 100% 100%;
         box-shadow: 0px 6px 25px #0000000f;
         border-radius: 20px;
-       
+
         position: relative;
 
         .blog3-img1-date {
@@ -922,7 +921,7 @@ $primary: #ff0000;
           no-repeat padding-box;
         box-shadow: 0px 6px 25px #0000000f;
         border-radius: 20px;
-  
+
         position: relative;
         .blog3-img1-date {
           width: 66px;
@@ -949,7 +948,7 @@ $primary: #ff0000;
           no-repeat padding-box;
         box-shadow: 0px 6px 25px #0000000f;
         border-radius: 20px;
-       
+
         .blog3-img1-date {
           width: 66px;
           height: 63px;
@@ -969,7 +968,6 @@ $primary: #ff0000;
       }
       .blog3-info {
         .blog3-info1 {
-       
           @extend .dFlex;
           justify-content: space-around;
           flex-wrap: wrap;
@@ -995,7 +993,6 @@ $primary: #ff0000;
           }
         }
         .blog3-info2 {
-    
           max-width: 384px;
           min-height: 45px;
           font: var(--unnamed-font-style-normal) normal
@@ -1043,12 +1040,10 @@ $primary: #ff0000;
 //////////////////// Subscribe Section ////////////////////
 
 .subscribe {
-
   background: #eeeeee 0% 0% no-repeat padding-box;
   margin-top: 109px;
 
   .subscribe-box {
-
     max-width: 70rem;
     margin: auto;
     min-height: 427px;
@@ -1063,7 +1058,7 @@ $primary: #ff0000;
     .subscribe-subbox {
       max-width: 70rem;
       min-height: 244px;
- 
+
       margin: 20px;
       @extend .dFlex;
       flex-wrap: wrap;
@@ -1099,7 +1094,6 @@ $primary: #ff0000;
         }
       }
       .subscribe-subbox1 {
-
         max-width: 600px;
         min-height: 244px;
         margin-bottom: 1rem;
@@ -1126,7 +1120,6 @@ $primary: #ff0000;
         margin-bottom: 24px;
       }
       .subscribe-subbox13 {
- 
         font: var(--unnamed-font-style-normal) normal
           var(--unnamed-font-weight-normal) var(--unnamed-font-size-18) /
           var(--unnamed-line-spacing-24) Futura;
@@ -1152,7 +1145,6 @@ $primary: #ff0000;
     justify-content: center;
     .footer-main {
       display: flex;
-
 
       flex-wrap: wrap;
       .footer11 {
@@ -1241,15 +1233,12 @@ $primary: #ff0000;
         }
       }
       .footer12 {
-
         display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
 
         .footer12-box1 {
-
-
           h1 {
             font: var(--unnamed-font-style-normal) normal
               var(--unnamed-font-weight-medium) var(--unnamed-font-size-24) /
@@ -1276,7 +1265,6 @@ $primary: #ff0000;
             margin-bottom: 29px;
             margin-left: 80px;
             margin-right: 80px;
-
           }
         }
       }
@@ -1413,6 +1401,73 @@ $primary: #ff0000;
   }
 }
 
+.mySwiper {
+  max-width: 70rem;
+  
+  .swiper-box {
+    border: 2px red solid;
+    height: 16rem;
+    background-color: #2a2a2a;
+    width: 16rem;
+    padding: 16px;
+    @extend .dFlex;
+    flex-direction: column;
+    justify-content: center;
+    .tops1 {
+      // width: 54px;
+      // height: 30px;
+      margin-bottom: 0.7rem;
+      font: var(--unnamed-font-style-normal) normal
+        var(--unnamed-font-weight-bold) 22px/30px Futura;
+      letter-spacing: var(--unnamed-character-spacing-0);
+      text-align: center;
+      font: normal normal bold 1rem/30px Futura;
+      letter-spacing: 0px;
+      color: #ffffff;
+      text-transform: uppercase;
+    }
+    .tops2 {
+      width: 91px;
+      height: 99px;
+      margin-bottom: 23.5px;
+      background: transparent url("../Images/Group 22.svg") 0% 0% no-repeat
+        padding-box;
+    }
+    .bottoms2 {
+      margin-bottom: 23px;
+      width: 56px;
+      height: 99px;
+      background: transparent url("../Images/Group 22(1).svg") 0% 0% no-repeat
+        padding-box;
+    }
+    .hoodies2 {
+      margin-bottom: 23px;
+      width: 85px;
+      height: 98px;
+      background: transparent url("../Images/Group 22(2).svg") 0% 0% no-repeat
+        padding-box;
+    }
+    .accessories2 {
+      margin-bottom: 23px;
+      width: 100px;
+      height: 98px;
+      background: transparent url("../Images/Group 22(3).svg") 0% 0% no-repeat
+        padding-box;
+    }
+
+    .tops3 {
+      font: var(--unnamed-font-style-normal) normal
+        var(--unnamed-font-weight-medium) var(--unnamed-font-size-18) / 28px
+        Futura;
+      letter-spacing: var(--unnamed-character-spacing-0);
+      text-align: center;
+      font: normal normal medium 18px/28px Futura;
+      letter-spacing: 0px;
+      color: #d1d1d1;
+    }
+  }
+}
+
 @media only screen and (max-width: 1178px) {
   .footer-main {
     justify-content: center;
@@ -1448,7 +1503,6 @@ $primary: #ff0000;
       "nav nav";
   }
   .Category {
- 
     grid-template-areas:
       "box1"
       "box2"

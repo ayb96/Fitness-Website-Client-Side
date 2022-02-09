@@ -1,11 +1,11 @@
 import React from "react";
-
+import SwiperChoose from "./SwiperChoose";
 export default function ChooseUs() {
   return (
     <div className="chooseus">
       <div className="main-content">
         <div className="box1">
-          <div >WHY CHOOSE US</div>
+          <div>WHY CHOOSE US</div>
         </div>
         {/* <div className="box2">FEATURES</div> */}
         <div className="line1"></div>
@@ -15,7 +15,8 @@ export default function ChooseUs() {
           nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
         </div>
         <div className="box4">
-          <div className="tops">
+          <SwiperChoose />
+          {/* <div className="tops">
             <div className="tops1">TOPS</div>
             <div className="tops2"></div>
             <div className="tops3">
@@ -46,7 +47,7 @@ export default function ChooseUs() {
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
               nonumy eirmod tempor.
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

@@ -84,6 +84,7 @@
   cursor: pointer;
 }
 .header .top-header .social-icon div {
+  border-left: #2a2a2a 1px solid;
   height: 100%;
   padding: 10px;
   cursor: pointer;
@@ -722,6 +723,7 @@
 .blog .blog-box .blog2 .blog2-box .blog21 {
   padding: 20px;
   border-bottom: 1px solid #a7a7a7;
+  cursor: pointer;
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) 22px/30px Proxima Nova Alt;
   text-align: left;
   font: normal normal 600 22px/30px Proxima Nova Alt;
@@ -1236,6 +1238,7 @@
     transform: rotate(-90deg);
     width: 74px;
     margin-top: 0px;
+    margin-bottom: -50px;
   }
   .video .video2 {
     display: none;

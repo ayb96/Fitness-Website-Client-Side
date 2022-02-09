@@ -9,6 +9,10 @@
   align-items: center;
 }
 
+.margin-h {
+  margin: 60px 0px 60px 0px;
+}
+
 .ViewPortWidth {
   width: 1920px;
 }

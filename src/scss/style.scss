@@ -8,6 +8,10 @@ $primary: #ff0000;
   display: flex;
   align-items: center;
 }
+.margin-h {
+  margin: 60px 0px 60px 0px;
+}
+
 .ViewPortWidth {
   width: 1920px;
 }
@@ -47,12 +51,10 @@ $primary: #ff0000;
 //////////////////// Header Section ////////////////////
 .header {
   width: 100%;
-  // border: 2px solid red;
 
-  // flex-wrap: wrap;
   display: grid;
   grid-template-columns: 300px 1fr;
-  // grid-auto-rows: 64px;
+
   grid-template-areas:
     "logo top"
     "logo nav";
@@ -62,13 +64,10 @@ $primary: #ff0000;
     cursor: pointer;
     @extend .dFlex;
     justify-content: center;
-    // width: 320px;
-    // height: 128px;
-    // border: 2px #000 dotted;
+
     background-color: #e41c26;
   }
-  // .top-nav-header {
-  // width: 800px;
+
   .top-header {
     grid-area: top;
     min-height: 48px;
@@ -78,10 +77,10 @@ $primary: #ff0000;
     @extend .dFlex;
     justify-content: space-between;
     flex-wrap: wrap;
-    // border: rgb(255, 0, 234) 2px solid;
+
     .info-header {
       @extend .dFlex;
-      // border: rgb(25, 0, 255) 1px solid;
+
       flex-wrap: wrap;
       .info-header1 {
         @extend .dFlex;
@@ -103,7 +102,6 @@ $primary: #ff0000;
       }
     }
     .social-icon {
-      // border: red 1px solid;
       @extend .dFlex;
       div {
         border-left: #2a2a2a 1px solid;
@@ -121,7 +119,6 @@ $primary: #ff0000;
   }
   .nav-header {
     grid-area: nav;
-    // border: #050505 2px solid;
 
     .navbar {
       display: flex;
@@ -189,11 +186,11 @@ $primary: #ff0000;
       width: 254px;
       text-align: center;
       margin-right: 49px;
-      // border: #eeeeee 1px solid;
+
       .progression-box1 {
         @extend .dFlex;
         justify-content: center;
-        // border: #17b241 2px solid;
+
         margin-bottom: 23px;
         div {
           width: 79px;
@@ -203,7 +200,6 @@ $primary: #ff0000;
         }
       }
       .progression-box2 {
-        // border: #17b241 2px solid;
         margin-bottom: 20px;
 
         font: var(--unnamed-font-style-normal) normal
@@ -232,8 +228,7 @@ $primary: #ff0000;
     @extend .dFlex;
     position: relative;
     justify-content: center;
-    // width: 576px;
-    // height: 391px;
+
     grid-area: box2;
     background: #eeeeee 0% 0% no-repeat padding-box;
     .back-image {
@@ -250,7 +245,7 @@ $primary: #ff0000;
       @extend .dFlex;
       flex-direction: column;
       justify-content: center;
-      // border: #eeeeee 1px solid;
+
       .workout-box1 {
         width: 68px;
         height: 68px;
@@ -282,8 +277,7 @@ $primary: #ff0000;
   .nutrition {
     @extend .dFlex;
     position: relative;
-    // width: 672px;
-    // height: 391px;
+
     grid-area: box3;
     background: #e41c26 0% 0% no-repeat padding-box;
     .back-image {
@@ -301,7 +295,7 @@ $primary: #ff0000;
       width: 254px;
       text-align: center;
       margin-right: 50px;
-      // border: #eeeeee 1px solid;
+
       margin-left: 50px;
       .nutrition-box1 {
         width: 52px;
@@ -338,8 +332,7 @@ $primary: #ff0000;
 .reviews {
   @extend .dFlex;
   justify-content: center;
-  // width: 1920px;
-  // border: 2px solid blue;
+
   margin-top: 79px;
   margin-bottom: 79px;
 
@@ -348,10 +341,9 @@ $primary: #ff0000;
     justify-content: center;
     flex-wrap: wrap;
     .first-box {
-      // margin-right: 147px;
       margin: 0 20px 30px 20px;
       position: relative;
-      // border: red 2px solid;
+
       .box1 {
         max-width: 125px;
         min-height: 22px;
@@ -440,7 +432,7 @@ $primary: #ff0000;
       }
       .box6 {
         max-width: 521px;
-        // height: 137px;
+
         font: var(--unnamed-font-style-normal) normal
           var(--unnamed-font-weight-medium) var(--unnamed-font-size-18) / 28px
           Futura;
@@ -482,22 +474,17 @@ $primary: #ff0000;
           padding-box;
         position: absolute;
         right: 0;
-        // bottom: 128.18px;
       }
     }
     .review-img-box {
       max-width: 30rem;
       margin: 0 20px 0 20px;
-      // min-height: 40rem;
-      // border: 2px solid red;
+
       @extend .dFlex;
       justify-content: center;
       .review-img {
-        // background: transparent url("../Images/Group 91.png") 0% 0% no-repeat
-        //   padding-box;
         width: 100%;
         height: 100%;
-        // border: 1px solid blue;
       }
     }
   }
@@ -518,7 +505,7 @@ $primary: #ff0000;
     @extend .dFlex;
     justify-content: center;
     flex-direction: column;
-    // border: #17b241 2px solid;
+
     .line1 {
       width: 186px;
       height: 5px;
@@ -574,7 +561,7 @@ $primary: #ff0000;
       @extend .dFlex;
       justify-content: center;
       flex-wrap: wrap;
-      // border: #ff0000 2px solid;
+
       width: 100%;
       margin-top: -50px;
 
@@ -746,13 +733,12 @@ $primary: #ff0000;
 
 .video {
   max-height: 600px;
-  // border: 1px red solid;
+
   position: relative;
   display: flex;
   justify-content: space-between;
   margin-top: 80px;
   .video1 {
-    // border: 2px rgb(229, 255, 0) solid;
     width: 120px;
     margin-top: 40px;
     height: 366px;
@@ -768,7 +754,6 @@ $primary: #ff0000;
       text-transform: uppercase;
       -webkit-text-fill-color: transparent;
       -webkit-text-stroke-width: 2px;
-      // border: #17b241 2px solid;
     }
   }
   .video2 {
@@ -786,7 +771,6 @@ $primary: #ff0000;
     }
   }
   .video3 {
-    // border: 2px black dotted;
     max-width: 944px;
     height: 465px;
 
@@ -803,11 +787,9 @@ $primary: #ff0000;
 //////////////////// Blog Section ////////////////////
 
 .blog {
-  // width: 1920px;
   min-height: 1400px;
   @extend .dFlex;
   flex-direction: column;
-  // border: #000000 2px dashed;
 
   justify-content: center;
   .blog-box {
@@ -818,7 +800,6 @@ $primary: #ff0000;
 
     max-width: 1283px;
 
-    // border: #1cc6e4 2px solid;
     margin-top: 18.4.5px;
     margin-bottom: 73px;
     .blog1 {
@@ -827,7 +808,7 @@ $primary: #ff0000;
       flex-direction: column;
       max-width: 821px;
       min-height: 158px;
-      // border: #e41c26 2px solid;
+
       .blog11 {
         max-width: 714px;
         min-height: 79px;
@@ -862,7 +843,7 @@ $primary: #ff0000;
     .blog2 {
       max-width: 1100px;
       min-height: 75px;
-      // border: #000000 dotted 1px;
+ 
       margin-top: 30px;
       @extend .dFlex;
       flex-direction: column;
@@ -897,13 +878,13 @@ $primary: #ff0000;
   }
   .blog3 {
     max-width: 1100px;
-    // border: yellow 3px solid;
+  
     @extend .dFlex;
     justify-content: space-around;
     flex-wrap: wrap;
 
     .blog3-box {
-      // border: #181a27 2px solid;
+   
       max-width: 320px;
       min-height: 300px;
       margin: 10px;
@@ -914,7 +895,7 @@ $primary: #ff0000;
         background-size: 100% 100%;
         box-shadow: 0px 6px 25px #0000000f;
         border-radius: 20px;
-        // border: 1px dashed rgb(128, 0, 0);
+       
         position: relative;
 
         .blog3-img1-date {
@@ -941,7 +922,7 @@ $primary: #ff0000;
           no-repeat padding-box;
         box-shadow: 0px 6px 25px #0000000f;
         border-radius: 20px;
-        // border: 1px solid green;
+  
         position: relative;
         .blog3-img1-date {
           width: 66px;
@@ -968,7 +949,7 @@ $primary: #ff0000;
           no-repeat padding-box;
         box-shadow: 0px 6px 25px #0000000f;
         border-radius: 20px;
-        // border: 1px solid green;
+       
         .blog3-img1-date {
           width: 66px;
           height: 63px;
@@ -988,7 +969,7 @@ $primary: #ff0000;
       }
       .blog3-info {
         .blog3-info1 {
-          // border: #17b241 2px solid;
+       
           @extend .dFlex;
           justify-content: space-around;
           flex-wrap: wrap;
@@ -1014,7 +995,7 @@ $primary: #ff0000;
           }
         }
         .blog3-info2 {
-          // border: 2px red solid;
+    
           max-width: 384px;
           min-height: 45px;
           font: var(--unnamed-font-style-normal) normal
@@ -1062,12 +1043,12 @@ $primary: #ff0000;
 //////////////////// Subscribe Section ////////////////////
 
 .subscribe {
-  // min-height: 400px;
+
   background: #eeeeee 0% 0% no-repeat padding-box;
   margin-top: 109px;
 
   .subscribe-box {
-    // border: 1px red solid;
+
     max-width: 70rem;
     margin: auto;
     min-height: 427px;
@@ -1082,7 +1063,7 @@ $primary: #ff0000;
     .subscribe-subbox {
       max-width: 70rem;
       min-height: 244px;
-      // border: 1px rgb(255, 0, 157) solid;
+ 
       margin: 20px;
       @extend .dFlex;
       flex-wrap: wrap;
@@ -1118,7 +1099,7 @@ $primary: #ff0000;
         }
       }
       .subscribe-subbox1 {
-        // border: 1px blue solid;
+
         max-width: 600px;
         min-height: 244px;
         margin-bottom: 1rem;
@@ -1145,8 +1126,7 @@ $primary: #ff0000;
         margin-bottom: 24px;
       }
       .subscribe-subbox13 {
-        // max-width: 650px;
-        // min-height: 55px;
+ 
         font: var(--unnamed-font-style-normal) normal
           var(--unnamed-font-weight-normal) var(--unnamed-font-size-18) /
           var(--unnamed-line-spacing-24) Futura;
@@ -1173,12 +1153,11 @@ $primary: #ff0000;
     .footer-main {
       display: flex;
 
-      // border: rgb(0, 17, 255) solid 2px;
+
       flex-wrap: wrap;
       .footer11 {
         width: 240px;
-        // border: rgb(255, 0, 191) solid 2px;
-        // margin-right: 245px;
+
         .footer11-info {
           .footer11-info3 {
             display: flex;
@@ -1262,14 +1241,14 @@ $primary: #ff0000;
         }
       }
       .footer12 {
-        // border: rgb(123, 255, 0) solid 2px;
+
         display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
 
         .footer12-box1 {
-          // border: 1px red solid;
+
 
           h1 {
             font: var(--unnamed-font-style-normal) normal
@@ -1297,7 +1276,7 @@ $primary: #ff0000;
             margin-bottom: 29px;
             margin-left: 80px;
             margin-right: 80px;
-            // border: 1px red solid;
+
           }
         }
       }
@@ -1343,7 +1322,7 @@ $primary: #ff0000;
   position: relative;
   .slider-content {
     max-width: 28vw;
-    // min-height: 40vw;
+
     border-left: 10px solid #f60000;
     border-top: 10px solid #f60000;
     border-bottom: 10px solid #f60000;
@@ -1469,7 +1448,7 @@ $primary: #ff0000;
       "nav nav";
   }
   .Category {
-    // grid-template-columns: 1fr 1fr 1fr;
+ 
     grid-template-areas:
       "box1"
       "box2"

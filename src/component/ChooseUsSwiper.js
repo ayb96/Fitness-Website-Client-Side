@@ -17,7 +17,7 @@ export default function ChooseUsSwiper() {
     <>
       <Swiper
         slidesPerView={"auto"}
-        // slidesPerView={window.innerWidth > 1268 ? 4 : "auto"}
+        style={{ paddingBottom: "40px" }}
         spaceBetween={30}
         freeMode={true}
         pagination={{

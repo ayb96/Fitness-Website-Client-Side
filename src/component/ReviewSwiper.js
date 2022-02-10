@@ -17,6 +17,7 @@ export default function ReviewSwiper() {
           "--swiper-pagination-color": "#fff",
 
           maxWidth: "500px",
+          // border: "2px red solid",
         }}
         speed={1000}
         parallax={true}
@@ -28,7 +29,10 @@ export default function ReviewSwiper() {
         modules={[Parallax, Pagination, Navigation]}
         className="mySwiper review-swiper"
       >
-        <SwiperSlide>
+        <SwiperSlide
+          className="swiperslide-com"
+          
+        >
           <div className="text" data-swiper-parallax="-100">
             <div className="box1" data-swiper-parallax="-600">
               TESTIMONIAL
@@ -66,7 +70,7 @@ export default function ReviewSwiper() {
             ></div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="swiperslide-com">
           <div className="text" data-swiper-parallax="-100">
             <div className="box1" data-swiper-parallax="-600">
               TESTIMONIAL
@@ -96,7 +100,7 @@ export default function ReviewSwiper() {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="swiperslide-com">
           <div className="text" data-swiper-parallax="-100">
             <div className="box1" data-swiper-parallax="-600">
               TESTIMONIAL

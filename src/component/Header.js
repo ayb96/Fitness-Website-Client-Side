@@ -11,18 +11,16 @@ import SearchIcon from "@mui/icons-material/Search";
 import Rellax from "rellax";
 
 export default function Header() {
- 
-
   const runMe = () => {
     const navbarLinks = document.getElementsByClassName("navbar-links")[0];
     navbarLinks.classList.toggle("active");
   };
   return (
     <div className="header">
-      <div className="header-logoo">
+      <div className="header-logo">
         <img src={logoIcon} alt="LOGO" />
       </div>
-      {/* <div className="top-nav-header"> */}
+
       <div className="top-header">
         <div className="info-header">
           <div className="info-header1">
@@ -105,7 +103,6 @@ export default function Header() {
           </div>
         </nav>
       </div>
-      {/* </div> */}
     </div>
   );
 }

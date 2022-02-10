@@ -12,7 +12,7 @@ import "swiper/css/pagination";
 // import required modules
 import { FreeMode, Pagination } from "swiper";
 
-export default function SwiperChoose() {
+export default function ChooseUsSwiper() {
   return (
     <>
       <Swiper

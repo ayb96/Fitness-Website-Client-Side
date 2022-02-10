@@ -1,10 +1,12 @@
 import React from "react";
 import reviewpic from "../Images/Group 91.png";
+import sliderImage from "../Images/Group 13.png";
+import ReviewSwiper from "./ReviewSwiper";
 export default function Reviews() {
   return (
     <div className="reviews">
       <div className="reviews-box">
-        <div className="first-box">
+        {/* <div className="first-box">
           <div className="box1">TESTIMONIAL</div>
           <div className="box2">Reviews From YOU</div>
           <div className="box"></div>
@@ -29,13 +31,12 @@ export default function Reviews() {
             <div className="box7-box1"></div>
             <div className="box7-box2"></div>
           </div>
-          {/* <div>
-            <div className="review-back-img"></div>
-          </div> */}
-        </div>
+          
+        </div> */}
+        <ReviewSwiper />
+
         <div className="review-img-box">
           <img className="review-img" src={reviewpic} alt="" />
-          {/* <div className="review-img"></div> */}
         </div>
       </div>
     </div>

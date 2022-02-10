@@ -1,5 +1,5 @@
 import React from "react";
-import SwiperChoose from "./SwiperChoose";
+import ChooseUseSwiper from "./ChooseUsSwiper";
 export default function ChooseUs() {
   return (
     <div className="chooseus">
@@ -15,7 +15,7 @@ export default function ChooseUs() {
           nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
         </div>
         <div className="box4">
-          <SwiperChoose />
+          <ChooseUseSwiper />
           {/* <div className="tops">
             <div className="tops1">TOPS</div>
             <div className="tops2"></div>

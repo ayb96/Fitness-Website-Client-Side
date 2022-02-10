@@ -344,129 +344,129 @@ $primary: #ff0000;
       margin: 0 20px 30px 20px;
       position: relative;
 
-      .box1 {
-        max-width: 125px;
-        min-height: 22px;
-        text-align: left;
-        font: var(--unnamed-font-style-normal) normal
-          var(--unnamed-font-weight-bold) 17px/22px SF Pro Display;
-        font: normal normal bold 17px/22px SF Pro Display;
-        letter-spacing: 1.27px;
-        color: #5e5e5e;
-        text-transform: uppercase;
-        opacity: 1;
-      }
-      .box2 {
-        max-width: 383px;
-        min-height: 146px;
-        font: var(--unnamed-font-style-normal) normal
-          var(--unnamed-font-weight-bold) 59px/67px Futura;
-        letter-spacing: var(--unnamed-character-spacing-0);
-        text-align: left;
-        font: normal normal bold 59px/67px Futura;
-        letter-spacing: 0px;
-        color: #000000;
-        text-transform: capitalize;
-      }
-      .box3 {
-        max-width: 105px;
-        min-height: 24px;
-        font: var(--unnamed-font-style-normal) normal
-          var(--unnamed-font-weight-normal) var(--unnamed-font-size-18) /
-          var(--unnamed-line-spacing-24) SF Pro Display;
-        text-align: left;
-        font: normal normal normal 18px/24px SF Pro Display;
-        letter-spacing: 1.35px;
-        color: #7e7e7e;
-        text-transform: capitalize;
-        margin-bottom: 10px;
-      }
-      .box4 {
-        max-width: 300px;
-        min-height: 30px;
-        font: var(--unnamed-font-style-normal) normal
-          var(--unnamed-font-weight-bold) 22px/30px SF Pro Display;
-        text-align: left;
-        font: normal normal bold 22px/30px SF Pro Display;
-        letter-spacing: 1.65px;
-        color: #000000;
-        text-transform: uppercase;
-        margin-bottom: 4px;
-      }
-      .box5 {
-        @extend .dFlex;
-        margin-bottom: 44px;
-        div:nth-child(1) {
-          width: 13px;
-          height: 13px;
-          background: transparent url("../Images/Icon awesome-star.png") 0% 0%
-            no-repeat padding-box;
-        }
-        div {
-          margin-right: 9px;
-        }
-        div:nth-child(2) {
-          width: 13px;
-          height: 13px;
-          background: transparent url("../Images/Icon awesome-star.png") 0% 0%
-            no-repeat padding-box;
-        }
-        div:nth-child(3) {
-          width: 13px;
-          height: 13px;
-          background: transparent url("../Images/Icon awesome-star.png") 0% 0%
-            no-repeat padding-box;
-        }
-        div:nth-child(4) {
-          width: 13px;
-          height: 13px;
-          background: transparent url("../Images/Icon awesome-star.png") 0% 0%
-            no-repeat padding-box;
-        }
-        div:nth-child(5) {
-          width: 13px;
-          height: 13px;
-          background: transparent url("../Images/Icon awesome-star.png") 0% 0%
-            no-repeat padding-box;
-        }
-      }
-      .box6 {
-        max-width: 521px;
+      // .box1 {
+      //   max-width: 125px;
+      //   min-height: 22px;
+      //   text-align: left;
+      //   font: var(--unnamed-font-style-normal) normal
+      //     var(--unnamed-font-weight-bold) 17px/22px SF Pro Display;
+      //   font: normal normal bold 17px/22px SF Pro Display;
+      //   letter-spacing: 1.27px;
+      //   color: #5e5e5e;
+      //   text-transform: uppercase;
+      //   opacity: 1;
+      // }
+      // .box2 {
+      //   max-width: 383px;
+      //   min-height: 146px;
+      //   font: var(--unnamed-font-style-normal) normal
+      //     var(--unnamed-font-weight-bold) 59px/67px Futura;
+      //   letter-spacing: var(--unnamed-character-spacing-0);
+      //   text-align: left;
+      //   font: normal normal bold 59px/67px Futura;
+      //   letter-spacing: 0px;
+      //   color: #000000;
+      //   text-transform: capitalize;
+      // }
+      // .box3 {
+      //   max-width: 105px;
+      //   min-height: 24px;
+      //   font: var(--unnamed-font-style-normal) normal
+      //     var(--unnamed-font-weight-normal) var(--unnamed-font-size-18) /
+      //     var(--unnamed-line-spacing-24) SF Pro Display;
+      //   text-align: left;
+      //   font: normal normal normal 18px/24px SF Pro Display;
+      //   letter-spacing: 1.35px;
+      //   color: #7e7e7e;
+      //   text-transform: capitalize;
+      //   margin-bottom: 10px;
+      // }
+      // .box4 {
+      //   max-width: 300px;
+      //   min-height: 30px;
+      //   font: var(--unnamed-font-style-normal) normal
+      //     var(--unnamed-font-weight-bold) 22px/30px SF Pro Display;
+      //   text-align: left;
+      //   font: normal normal bold 22px/30px SF Pro Display;
+      //   letter-spacing: 1.65px;
+      //   color: #000000;
+      //   text-transform: uppercase;
+      //   margin-bottom: 4px;
+      // }
+      // .box5 {
+      //   @extend .dFlex;
+      //   margin-bottom: 44px;
+      //   div:nth-child(1) {
+      //     width: 13px;
+      //     height: 13px;
+      //     background: transparent url("../Images/Icon awesome-star.png") 0% 0%
+      //       no-repeat padding-box;
+      //   }
+      //   div {
+      //     margin-right: 9px;
+      //   }
+      //   div:nth-child(2) {
+      //     width: 13px;
+      //     height: 13px;
+      //     background: transparent url("../Images/Icon awesome-star.png") 0% 0%
+      //       no-repeat padding-box;
+      //   }
+      //   div:nth-child(3) {
+      //     width: 13px;
+      //     height: 13px;
+      //     background: transparent url("../Images/Icon awesome-star.png") 0% 0%
+      //       no-repeat padding-box;
+      //   }
+      //   div:nth-child(4) {
+      //     width: 13px;
+      //     height: 13px;
+      //     background: transparent url("../Images/Icon awesome-star.png") 0% 0%
+      //       no-repeat padding-box;
+      //   }
+      //   div:nth-child(5) {
+      //     width: 13px;
+      //     height: 13px;
+      //     background: transparent url("../Images/Icon awesome-star.png") 0% 0%
+      //       no-repeat padding-box;
+      //   }
+      // }
+      // .box6 {
+      //   max-width: 521px;
 
-        font: var(--unnamed-font-style-normal) normal
-          var(--unnamed-font-weight-medium) var(--unnamed-font-size-18) / 28px
-          Futura;
-        letter-spacing: var(--unnamed-character-spacing-0);
-        text-align: left;
-        font: normal normal medium 18px/28px Futura;
-        letter-spacing: 0px;
-        color: #7e7e7e;
-      }
-      .box {
-        width: 186px;
-        height: 5px;
-        background: #e41c26 0% 0% no-repeat padding-box;
-        margin-bottom: 46px;
-      }
-      .box7 {
-        @extend .dFlex;
-        margin-top: 11px;
-        .box7-box2 {
-          background: transparent
-            url("../Images/Icon material-keyboard-arrow-right.svg") 0% 0%
-            no-repeat padding-box;
-          width: 8px;
-          height: 12px;
-        }
-        .box7-box1 {
-          background: transparent
-            url("../Images/Icon material-keyboard-arrow-left.svg") 0% 0%
-            no-repeat padding-box;
-          width: 8px;
-          height: 12px;
-          margin-right: 30px;
-        }
-      }
+      //   font: var(--unnamed-font-style-normal) normal
+      //     var(--unnamed-font-weight-medium) var(--unnamed-font-size-18) / 28px
+      //     Futura;
+      //   letter-spacing: var(--unnamed-character-spacing-0);
+      //   text-align: left;
+      //   font: normal normal medium 18px/28px Futura;
+      //   letter-spacing: 0px;
+      //   color: #7e7e7e;
+      // }
+      // .box {
+      //   width: 186px;
+      //   height: 5px;
+      //   background: #e41c26 0% 0% no-repeat padding-box;
+      //   margin-bottom: 46px;
+      // }
+      // .box7 {
+      //   @extend .dFlex;
+      //   margin-top: 11px;
+      //   .box7-box2 {
+      //     background: transparent
+      //       url("../Images/Icon material-keyboard-arrow-right.svg") 0% 0%
+      //       no-repeat padding-box;
+      //     width: 8px;
+      //     height: 12px;
+      //   }
+      //   .box7-box1 {
+      //     background: transparent
+      //       url("../Images/Icon material-keyboard-arrow-left.svg") 0% 0%
+      //       no-repeat padding-box;
+      //     width: 8px;
+      //     height: 12px;
+      //     margin-right: 30px;
+      //   }
+      // }
       .review-back-img {
         width: 152px;
         min-height: 98px;
@@ -1400,12 +1400,12 @@ $primary: #ff0000;
     }
   }
 }
-
+//////////Choose us Slider//////////////
 .mySwiper {
   max-width: 70rem;
-  
+
   .swiper-box {
-    border: 2px red solid;
+    // border: 2px red solid;
     height: 16rem;
     background-color: #2a2a2a;
     width: 16rem;
@@ -1465,6 +1465,109 @@ $primary: #ff0000;
       letter-spacing: 0px;
       color: #d1d1d1;
     }
+  }
+}
+.review-swiper {
+  margin-bottom: 20px;
+  .box1 {
+    
+    max-width: 25px;
+    min-height: 22px;
+    text-align: left;
+    font: var(--unnamed-font-style-normal) normal
+      var(--unnamed-font-weight-bold) 17px/22px SF Pro Display;
+    font: normal normal bold 17px/22px SF Pro Display;
+    letter-spacing: 1.27px;
+    color: #5e5e5e;
+    text-transform: uppercase;
+    // opacity: 1;
+  }
+  .box2 {
+    // background-color: red;
+    max-width: 83px;
+    min-height: 146px;
+    font: var(--unnamed-font-style-normal) normal
+      var(--unnamed-font-weight-bold) 59px/67px Futura;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: left;
+    font: normal normal bold 59px/67px Futura;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: capitalize;
+  }
+  .box3 {
+    max-width: 105px;
+    min-height: 24px;
+    font: var(--unnamed-font-style-normal) normal
+      var(--unnamed-font-weight-normal) var(--unnamed-font-size-18) /
+      var(--unnamed-line-spacing-24) SF Pro Display;
+    text-align: left;
+    font: normal normal normal 18px/24px SF Pro Display;
+    letter-spacing: 1.35px;
+    color: #7e7e7e;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+  }
+  .box4 {
+    max-width: 280px;
+    min-height: 30px;
+    font: var(--unnamed-font-style-normal) normal
+      var(--unnamed-font-weight-bold) 22px/30px SF Pro Display;
+    text-align: left;
+    font: normal normal bold 22px/30px SF Pro Display;
+    letter-spacing: 1.65px;
+    color: #000000;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+  }
+  .box5 {
+    @extend .dFlex;
+    margin-bottom: 44px;
+    div:nth-child(1) {
+      width: 13px;
+      height: 13px;
+      background: transparent url("../Images/Icon awesome-star.png") 0% 0%
+        no-repeat padding-box;
+    }
+    div {
+      margin-right: 9px;
+    }
+    div:nth-child(2) {
+      width: 13px;
+      height: 13px;
+      background: transparent url("../Images/Icon awesome-star.png") 0% 0%
+        no-repeat padding-box;
+    }
+    div:nth-child(3) {
+      width: 13px;
+      height: 13px;
+      background: transparent url("../Images/Icon awesome-star.png") 0% 0%
+        no-repeat padding-box;
+    }
+    div:nth-child(4) {
+      width: 13px;
+      height: 13px;
+      background: transparent url("../Images/Icon awesome-star.png") 0% 0%
+        no-repeat padding-box;
+    }
+    div:nth-child(5) {
+      width: 13px;
+      height: 13px;
+      background: transparent url("../Images/Icon awesome-star.png") 0% 0%
+        no-repeat padding-box;
+    }
+  }
+  .box6 {
+    max-width: 521px;
+
+    font: var(--unnamed-font-style-normal) normal
+      var(--unnamed-font-weight-medium) var(--unnamed-font-size-18) / 28px
+      Futura;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: left;
+    font: normal normal medium 18px/28px Futura;
+    letter-spacing: 0px;
+    color: #7e7e7e;
   }
 }
 

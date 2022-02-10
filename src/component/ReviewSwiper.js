@@ -15,7 +15,7 @@ export default function ReviewSwiper() {
         style={{
           "--swiper-navigation-color": "#fff",
           "--swiper-pagination-color": "#fff",
-          
+
           maxWidth: "500px",
         }}
         speed={1000}
@@ -28,7 +28,6 @@ export default function ReviewSwiper() {
         modules={[Parallax, Pagination, Navigation]}
         className="mySwiper review-swiper"
       >
-     
         <SwiperSlide>
           <div className="text" data-swiper-parallax="-100">
             <div className="box1" data-swiper-parallax="-600">

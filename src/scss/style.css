@@ -547,8 +547,7 @@
   width: 100%;
 }
 .video .video3 {
-  max-width: 944px;
-  height: 465px;
+  width: 1000px;
   z-index: 20;
 }
 .video .video3 .video3-content img {

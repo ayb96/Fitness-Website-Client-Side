@@ -13,21 +13,9 @@ export default function Video() {
       </div>
       <div className="video3">
         <div className="video3-content">
-          {/* <img src={normalpic} alt=""></img>
-          <div className="video32"></div> */}
-          {/* <video width="320" height="240" loop controls autoPlay>
-            <source src="../Videos/review.mp4" type="video/mp4" />
-          </video> */}
-          <Player>
+          <Player className="video-player">
             <source src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4" />
           </Player>
-          {/* <video
-            src="../Videos/review.mp4"
-            width="600"
-            height="300"
-            controls="controls"
-            autoplay="true"
-          /> */}
         </div>
       </div>
     </div>

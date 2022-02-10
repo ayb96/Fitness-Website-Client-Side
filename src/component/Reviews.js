@@ -2,7 +2,17 @@ import React from "react";
 import reviewpic from "../Images/Group 91.png";
 import sliderImage from "../Images/Group 13.png";
 import ReviewSwiper from "./ReviewSwiper";
+import Rellax from "rellax";
 export default function Reviews() {
+  // var rellax = new Rellax(".rellax");
+  var rellax = new Rellax(".rellax", {
+    speed: -2,
+    center: true,
+    wrapper: null,
+    round: true,
+    vertical: true,
+    horizontal: false,
+  });
   return (
     <div className="reviews">
       <div className="reviews-box">
@@ -35,8 +45,8 @@ export default function Reviews() {
         </div> */}
         <ReviewSwiper />
 
-        <div className="review-img-box">
-          <img className="review-img" src={reviewpic} alt="" />
+        <div className="review-img-box rellax" data-rellax-speed="-4">
+          <img className="review-img " src={reviewpic} alt="" />
         </div>
       </div>
     </div>

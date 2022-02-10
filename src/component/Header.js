@@ -16,7 +16,7 @@ export default function Header() {
   };
   return (
     <div className="header">
-      <div className="header-logo">
+      <div className="header-logoo">
         <img src={logoIcon} alt="LOGO" />
       </div>
       {/* <div className="top-nav-header"> */}

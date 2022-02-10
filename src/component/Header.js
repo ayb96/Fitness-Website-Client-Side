@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import sideBarIcon from "../Images/Group 5.svg";
 import logoIcon from "../Images/Group 204-header.svg";
 import InstagramIcon from "@mui/icons-material/Instagram";
@@ -8,8 +8,11 @@ import GoogleIcon from "@mui/icons-material/Google";
 import PhoneEnabledIcon from "@mui/icons-material/PhoneEnabled";
 import MailOutlineOutlinedIcon from "@mui/icons-material/MailOutlineOutlined";
 import SearchIcon from "@mui/icons-material/Search";
+import Rellax from "rellax";
 
 export default function Header() {
+ 
+
   const runMe = () => {
     const navbarLinks = document.getElementsByClassName("navbar-links")[0];
     navbarLinks.classList.toggle("active");

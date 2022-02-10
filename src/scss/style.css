@@ -554,9 +554,9 @@
   width: 100%;
   height: 100%;
 }
-.video .video3 .video3-content img {
-  width: 100%;
-  height: 100%;
+.video .video3 .video3-content {
+  width: 70%;
+  height: auto;
 }
 
 .blog {
@@ -1139,13 +1139,13 @@
   margin-bottom: 20px;
 }
 .review-swiper .swiper-button-next {
-  color: #7E7E7E;
+  color: #7e7e7e;
   position: relative;
   top: 509px;
   left: 40px;
 }
 .review-swiper .swiper-button-prev {
-  color: #7E7E7E;
+  color: #7e7e7e;
   position: relative;
   top: 531px;
   left: 0px;

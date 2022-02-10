@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Rellax from "rellax";
 import swal from "sweetalert";
 
 export default function Subscribe() {
+
   const handleSubscribe = (e) => {
     e.preventDefault();
 

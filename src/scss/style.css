@@ -945,7 +945,6 @@
   margin-bottom: 41px;
   margin-left: 80px;
   margin-right: 80px;
-  text-align: center;
 }
 .footer .footer1 .footer-main .footer12 .footer12-box1 div {
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-21) Futura;
@@ -1136,6 +1135,18 @@
 .review-swiper {
   margin-bottom: 20px;
 }
+.review-swiper .swiper-button-next {
+  color: #7E7E7E;
+  position: relative;
+  top: 509px;
+  left: 40px;
+}
+.review-swiper .swiper-button-prev {
+  color: #7E7E7E;
+  position: relative;
+  top: 531px;
+  left: 0px;
+}
 .review-swiper .box1 {
   max-width: 25px;
   min-height: 22px;
@@ -1320,9 +1331,16 @@
     justify-content: center;
   }
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 410px) {
   .video {
     height: 350px;
+  }
+
+  .review-swiper .swiper-button-next {
+    top: 550px;
+  }
+  .review-swiper .swiper-button-prev {
+    top: 571px;
   }
 }
 

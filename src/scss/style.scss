@@ -1251,7 +1251,6 @@ $primary: #ff0000;
             margin-bottom: 41px;
             margin-left: 80px;
             margin-right: 80px;
-            text-align: center;
           }
           div {
             font: var(--unnamed-font-style-normal) normal
@@ -1468,9 +1467,21 @@ $primary: #ff0000;
   }
 }
 .review-swiper {
+  .swiper-button-next {
+    color: #7E7E7E;
+    position: relative;
+    top: 509px;
+    left: 40px;
+  }
+  .swiper-button-prev {
+    color: #7E7E7E;
+    position: relative;
+    top: 531px;
+    left: 0px;
+  }
+
   margin-bottom: 20px;
   .box1 {
-    
     max-width: 25px;
     min-height: 22px;
     text-align: left;
@@ -1689,8 +1700,16 @@ $primary: #ff0000;
     }
   }
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 410px) {
   .video {
     height: 350px;
+  }
+  .review-swiper {
+    .swiper-button-next {
+      top: 550px;
+    }
+    .swiper-button-prev {
+      top: 571px;
+    }
   }
 }

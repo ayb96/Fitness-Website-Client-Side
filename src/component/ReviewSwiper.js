@@ -15,7 +15,7 @@ export default function ReviewSwiper() {
         style={{
           "--swiper-navigation-color": "#fff",
           "--swiper-pagination-color": "#fff",
-          border: "2px red solid",
+          
           maxWidth: "500px",
         }}
         speed={1000}
@@ -28,15 +28,7 @@ export default function ReviewSwiper() {
         modules={[Parallax, Pagination, Navigation]}
         className="mySwiper review-swiper"
       >
-        {/* <div
-          slot="container-start"
-          className="parallax-bg"
-          style={{
-            "background-image":
-              "url(https://swiperjs.com/demos/images/nature-1.jpg)",
-          }}
-          data-swiper-parallax="-23%"
-        ></div> */}
+     
         <SwiperSlide>
           <div className="text" data-swiper-parallax="-100">
             <div className="box1" data-swiper-parallax="-600">
@@ -65,6 +57,14 @@ export default function ReviewSwiper() {
               erat, sed diam voluptua. At vero eos et accusam et justo duo
               dolores et ea rebum. Stet clita kasd gubergren, no sea takimata.
             </div>
+            <div
+              style={{
+                width: "70px",
+                height: "70px",
+
+                marginTop: "20px",
+              }}
+            ></div>
           </div>
         </SwiperSlide>
         <SwiperSlide>

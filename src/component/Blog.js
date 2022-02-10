@@ -2,8 +2,11 @@ import React, { useEffect } from "react";
 import CalendarTodayIcon from "@mui/icons-material/CalendarToday";
 import MessageIcon from "@mui/icons-material/Message";
 import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function Blog() {
+  AOS.init();
   useEffect(() => {
     var btnContainer = document.getElementById("hovering");
     console.log(btnContainer);
@@ -52,7 +55,7 @@ export default function Blog() {
 
       <div className="blog3">
         {/* First Box */}
-        <div className="blog3-box">
+        <div className="blog3-box" data-aos="zoom-in">
           <div className="blog3-img1">
             <div className="blog3-img1-date">
               <div className="blog3-date1">23 </div>
@@ -92,7 +95,12 @@ export default function Blog() {
           </div>
         </div>
         {/* Second Box */}
-        <div className="blog3-box">
+        <div
+          className="blog3-box"
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+        >
           <div className="blog3-img1">
             <div className="blog3-img1-date">
               <div className="blog3-date1">23 </div>
@@ -132,7 +140,7 @@ export default function Blog() {
           </div>
         </div>
         {/* Second Box */}
-        <div className="blog3-box">
+        <div className="blog3-box" data-aos="zoom-in">
           <div className="blog3-img1">
             <div className="blog3-img1-date">
               <div className="blog3-date1">23 </div>
@@ -172,7 +180,8 @@ export default function Blog() {
           </div>
         </div>
         {/* Second Box */}
-        <div className="blog3-box">
+
+        <div className="blog3-box" data-aos="zoom-in">
           <div className="blog3-img1">
             <div className="blog3-img1-date">
               <div className="blog3-date1">23 </div>
@@ -212,7 +221,12 @@ export default function Blog() {
           </div>
         </div>
         {/* Second Box */}
-        <div className="blog3-box">
+        <div
+          className="blog3-box"
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+        >
           <div className="blog3-img1">
             <div className="blog3-img1-date">
               <div className="blog3-date1">23 </div>
@@ -252,7 +266,7 @@ export default function Blog() {
           </div>
         </div>
         {/* Second Box */}
-        <div className="blog3-box">
+        <div className="blog3-box" data-aos="zoom-in">
           <div className="blog3-img1">
             <div className="blog3-img1-date">
               <div className="blog3-date1">23 </div>

@@ -1,9 +1,10 @@
-import React, { useEffect } from "react";
-import Rellax from "rellax";
+import React from "react";
+
 import swal from "sweetalert";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 export default function Subscribe() {
-
+  AOS.init();
   const handleSubscribe = (e) => {
     e.preventDefault();
 
@@ -15,7 +16,7 @@ export default function Subscribe() {
   };
   return (
     <div className="subscribe">
-      <div className="subscribe-box">
+      <div className="subscribe-box" data-aos="zoom-in">
         <div className="subscribe-subbox">
           <div className="subscribe-subbox1">
             <div className="subscribe-subbox11">LETS START!</div>
@@ -28,7 +29,7 @@ export default function Subscribe() {
             </div>
           </div>
           <div className="subscribe-subbox2">
-            <form className="">
+            <form className="" onSubmit={handleSubscribe}>
               <div className="">
                 <div>
                   <input
@@ -54,7 +55,7 @@ export default function Subscribe() {
                   <button
                     className="primary"
                     type="submit"
-                    onClick={handleSubscribe}
+                    
                   >
                     Subscribe
                   </button>

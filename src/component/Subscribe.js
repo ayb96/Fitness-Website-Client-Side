@@ -1,6 +1,16 @@
 import React from "react";
+import swal from "sweetalert";
 
 export default function Subscribe() {
+  const handleSubscribe = (e) => {
+    e.preventDefault();
+
+    swal({
+      title: "Good job!",
+      text: "you have subscribed successfully",
+      icon: "success",
+    });
+  };
   return (
     <div className="subscribe">
       <div className="subscribe-box">
@@ -39,7 +49,11 @@ export default function Subscribe() {
 
                 <div>
                   <label />
-                  <button className="primary" type="submit">
+                  <button
+                    className="primary"
+                    type="submit"
+                    onClick={handleSubscribe}
+                  >
                     Subscribe
                   </button>
                 </div>

@@ -12,8 +12,11 @@ export default function Video() {
       </div>
       <div className="video3">
         <div className="video3-content">
-          <img src={normalpic} alt=""></img>
-          <div className="video32"></div>
+          {/* <img src={normalpic} alt=""></img>
+          <div className="video32"></div> */}
+          <video width="320" height="240" controls>
+            <source src="movie.mp4" type="video/mp4" />
+          </video>
         </div>
       </div>
     </div>

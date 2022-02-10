@@ -8,7 +8,7 @@ import Blog from "./component/Blog";
 import Subscribe from "./component/Subscribe";
 import Footer from "./component/Footer";
 import Slider from "./component/Slider";
-import SwiperChoose from "./component/SwiperChoose";
+import MainSlider from "./component/MainSlider";
 
 function App() {
   return (
@@ -22,6 +22,7 @@ function App() {
       <Blog />
       <Subscribe />
       <Footer />
+      {/* <MainSlider /> */}
     </div>
   );
 }

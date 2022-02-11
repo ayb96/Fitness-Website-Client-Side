@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import reviewpic from "../Images/Group 91.png";
-import sliderImage from "../Images/Group 13.png";
+
 import ReviewSwiper from "./ReviewSwiper";
-import Rellax from "rellax";
+
 export default function Reviews() {
   const [offsetY, setOffsetY] = useState(0);
 
@@ -29,14 +29,7 @@ export default function Reviews() {
           className="review-img-box"
           style={{ transform: `translateY(${offsetY * 0.2}px)` }}
         >
-          <img
-            className="review-img"
-            src={reviewpic}
-            alt=""
-            data-rellax-xs-speed="0"
-            data-rellax-mobile-speed="0"
-            //  data-rellax-xs-speed="-10"
-          />
+          <img className="review-img" src={reviewpic} alt="" />
         </div>
       </div>
     </div>

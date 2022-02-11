@@ -62,7 +62,7 @@ export default function Header() {
                 </a>
               </li>
               <li>
-                <a href="#">SHOP</a>
+                <a href="/">SHOP</a>
               </li>
               <li>
                 <a href="#">ABOUT</a>

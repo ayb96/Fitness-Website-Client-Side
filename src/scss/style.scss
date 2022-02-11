@@ -1160,6 +1160,7 @@ $primary: #ff0000;
             margin-top: 44.5px;
             div {
               margin-right: 25.5px;
+              cursor: pointer;
             }
             div:nth-child(1) {
               width: 32px;
@@ -1182,7 +1183,10 @@ $primary: #ff0000;
           }
           .footer11-info2 {
             margin-top: 19px;
-
+            cursor: pointer;
+            div:hover {
+              color: #e41c26;
+            }
             display: flex;
             div:nth-child(1) {
               background: transparent url("../Images/phone.svg") 0% 0% no-repeat
@@ -1235,12 +1239,21 @@ $primary: #ff0000;
           position: relative;
           top: -38px;
         }
+        .footer11-image:hover {
+          cursor: pointer;
+         
+        }
       }
       .footer12 {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
+        .footer12-box1 {
+          div:hover {
+            color: #e41c26;
+          }
+        }
 
         .footer12-box1 {
           h1 {
@@ -1257,6 +1270,7 @@ $primary: #ff0000;
             margin-right: 80px;
           }
           div {
+            cursor: pointer;
             font: var(--unnamed-font-style-normal) normal
               var(--unnamed-font-weight-normal) var(--unnamed-font-size-16) /
               var(--unnamed-line-spacing-21) Futura;
@@ -1409,7 +1423,7 @@ $primary: #ff0000;
 
   .swiper-box {
     // border: 2px red solid;
-    height: 16rem;
+    // height: 16rem;
     background-color: #2a2a2a;
     width: 16rem;
     padding: 16px;
@@ -1471,9 +1485,10 @@ $primary: #ff0000;
   }
 }
 .review-swiper {
-  // .swiperslide-com{
-  //   padding: 10px;
-  // }
+  .swiperslide-com{
+    // border: 2px blue solid;
+  }
+  // border: 2px red solid;
   .swiper-button-next {
     color: #7e7e7e;
     position: relative;
@@ -1593,7 +1608,6 @@ $primary: #ff0000;
 // }
 // .swiper-pagination-bullet-active {
 // }
-
 
 @media only screen and (max-width: 1178px) {
   .footer-main {

@@ -976,6 +976,7 @@
 }
 .footer .footer1 .footer-main .footer11 .footer11-info .footer11-info3 div {
   margin-right: 25.5px;
+  cursor: pointer;
 }
 .footer .footer1 .footer-main .footer11 .footer11-info .footer11-info3 div:nth-child(1) {
   width: 32px;
@@ -994,7 +995,11 @@
 }
 .footer .footer1 .footer-main .footer11 .footer11-info .footer11-info2 {
   margin-top: 19px;
+  cursor: pointer;
   display: flex;
+}
+.footer .footer1 .footer-main .footer11 .footer11-info .footer11-info2 div:hover {
+  color: #e41c26;
 }
 .footer .footer1 .footer-main .footer11 .footer11-info .footer11-info2 div:nth-child(1) {
   background: transparent url("../Images/phone.svg") 0% 0% no-repeat padding-box;
@@ -1038,11 +1043,17 @@
   position: relative;
   top: -38px;
 }
+.footer .footer1 .footer-main .footer11 .footer11-image:hover {
+  cursor: pointer;
+}
 .footer .footer1 .footer-main .footer12 {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+}
+.footer .footer1 .footer-main .footer12 .footer12-box1 div:hover {
+  color: #e41c26;
 }
 .footer .footer1 .footer-main .footer12 .footer12-box1 h1 {
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-32) Futura;
@@ -1056,6 +1067,7 @@
   margin-right: 80px;
 }
 .footer .footer1 .footer-main .footer12 .footer12-box1 div {
+  cursor: pointer;
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-21) Futura;
   letter-spacing: var(--unnamed-character-spacing-0);
   text-align: left;
@@ -1191,7 +1203,6 @@
   max-width: 70rem;
 }
 .mySwiper .swiper-box {
-  height: 16rem;
   background-color: #2a2a2a;
   width: 16rem;
   padding: 16px;

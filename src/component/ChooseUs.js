@@ -7,7 +7,7 @@ export default function ChooseUs() {
         <div className="box1">
           <div>WHY CHOOSE US</div>
         </div>
-        {/* <div className="box2">FEATURES</div> */}
+
         <div className="line1"></div>
 
         <div className="box3">

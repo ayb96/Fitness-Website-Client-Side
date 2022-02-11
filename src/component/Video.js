@@ -1,18 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import gridpic from "../Images/Group 87.svg";
 
 import ReactPlayer from "react-player";
 
 export default function Video() {
-  const [offsetY, setOffsetY] = useState(0);
-  const handleScroll = () => setOffsetY(window.pageYOffset);
-
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
+ 
   useEffect(() => {
     
   }, []);
@@ -21,7 +13,7 @@ export default function Video() {
     <div className="video">
       <div
         className="video1 "
-        style={{ transform: `translateY(${offsetY * 0.1}px)` }}
+        
       >
         <div>VIDEO</div>
       </div>

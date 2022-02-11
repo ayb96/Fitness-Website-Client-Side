@@ -7,16 +7,14 @@ import Video from "./component/Video";
 import Blog from "./component/Blog";
 import Subscribe from "./component/Subscribe";
 import Footer from "./component/Footer";
-import Slider from "./component/Slider";
-import SlideTest from "./component/SlidetTest";
 
+import SlideTest from "./component/SlidetTest";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      {/* <Slider /> */}
-      <SlideTest/>
+      <SlideTest />
       <Category />
       <Reviews />
       <ChooseUs />
@@ -24,7 +22,6 @@ function App() {
       <Blog />
       <Subscribe />
       <Footer />
-      
     </div>
   );
 }

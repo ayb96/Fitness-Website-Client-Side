@@ -4,35 +4,41 @@ import "react-slideshow-image/dist/styles.css";
 
 const fadeImages = [
   {
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRCjgcdnAObe88-SHVJEvPdfefJWoASz4w7A&usqp=CAU",
+    url: "https://images.pexels.com/photos/6739958/pexels-photo-6739958.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     caption: "First Slide",
+    title: "Title 1",
   },
   {
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-qZpo_dgHj3uBJ7t4JKGNoT214DHdT1hKzg&usqp=CAU",
+    url: "https://images.pexels.com/photos/3253498/pexels-photo-3253498.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     caption: "Second Slide",
+    title: "Title 2",
   },
   {
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-qZpo_dgHj3uBJ7t4JKGNoT214DHdT1hKzg&usqp=CAU",
+    url: "https://images.pexels.com/photos/949130/pexels-photo-949130.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     caption: "Third Slide",
+    title: "Title 3",
   },
 ];
 
 export default function Blog() {
-    
   return (
     <div className="slide-container slide-show">
       <Fade style={{ maxHeight: "530px" }}>
         {fadeImages.map((fadeImage, index) => (
           <div className="each-fade" key={index}>
             <div className="image-container">
-              <img src={fadeImage.url} style={{ height: "530px", width:"100%", backgroundSize: "cover" }}/>
+              <img
+                src={fadeImage.url}
+                style={{ height: "530px", width: "100%", objectFit: "cover" }}
+                alt=""
+              />
             </div>
             {/* <h2>{fadeImage.caption}</h2> */}
             <div className="slider-content ">
               <div className="slider-content-sub1"></div>
               <div className="slider-content-sub">
                 <div>{fadeImage.caption}</div>
-                <div>Title Here3</div>
+                <div>{fadeImage.title}</div>
                 <div>Description Here</div>
                 <div>
                   <div id="join-text">JOIN US NOW</div>
@@ -46,4 +52,4 @@ export default function Blog() {
       </Fade>
     </div>
   );
-};
+}

@@ -97,9 +97,7 @@ export default function Blog() {
         {/* Second Box */}
         <div
           className="blog3-box"
-          data-aos="flip-left"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
+          data-aos="flip-up"
         >
           <div className="blog3-img1">
             <div className="blog3-img1-date">
@@ -223,9 +221,7 @@ export default function Blog() {
         {/* Second Box */}
         <div
           className="blog3-box"
-          data-aos="flip-left"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
+          data-aos="flip-up"
         >
           <div className="blog3-img1">
             <div className="blog3-img1-date">

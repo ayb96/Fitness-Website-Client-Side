@@ -9,7 +9,7 @@ const fadeImages = [
     title: "Title 1",
   },
   {
-    url: "https://images.pexels.com/photos/3253498/pexels-photo-3253498.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    url: "https://images.pexels.com/photos/4164658/pexels-photo-4164658.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     caption: "Second Slide",
     title: "Title 2",
   },
@@ -21,9 +21,10 @@ const fadeImages = [
 ];
 
 export default function Blog() {
+  
   return (
     <div className="slide-container slide-show">
-      <Fade style={{ maxHeight: "530px" }}>
+      <Fade style={{ maxHeight: "530px" }} >
         {fadeImages.map((fadeImage, index) => (
           <div className="each-fade" key={index}>
             <div className="image-container">

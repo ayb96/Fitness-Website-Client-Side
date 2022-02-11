@@ -62,7 +62,7 @@ export default function ReviewSwiper() {
                 width: "90px",
                 height: "90px",
                 marginTop: "30px",
-                border:"2px red solid"
+                // border:"2px red solid"
               }}
             ></div>
           </div>

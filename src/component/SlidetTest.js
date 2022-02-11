@@ -30,7 +30,7 @@ export default function Blog() {
             <div className="slider-content ">
               <div className="slider-content-sub1"></div>
               <div className="slider-content-sub">
-                <div>Tageline here</div>
+                <div>{fadeImage.caption}</div>
                 <div>Title Here3</div>
                 <div>Description Here</div>
                 <div>

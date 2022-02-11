@@ -29,10 +29,7 @@ export default function ReviewSwiper() {
         modules={[Parallax, Pagination, Navigation]}
         className="mySwiper review-swiper"
       >
-        <SwiperSlide
-          className="swiperslide-com"
-          
-        >
+        <SwiperSlide className="swiperslide-com">
           <div className="text" data-swiper-parallax="-100">
             <div className="box1" data-swiper-parallax="-600">
               TESTIMONIAL
@@ -62,10 +59,10 @@ export default function ReviewSwiper() {
             </div>
             <div
               style={{
-                width: "70px",
-                height: "70px",
-
-                marginTop: "20px",
+                width: "90px",
+                height: "90px",
+                marginTop: "30px",
+                border:"2px red solid"
               }}
             ></div>
           </div>

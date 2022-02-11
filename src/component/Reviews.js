@@ -1,31 +1,33 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import reviewpic from "../Images/Group 91.png";
 import sliderImage from "../Images/Group 13.png";
 import ReviewSwiper from "./ReviewSwiper";
 import Rellax from "rellax";
 export default function Reviews() {
-  // var rellax = new Rellax(".rellax");
+  const [offsetY, setOffsetY] = useState(0);
+
+  const handleScroll = () => {
+    if (window.innerWidth > 950) {
+      setOffsetY(window.pageYOffset);
+      return;
+    }
+    setOffsetY(0);
+  };
+
   useEffect(() => {
-    var rellax = new Rellax(".rellax", {
-      speed: -1,
-      center: true,
-      wrapper: null,
-      round: false,
-      vertical: true,
-      horizontal: false,
-    });
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
     <div className="reviews">
       <div className="reviews-box">
-        
         <ReviewSwiper />
 
         <div
-          className="review-img-box rellax"
-          // data-rellax-speed="-4"
-          // data-rellax-xs-speed="0"
+          className="review-img-box"
+          style={{ transform: `translateY(${offsetY * 0.2}px)` }}
         >
           <img
             className="review-img"

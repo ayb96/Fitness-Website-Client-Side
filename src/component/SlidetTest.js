@@ -18,6 +18,7 @@ const fadeImages = [
 ];
 
 export default function Blog() {
+    
   return (
     <div className="slide-container slide-show">
       <Fade style={{ maxHeight: "530px" }}>

@@ -47,8 +47,8 @@ $primary: #ff0000;
   // width: 100%;
 
   display: grid;
-  grid-template-columns: 18rem 1fr;
-  // grid-template-columns: 25% 75%;
+  // grid-template-columns: 18rem 1fr;
+  grid-template-columns: 25% 75%;
 
   grid-template-areas:
     "logo top"
@@ -1046,7 +1046,7 @@ $primary: #ff0000;
   margin-top: 6.813rem;
 
   .subscribe-box {
-    max-width: 70rem;
+    max-width: 75rem;
     margin: auto;
     min-height: 26.688rem;
     position: relative;

@@ -44,7 +44,7 @@
 
 .header {
   display: grid;
-  grid-template-columns: 18rem 1fr;
+  grid-template-columns: 25% 75%;
   grid-template-areas: "logo top" "logo nav";
 }
 .header .header-logo {
@@ -873,7 +873,7 @@
   margin-top: 6.813rem;
 }
 .subscribe .subscribe-box {
-  max-width: 70rem;
+  max-width: 75rem;
   margin: auto;
   min-height: 26.688rem;
   position: relative;

@@ -13,7 +13,7 @@ export default function ChooseUsSwiper() {
     <>
       <Swiper
         slidesPerView={"auto"}
-        style={{ paddingBottom: "40px" }}
+        style={{ paddingBottom: "2.5rem" }}
         spaceBetween={30}
         freeMode={true}
         pagination={{

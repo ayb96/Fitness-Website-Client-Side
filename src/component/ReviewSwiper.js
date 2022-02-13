@@ -16,7 +16,7 @@ export default function ReviewSwiper() {
           "--swiper-navigation-color": "#fff",
           "--swiper-pagination-color": "#fff",
 
-          maxWidth: "500px",
+          maxWidth: "31.25rem",
           // border: "2px red solid",
         }}
         speed={1000}
@@ -59,9 +59,9 @@ export default function ReviewSwiper() {
             </div>
             <div
               style={{
-                width: "90px",
-                height: "90px",
-                marginTop: "30px",
+                width: "5.625rem",
+                height: "5.625rem",
+                marginTop: "1.875rem",
                 // border:"2px red solid"
               }}
             ></div>

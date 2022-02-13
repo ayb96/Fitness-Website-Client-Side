@@ -24,13 +24,13 @@ export default function Blog() {
   
   return (
     <div className="slide-container slide-show">
-      <Fade style={{ maxHeight: "530px" }} >
+      <Fade style={{ maxHeight: "33.125rem" }} >
         {fadeImages.map((fadeImage, index) => (
           <div className="each-fade" key={index}>
             <div className="image-container">
               <img
                 src={fadeImage.url}
-                style={{ height: "530px", width: "100%", objectFit: "cover" }}
+                style={{ height: "33.125rem", width: "100%", objectFit: "cover" }}
                 alt=""
               />
             </div>

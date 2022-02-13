@@ -11,13 +11,6 @@ $primary: #ff0000;
 .margin-h {
   margin: 60px 0px 60px 0px;
 }
-
-.ViewPortWidth {
-  width: 1920px;
-}
-.ViewPortHeight {
-  width: 1080px;
-}
 :root {
   /* Colors: */
   --unnamed-color-181a27: #181a27;
@@ -27,40 +20,41 @@ $primary: #ff0000;
   /* Font/text values */
   --unnamed-font-family-sf-compact-display: SF Compact Display;
   --unnamed-font-style-normal: normal;
-  --unnamed-font-weight-600: 600px;
+  --unnamed-font-weight-600: 37.5rem;
   --unnamed-font-weight-medium: medium;
   --unnamed-font-weight-bold: bold;
   --unnamed-font-weight-normal: normal;
-  --unnamed-font-size-9: 9px;
-  --unnamed-font-size-11: 11px;
-  --unnamed-font-size-12: 12px;
-  --unnamed-font-size-14: 14px;
-  --unnamed-font-size-16: 16px;
-  --unnamed-font-size-18: 18px;
-  --unnamed-font-size-24: 24px;
-  --unnamed-character-spacing-0: 0px;
-  --unnamed-line-spacing-12: 12px;
-  --unnamed-line-spacing-15: 15px;
-  --unnamed-line-spacing-16: 16px;
-  --unnamed-line-spacing-19: 19px;
-  --unnamed-line-spacing-21: 21px;
-  --unnamed-line-spacing-24: 24px;
-  --unnamed-line-spacing-32: 32px;
+  --unnamed-font-size-9: 0.563rem;
+  --unnamed-font-size-11: 0.688rem;
+  --unnamed-font-size-12: 0.75rem;
+  --unnamed-font-size-14: 0.875rem;
+  --unnamed-font-size-16: 1rem;
+  --unnamed-font-size-18: 1.125rem;
+  --unnamed-font-size-24: 1.5rem;
+  --unnamed-character-spacing-0: 0rem;
+  --unnamed-line-spacing-12: 0.75rem;
+  --unnamed-line-spacing-15: 0.938rem;
+  --unnamed-line-spacing-16: 1rem;
+  --unnamed-line-spacing-19: 1.188rem;
+  --unnamed-line-spacing-21: 1.313rem;
+  --unnamed-line-spacing-24: 1.5rem;
+  --unnamed-line-spacing-32: 2rem;
+  // font-size: 32px;
 }
 
 //////////////////// Header Section ////////////////////
 .header {
-  width: 100%;
+  // width: 100%;
 
   display: grid;
-  grid-template-columns: 300px 1fr;
+  grid-template-columns: 18rem 1fr;
 
   grid-template-areas:
     "logo top"
     "logo nav";
   .header-logo {
     grid-area: logo;
-    padding: 10px;
+    padding: 0.625rem;
     cursor: pointer;
     @extend .dFlex;
     justify-content: center;
@@ -70,7 +64,7 @@ $primary: #ff0000;
 
   .top-header {
     grid-area: top;
-    min-height: 48px;
+    // min-height: 48px;
     background: #111111 0% 0% no-repeat padding-box;
     opacity: 1;
     color: #eeeeee;
@@ -85,10 +79,10 @@ $primary: #ff0000;
       .info-header1 {
         @extend .dFlex;
 
-        margin-right: 70.95px;
-        margin-left: 20.4px;
+        margin-right: 4.375rem;
+        margin-left: 1.25rem;
         div {
-          margin-right: 12.6px;
+          margin-right: 0.813rem;
           cursor: pointer;
         }
       }
@@ -96,7 +90,7 @@ $primary: #ff0000;
         @extend .dFlex;
 
         div {
-          margin-right: 12.6px;
+          margin-right: 0.813rem;
           cursor: pointer;
         }
       }
@@ -104,16 +98,16 @@ $primary: #ff0000;
     .social-icon {
       @extend .dFlex;
       div {
-        border-left: #2a2a2a 1px solid;
+        border-left: #2a2a2a 0.063rem solid;
         height: 100%;
-        padding: 10px;
+        padding: 0.625rem;
         cursor: pointer;
       }
       div:hover {
         background-color: #5e5e5e;
       }
       .instagram-icon {
-        border-right: #2a2a2a 1px solid;
+        border-right: #2a2a2a 0.063rem solid;
       }
     }
   }
@@ -142,8 +136,8 @@ $primary: #ff0000;
                 var(--unnamed-line-spacing-21) Futura;
               letter-spacing: var(--unnamed-character-spacing-0);
 
-              font: normal normal normal 16px/21px Futura;
-              letter-spacing: 0px;
+              font: normal normal normal 1rem Futura;
+              letter-spacing: 0rem;
               color: #000000;
               text-transform: uppercase;
             }
@@ -157,7 +151,6 @@ $primary: #ff0000;
         }
       }
     }
-    // }
   }
 }
 
@@ -167,7 +160,7 @@ $primary: #ff0000;
   display: grid;
   grid-template-columns: 1.3fr 1fr 1.3fr;
   grid-template-areas: "box1 box2 box3";
-  grid-auto-rows: 391px;
+  grid-auto-rows: 24.438rem;
   .progression {
     @extend .dFlex;
     position: relative;
@@ -175,39 +168,39 @@ $primary: #ff0000;
     grid-area: box1;
     background: hsl(0, 0%, 13%) 0% 0% no-repeat padding-box;
     .back-image {
-      width: 166px;
-      height: 148px;
+      width: 10.375rem;
+      height: 9.25rem;
       position: absolute;
       right: 0;
       bottom: 0;
       opacity: 0.1;
     }
     .progression-box {
-      width: 254px;
+      width: 15.875rem;
       text-align: center;
-      margin-right: 49px;
+      margin-right: 3.063rem;
 
       .progression-box1 {
         @extend .dFlex;
         justify-content: center;
 
-        margin-bottom: 23px;
+        margin-bottom: 1.438rem;
         div {
-          width: 79px;
-          height: 70px;
+          width: 4.938rem;
+          height: 4.375rem;
           background: transparent url("../Images/16-express.svg") 0% 0%
             no-repeat padding-box;
         }
       }
       .progression-box2 {
-        margin-bottom: 20px;
+        margin-bottom: 1.25rem;
 
         font: var(--unnamed-font-style-normal) normal
-          var(--unnamed-font-weight-bold) 26px/35px Futura;
+          var(--unnamed-font-weight-bold) 1.625rem/2.188rem Futura;
         letter-spacing: var(--unnamed-character-spacing-0);
         text-align: left;
-        font: normal normal bold 26px/35px Futura;
-        letter-spacing: 0px;
+        font: normal normal bold 1.625rem/2.188rem Futura;
+        letter-spacing: 0rem;
         color: #ffffff;
         text-transform: uppercase;
         text-align: center;
@@ -218,8 +211,8 @@ $primary: #ff0000;
           SF Pro Display;
         letter-spacing: var(--unnamed-character-spacing-0);
         text-align: center;
-        font: normal normal normal 16px/28px SF Pro Display;
-        letter-spacing: 0px;
+        font: normal normal normal 1rem/1.75rem SF Pro Display;
+        letter-spacing: 0rem;
         color: #dedede;
       }
     }
@@ -232,33 +225,33 @@ $primary: #ff0000;
     grid-area: box2;
     background: #eeeeee 0% 0% no-repeat padding-box;
     .back-image {
-      width: 148px;
-      height: 148px;
+      width: 9.25rem;
+      height: 9.25rem;
       position: absolute;
       right: 0;
       bottom: 0;
       opacity: 0.1;
     }
     .workout-box {
-      width: 254px;
+      width: 15.875rem;
       text-align: center;
       @extend .dFlex;
       flex-direction: column;
       justify-content: center;
 
       .workout-box1 {
-        width: 68px;
-        height: 68px;
-        margin-bottom: 23.8px;
+        width: 4.25rem;
+        height: 4.25rem;
+        margin-bottom: 1.488rem;
       }
       .workout-box2 {
-        margin-bottom: 20px;
+        margin-bottom: 1.25rem;
         font: var(--unnamed-font-style-normal) normal
-          var(--unnamed-font-weight-bold) 26px/35px Futura;
+          var(--unnamed-font-weight-bold) 1.625rem/2.188rem Futura;
         letter-spacing: var(--unnamed-character-spacing-0);
         text-align: left;
-        font: normal normal bold 26px/35px Futura;
-        letter-spacing: 0px;
+        font: normal normal bold 1.625rem/2.188rem Futura;
+        letter-spacing: 0rem;
         color: #e41c26;
         text-transform: uppercase;
       }
@@ -268,8 +261,8 @@ $primary: #ff0000;
           SF Pro Display;
         letter-spacing: var(--unnamed-character-spacing-0);
         text-align: center;
-        font: normal normal normal 16px/28px SF Pro Display;
-        letter-spacing: 0px;
+        font: normal normal normal 1rem/1.75rem SF Pro Display;
+        letter-spacing: 0rem;
         color: #515151;
       }
     }
@@ -281,10 +274,10 @@ $primary: #ff0000;
     grid-area: box3;
     background: #e41c26 0% 0% no-repeat padding-box;
     .back-image {
-      width: 113px;
-      height: 148px;
+      width: 7.063rem;
+      height: 9.25rem;
       position: absolute;
-      left: 241px;
+      left: 15.063rem;
       bottom: 0;
       opacity: 0.2;
     }
@@ -292,24 +285,24 @@ $primary: #ff0000;
       @extend .dFlex;
       flex-direction: column;
       justify-content: center;
-      width: 254px;
+      width: 15.875rem;
       text-align: center;
-      margin-right: 50px;
+      margin-right: 3.125rem;
 
-      margin-left: 50px;
+      margin-left: 3.125rem;
       .nutrition-box1 {
-        width: 52px;
-        height: 69px;
-        margin-bottom: 23.8px;
+        width: 3.25rem;
+        height: 4.313rem;
+        margin-bottom: 1.488rem;
       }
       .nutrition-box2 {
-        margin-bottom: 20px;
+        margin-bottom: 1.25rem;
         font: var(--unnamed-font-style-normal) normal
-          var(--unnamed-font-weight-bold) 26px/35px Futura;
+          var(--unnamed-font-weight-bold) 1.625rem/2.188rem Futura;
         letter-spacing: var(--unnamed-character-spacing-0);
         text-align: left;
-        font: normal normal bold 26px/35px Futura;
-        letter-spacing: 0px;
+        font: normal normal bold 1.625rem/2.188rem Futura;
+        letter-spacing: 0rem;
         color: #ffffff;
         text-transform: uppercase;
       }
@@ -319,8 +312,8 @@ $primary: #ff0000;
           SF Pro Display;
         letter-spacing: var(--unnamed-character-spacing-0);
         text-align: center;
-        font: normal normal normal 16px/28px SF Pro Display;
-        letter-spacing: 0px;
+        font: normal normal normal 1rem/1.75rem SF Pro Display;
+        letter-spacing: 0rem;
         color: #dedede;
       }
     }
@@ -333,143 +326,143 @@ $primary: #ff0000;
   @extend .dFlex;
   justify-content: center;
 
-  margin-top: 79px;
-  margin-bottom: 79px;
+  margin-top: 4.938rem;
+  margin-bottom: 4.938rem;
 
   .reviews-box {
     @extend .dFlex;
     justify-content: center;
     flex-wrap: wrap;
     .first-box {
-      margin: 0 20px 30px 20px;
+      margin: 0 1.25rem 1.875rem 1.25rem;
       position: relative;
 
       .box1 {
-        max-width: 125px;
-        min-height: 22px;
+        max-width: 7.813rem;
+        min-height: 1.375rem;
         text-align: left;
         font: var(--unnamed-font-style-normal) normal
-          var(--unnamed-font-weight-bold) 17px/22px SF Pro Display;
-        font: normal normal bold 17px/22px SF Pro Display;
-        letter-spacing: 1.27px;
+          var(--unnamed-font-weight-bold) 1.063rem/1.375rem SF Pro Display;
+        font: normal normal bold 1.063rem/1.375rem SF Pro Display;
+        letter-spacing: 0.079rem;
         color: #5e5e5e;
         text-transform: uppercase;
         opacity: 1;
       }
       .box2 {
-        max-width: 383px;
-        min-height: 146px;
+        max-width: 23.938rem;
+        min-height: 9.125rem;
         font: var(--unnamed-font-style-normal) normal
-          var(--unnamed-font-weight-bold) 59px/67px Futura;
+          var(--unnamed-font-weight-bold) 3.688rem/4.188rem Futura;
         letter-spacing: var(--unnamed-character-spacing-0);
         text-align: left;
-        font: normal normal bold 59px/67px Futura;
-        letter-spacing: 0px;
+        font: normal normal bold 3.688rem/4.188rem Futura;
+        letter-spacing: 0rem;
         color: #000000;
         text-transform: capitalize;
       }
       .box3 {
-        max-width: 105px;
-        min-height: 24px;
+        max-width: 6.563rem;
+        min-height: 1.5rem;
         font: var(--unnamed-font-style-normal) normal
           var(--unnamed-font-weight-normal) var(--unnamed-font-size-18) /
           var(--unnamed-line-spacing-24) SF Pro Display;
         text-align: left;
-        font: normal normal normal 18px/24px SF Pro Display;
-        letter-spacing: 1.35px;
+        font: normal normal normal 1.125rem/1.5rem SF Pro Display;
+        letter-spacing: 0.084rem;
         color: #7e7e7e;
         text-transform: capitalize;
-        margin-bottom: 10px;
+        margin-bottom: 0.625rem;
       }
       .box4 {
-        max-width: 300px;
-        min-height: 30px;
+        max-width: 18.75rem;
+        min-height: 1.875rem;
         font: var(--unnamed-font-style-normal) normal
-          var(--unnamed-font-weight-bold) 22px/30px SF Pro Display;
+          var(--unnamed-font-weight-bold) 1.375rem/1.875rem SF Pro Display;
         text-align: left;
-        font: normal normal bold 22px/30px SF Pro Display;
-        letter-spacing: 1.65px;
+        font: normal normal bold 1.375rem/1.875rem SF Pro Display;
+        letter-spacing: 0.103rem;
         color: #000000;
         text-transform: uppercase;
-        margin-bottom: 4px;
+        margin-bottom: 0.25rem;
       }
       .box5 {
         @extend .dFlex;
-        margin-bottom: 44px;
+        margin-bottom: 2.75rem;
         div:nth-child(1) {
-          width: 13px;
-          height: 13px;
+          width: 0.813rem;
+          height: 0.813rem;
           background: transparent url("../Images/Icon awesome-star.png") 0% 0%
             no-repeat padding-box;
         }
         div {
-          margin-right: 9px;
+          margin-right: 0.563rem;
         }
         div:nth-child(2) {
-          width: 13px;
-          height: 13px;
+          width: 0.813rem;
+          height: 0.813rem;
           background: transparent url("../Images/Icon awesome-star.png") 0% 0%
             no-repeat padding-box;
         }
         div:nth-child(3) {
-          width: 13px;
-          height: 13px;
+          width: 0.813rem;
+          height: 0.813rem;
           background: transparent url("../Images/Icon awesome-star.png") 0% 0%
             no-repeat padding-box;
         }
         div:nth-child(4) {
-          width: 13px;
-          height: 13px;
+          width: 0.813rem;
+          height: 0.813rem;
           background: transparent url("../Images/Icon awesome-star.png") 0% 0%
             no-repeat padding-box;
         }
         div:nth-child(5) {
-          width: 13px;
-          height: 13px;
+          width: 0.813rem;
+          height: 0.813rem;
           background: transparent url("../Images/Icon awesome-star.png") 0% 0%
             no-repeat padding-box;
         }
       }
       .box6 {
-        max-width: 521px;
+        max-width: 32.563rem;
 
         font: var(--unnamed-font-style-normal) normal
           var(--unnamed-font-weight-medium) var(--unnamed-font-size-18) / 28px
           Futura;
         letter-spacing: var(--unnamed-character-spacing-0);
         text-align: left;
-        font: normal normal medium 18px/28px Futura;
-        letter-spacing: 0px;
+        font: normal normal medium 1.125rem/1.75rem Futura;
+        letter-spacing: 0rem;
         color: #7e7e7e;
       }
       .box {
-        width: 186px;
-        height: 5px;
+        width: 11.625rem;
+        height: 0.313rem;
         background: #e41c26 0% 0% no-repeat padding-box;
-        margin-bottom: 46px;
+        margin-bottom: 2.875rem;
       }
       .box7 {
         @extend .dFlex;
-        margin-top: 11px;
+        margin-top: 0.688rem;
         .box7-box2 {
           background: transparent
             url("../Images/Icon material-keyboard-arrow-right.svg") 0% 0%
             no-repeat padding-box;
-          width: 8px;
-          height: 12px;
+          width: 0.5rem;
+          height: 0.75rem;
         }
         .box7-box1 {
           background: transparent
             url("../Images/Icon material-keyboard-arrow-left.svg") 0% 0%
             no-repeat padding-box;
-          width: 8px;
-          height: 12px;
+          width: 0.5rem;
+          height: 0.75rem;
           margin-right: 30px;
         }
       }
       .review-back-img {
-        width: 152px;
-        min-height: 98px;
+        width: 9.5rem;
+        min-height: 6.125rem;
         background: transparent url("../Images/Group 36.svg") 0% 0% no-repeat
           padding-box;
         position: absolute;
@@ -479,7 +472,7 @@ $primary: #ff0000;
     .review-img-box {
       max-width: 30rem;
 
-      margin: 0 20px 0 20px;
+      margin: 0 1.25rem 0 1.25rem;
       // overflow: hidden;
       @extend .dFlex;
       justify-content: center;
@@ -496,7 +489,7 @@ $primary: #ff0000;
 .chooseus {
   position: relative;
 
-  min-height: 650px;
+  min-height: 40.625rem;
 
   @extend .dFlex;
   justify-content: center;
@@ -508,22 +501,22 @@ $primary: #ff0000;
     flex-direction: column;
 
     .line1 {
-      width: 186px;
-      height: 5px;
+      width: 11.625rem;
+      height: 0.313rem;
       background: #e41c26 0% 0% no-repeat padding-box;
       position: relative;
-      bottom: 20px;
+      bottom: 1.25rem;
     }
     .box1 {
-      max-width: 600px;
-      min-height: 79px;
-      margin-bottom: 22px;
+      max-width: 37.5rem;
+      min-height: 4.938rem;
+      margin-bottom: 1.375rem;
       font: var(--unnamed-font-style-normal) normal
-        var(--unnamed-font-weight-bold) 59px/79px Futura;
+        var(--unnamed-font-weight-bold) 3.688rem/4.938rem Futura;
       letter-spacing: var(--unnamed-character-spacing-0);
       text-align: center;
-      font: normal normal bold 59px/79px Futura;
-      letter-spacing: 0px;
+      font: normal normal bold 3.688rem/4.938rem Futura;
+      letter-spacing: 0rem;
       color: #ffffff;
       text-transform: uppercase;
       opacity: 1;
@@ -531,32 +524,32 @@ $primary: #ff0000;
     }
     .box2 {
       -webkit-text-fill-color: transparent;
-      -webkit-text-stroke-width: 2px;
-      max-width: 588px;
-      min-height: 128px;
+      -webkit-text-stroke-width: 0.125rem;
+      max-width: 36.75rem;
+      min-height: 8rem;
       font: var(--unnamed-font-style-normal) normal
-        var(--unnamed-font-weight-bold) 96px/128px SF Pro Display;
+        var(--unnamed-font-weight-bold) 6rem/8rem SF Pro Display;
       text-align: center;
-      font: normal normal bold 99px/128px SF Pro Display;
-      letter-spacing: 18.72px;
+      font: normal normal bold 6.188rem/8rem SF Pro Display;
+      letter-spacing: 1.17rem;
       color: #5e5e5e;
       text-transform: uppercase;
       position: absolute;
-      left: 250px;
-      top: 150px;
+      left: 15.625rem;
+      top: 9.375rem;
       z-index: 10;
     }
     .box3 {
-      max-width: 821px;
-      min-height: 59px;
+      max-width: 51.313rem;
+      min-height: 3.688rem;
       font: var(--unnamed-font-style-normal) normal
-        var(--unnamed-font-weight-medium) 20px/27px Futura;
+        var(--unnamed-font-weight-medium) 1.25rem/1.688rem Futura;
       letter-spacing: var(--unnamed-character-spacing-0);
       text-align: center;
-      font: normal normal medium 20px/27px Futura;
-      letter-spacing: 0px;
+      font: normal normal medium 1.25rem/1.688rem Futura;
+      letter-spacing: 0rem;
       color: #d1d1d1;
-      margin-bottom: 109px;
+      margin-bottom: 6.813rem;
     }
     .box4 {
       @extend .dFlex;
@@ -564,34 +557,34 @@ $primary: #ff0000;
       flex-wrap: wrap;
 
       width: 100%;
-      margin-top: -50px;
+      margin-top: -3.125rem;
 
       .tops {
         @extend .dFlex;
         flex-direction: column;
         justify-content: center;
-        padding: 16px;
+        padding: 1rem;
         max-width: 16rem;
         min-height: 16rem;
-        margin: 10px;
+        margin: 0.625rem;
         background: #2a2a2a 0% 0% no-repeat padding-box;
         .tops1 {
           // width: 54px;
           // height: 30px;
-          margin-bottom: 21px;
+          margin-bottom: 1.313rem;
           font: var(--unnamed-font-style-normal) normal
-            var(--unnamed-font-weight-bold) 22px/30px Futura;
+            var(--unnamed-font-weight-bold) 1.375rem/1.875rem Futura;
           letter-spacing: var(--unnamed-character-spacing-0);
           text-align: center;
-          font: normal normal bold 22px/30px Futura;
-          letter-spacing: 0px;
+          font: normal normal bold 1.375rem/1.875rem Futura;
+          letter-spacing: 0rem;
           color: #ffffff;
           text-transform: uppercase;
         }
         .tops2 {
-          width: 91px;
-          height: 99px;
-          margin-bottom: 23.5px;
+          width: 5.688rem;
+          height: 6.188rem;
+          margin-bottom: 1.469rem;
           background: transparent url("../Images/Group 22.svg") 0% 0% no-repeat
             padding-box;
         }
@@ -601,8 +594,8 @@ $primary: #ff0000;
             Futura;
           letter-spacing: var(--unnamed-character-spacing-0);
           text-align: center;
-          font: normal normal medium 18px/28px Futura;
-          letter-spacing: 0px;
+          font: normal normal medium 1.125rem/1.75rem Futura;
+          letter-spacing: 0rem;
           color: #d1d1d1;
         }
       }
@@ -610,28 +603,28 @@ $primary: #ff0000;
         @extend .dFlex;
         flex-direction: column;
         justify-content: center;
-        padding: 16px;
-        margin: 10px;
+        padding: 1rem;
+        margin: 0.625rem;
         max-width: 16rem;
         min-height: 16rem;
         background: #2a2a2a 0% 0% no-repeat padding-box;
         .bottoms1 {
-          width: 106px;
-          height: 30px;
+          width: 6.625rem;
+          height: 1.875rem;
           font: var(--unnamed-font-style-normal) normal
-            var(--unnamed-font-weight-bold) 22px/30px Futura;
+            var(--unnamed-font-weight-bold) 1.375rem/1.875rem Futura;
           letter-spacing: var(--unnamed-character-spacing-0);
           text-align: center;
-          font: normal normal bold 22px/30px Futura;
-          letter-spacing: 0px;
+          font: normal normal bold 1.375rem/1.875rem Futura;
+          letter-spacing: 0rem;
           color: #ffffff;
           text-transform: uppercase;
-          margin-bottom: 21px;
+          margin-bottom: 1.313rem;
         }
         .bottoms2 {
-          margin-bottom: 23px;
-          width: 56px;
-          height: 99px;
+          margin-bottom: 1.438rem;
+          width: 3.5rem;
+          height: 6.188rem;
           background: transparent url("../Images/Group 22(1).svg") 0% 0%
             no-repeat padding-box;
         }
@@ -641,8 +634,8 @@ $primary: #ff0000;
             Futura;
           letter-spacing: var(--unnamed-character-spacing-0);
           text-align: center;
-          font: normal normal medium 18px/28px Futura;
-          letter-spacing: 0px;
+          font: normal normal medium 1.125rem/1.75rem Futura;
+          letter-spacing: 0rem;
           color: #d1d1d1;
         }
       }
@@ -650,28 +643,28 @@ $primary: #ff0000;
         @extend .dFlex;
         flex-direction: column;
         justify-content: center;
-        padding: 16px;
-        margin: 10px;
+        padding: 1rem;
+        margin: 0.625rem;
         max-width: 16rem;
         min-height: 16rem;
         background: #2a2a2a 0% 0% no-repeat padding-box;
         .hoodies1 {
-          width: 306px;
-          height: 30px;
+          width: 19.125rem;
+          height: 1.875rem;
           font: var(--unnamed-font-style-normal) normal
-            var(--unnamed-font-weight-bold) 22px/30px Futura;
+            var(--unnamed-font-weight-bold) 1.375rem/1.875rem Futura;
           letter-spacing: var(--unnamed-character-spacing-0);
           text-align: center;
-          font: normal normal bold 22px/30px Futura;
-          letter-spacing: 0px;
+          font: normal normal bold 1.375rem/1.875rem Futura;
+          letter-spacing: 0rem;
           color: #ffffff;
           text-transform: uppercase;
-          margin-bottom: 21px;
+          margin-bottom: 1.313rem;
         }
         .hoodies2 {
-          margin-bottom: 23px;
-          width: 85px;
-          height: 98px;
+          margin-bottom: 1.438rem;
+          width: 5.313rem;
+          height: 6.125rem;
           background: transparent url("../Images/Group 22(2).svg") 0% 0%
             no-repeat padding-box;
         }
@@ -681,8 +674,8 @@ $primary: #ff0000;
             Futura;
           letter-spacing: var(--unnamed-character-spacing-0);
           text-align: center;
-          font: normal normal medium 18px/28px Futura;
-          letter-spacing: 0px;
+          font: normal normal medium 1.125rem/1.75rem Futura;
+          letter-spacing: 0rem;
           color: #d1d1d1;
         }
       }
@@ -690,28 +683,28 @@ $primary: #ff0000;
         @extend .dFlex;
         flex-direction: column;
         justify-content: center;
-        padding: 16px;
-        margin: 10px;
+        padding: 1rem;
+        margin: 0.625rem;
         background: #2a2a2a 0% 0% no-repeat padding-box;
         max-width: 16rem;
         min-height: 16rem;
         .accessories1 {
-          width: 306px;
-          height: 30px;
+          width: 19.125rem;
+          height: 1.875rem;
           font: var(--unnamed-font-style-normal) normal
-            var(--unnamed-font-weight-bold) 22px/30px Futura;
+            var(--unnamed-font-weight-bold) 1.375rem/1.875rem Futura;
           letter-spacing: var(--unnamed-character-spacing-0);
           text-align: center;
-          font: normal normal bold 22px/30px Futura;
-          letter-spacing: 0px;
+          font: normal normal bold 1.375rem/1.875rem Futura;
+          letter-spacing: 0rem;
           color: #ffffff;
           text-transform: uppercase;
-          margin-bottom: 21px;
+          margin-bottom: 1.313rem;
         }
         .accessories2 {
-          margin-bottom: 23px;
-          width: 100px;
-          height: 98px;
+          margin-bottom: 1.438rem;
+          width: 6.25rem;
+          height: 6.125rem;
           background: transparent url("../Images/Group 22(3).svg") 0% 0%
             no-repeat padding-box;
         }
@@ -721,8 +714,8 @@ $primary: #ff0000;
             Futura;
           letter-spacing: var(--unnamed-character-spacing-0);
           text-align: center;
-          font: normal normal medium 18px/28px Futura;
-          letter-spacing: 0px;
+          font: normal normal medium 1.125rem/1.75rem Futura;
+          letter-spacing: 0rem;
           color: #d1d1d1;
         }
       }
@@ -733,29 +726,29 @@ $primary: #ff0000;
 //////////////////// Video Section ////////////////////
 
 .video {
-  max-height: 600px;
+  max-height: 37.5rem;
 
   position: relative;
   display: flex;
   justify-content: space-between;
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
   .video1 {
-    width: 120px;
-    margin-top: 40px;
-    height: 366px;
+    width: 7.5rem;
+    margin-top: 2.5rem;
+    height: 22.875rem;
 
     div {
       transform: rotate(90deg);
       font: var(--unnamed-font-style-normal) normal
-        var(--unnamed-font-weight-bold) 123px/164px SF Pro Display;
+        var(--unnamed-font-weight-bold) 7.688rem/10.25rem SF Pro Display;
       text-align: center;
-      font: normal normal bold 8vw/164px SF Pro Display;
-      letter-spacing: 23.98px;
+      font: normal normal bold 8vw/10.25rem SF Pro Display;
+      letter-spacing: 1.499rem;
       color: #5e5e5e;
       text-transform: uppercase;
       -webkit-text-fill-color: transparent;
-      -webkit-text-stroke-width: 2px;
+      -webkit-text-stroke-width: 0.125rem;
     }
   }
   .video2 {
@@ -764,9 +757,9 @@ $primary: #ff0000;
     max-width: 54.688rem;
     height: 40rem;
     object-fit: cover;
-    left: 164px;
-    top: 70px;
-    margin-top: 50px;
+    left: 10.25rem;
+    top: 4.375rem;
+    margin-top: 3.125rem;
 
     img {
       width: 100%;
@@ -791,7 +784,7 @@ $primary: #ff0000;
 //////////////////// Blog Section ////////////////////
 
 .blog {
-  min-height: 1400px;
+  min-height: 87.5rem;
   @extend .dFlex;
   flex-direction: column;
 
@@ -802,60 +795,61 @@ $primary: #ff0000;
     justify-content: center;
     flex-wrap: wrap;
 
-    max-width: 1283px;
+    max-width: 80.188rem;
 
-    margin-top: 18.4.5px;
-    margin-bottom: 73px;
+    margin-top: 1.156rem;
+    margin-bottom: 4.563rem;
     .blog1 {
       @extend .dFlex;
       justify-content: center;
       flex-direction: column;
-      max-width: 821px;
-      min-height: 158px;
+      max-width: 51.313rem;
+      min-height: 9.875rem;
 
       .blog11 {
-        max-width: 714px;
-        min-height: 79px;
+        max-width: 44.625rem;
+        min-height: 4.938rem;
         font: var(--unnamed-font-style-normal) normal
-          var(--unnamed-font-weight-bold) 59px/79px Futura;
+          var(--unnamed-font-weight-bold) 3.688rem/4.938rem Futura;
         letter-spacing: var(--unnamed-character-spacing-0);
         text-align: center;
-        font: normal normal bold 59px/79px Futura;
-        letter-spacing: 0px;
+        font: normal normal bold 3.688rem/4.938rem Futura;
+        letter-spacing: 0rem;
         color: #000000;
         text-transform: capitalize;
       }
       .blog12 {
-        max-width: 186px;
-        min-height: 5px;
+        max-width: 11.625rem;
+        min-height: 0.313rem;
         background: #e41c26 0% 0% no-repeat padding-box;
-        margin-top: 5px;
-        margin-bottom: 10px;
+        margin-top: 0.313rem;
+        margin-bottom: 0.625rem;
       }
       .blog13 {
-        max-width: 821px;
-        min-height: 59px;
+        max-width: 51.313rem;
+        min-height: 3.688rem;
         font: var(--unnamed-font-style-normal) normal
-          var(--unnamed-font-weight-medium) 20px/27px Futura;
+          var(--unnamed-font-weight-medium) 1.25rem/1.688rem Futura;
         letter-spacing: var(--unnamed-character-spacing-0);
         text-align: center;
-        font: normal normal medium 20px/27px Futura;
-        letter-spacing: 0px;
+        font: normal normal medium 1.25rem/1.688rem Futura;
+        letter-spacing: 0rem;
         color: #7e7e7e;
       }
     }
     .blog2 {
       max-width: 1100px;
-      min-height: 75px;
+      border: solid 2px red;
+      min-height: 4.688rem;
 
-      margin-top: 30px;
+      margin-top: 1.875rem;
       @extend .dFlex;
       flex-direction: column;
       justify-content: center;
 
       .blog2-box {
         max-width: 100%;
-        min-height: 50px;
+        min-height: 3.125rem;
 
         display: flex;
         align-items: flex-start;
@@ -863,110 +857,110 @@ $primary: #ff0000;
         justify-content: space-evenly;
 
         .blog21 {
-          padding: 20px;
-          border-bottom: 1px solid #a7a7a7;
+          padding: 1.25rem;
+          border-bottom: 0.063rem solid #a7a7a7;
           cursor: pointer;
           font: var(--unnamed-font-style-normal) normal
-            var(--unnamed-font-weight-600) 22px/30px Proxima Nova Alt;
+            var(--unnamed-font-weight-600) 1.375rem/1.875rem Proxima Nova Alt;
           text-align: left;
-          font: normal normal 600 22px/30px Proxima Nova Alt;
-          letter-spacing: -0.84px;
+          font: normal normal 600 1.375rem/1.875rem Proxima Nova Alt;
+          letter-spacing: -0.053rem;
           color: #163235;
         }
 
         .activate {
-          border-bottom: 5px solid #163235;
+          border-bottom: 0.313rem solid #163235;
         }
       }
     }
   }
   .blog3 {
-    max-width: 1100px;
+    max-width: 68.75rem;
 
     @extend .dFlex;
     justify-content: space-around;
     flex-wrap: wrap;
 
     .blog3-box {
-      max-width: 320px;
-      min-height: 300px;
-      margin: 10px;
+      max-width: 20rem;
+      min-height: 18.75rem;
+      margin: 0.625rem;
       .blog3-img1 {
         max-width: 100%;
-        min-height: 200px;
+        min-height: 12.5rem;
         background-image: url("../Images/Group 13.png");
         background-size: 100% 100%;
-        box-shadow: 0px 6px 25px #0000000f;
-        border-radius: 20px;
+        box-shadow: 0rem 0.375rem 1.563rem #0000000f;
+        border-radius: 1.25rem;
 
         position: relative;
 
         .blog3-img1-date {
-          width: 66px;
-          height: 63px;
+          width: 4.125rem;
+          height: 3.938rem;
           text-align: center;
 
           color: #ffffff;
           text-transform: uppercase;
           background: #e41c26 0% 0% no-repeat padding-box;
           position: absolute;
-          bottom: 15px;
-          left: 15px;
+          bottom: 0.938rem;
+          left: 0.938rem;
           .blog3-date1 {
             font-size: x-large;
-            margin-top: 5px;
+            margin-top: 0.313rem;
           }
         }
       }
       .blog3-img2 {
         max-width: 100%;
-        min-height: 200px;
+        min-height: 12.5rem;
         background: transparent url("../Images/Rectangle 33.png") 0% 0%
           no-repeat padding-box;
-        box-shadow: 0px 6px 25px #0000000f;
-        border-radius: 20px;
+        box-shadow: 0rem 0.375rem 1.563rem #0000000f;
+        border-radius: 1.25rem;
 
         position: relative;
         .blog3-img1-date {
-          width: 66px;
-          height: 63px;
+          width: 4.125rem;
+          height: 3.938rem;
           text-align: center;
 
           color: #ffffff;
           text-transform: uppercase;
           background: #e41c26 0% 0% no-repeat padding-box;
           position: absolute;
-          bottom: 15px;
-          left: 15px;
+          bottom: 0.938rem;
+          left: 0.938rem;
           .blog3-date1 {
             font-size: x-large;
-            margin-top: 5px;
+            margin-top: 0.313rem;
           }
         }
       }
       .blog3-img3 {
         max-width: 100%;
         position: relative;
-        min-height: 200px;
+        min-height: 12.5rem;
         background: transparent url("../Images/Rectangle 34.png") 0% 0%
           no-repeat padding-box;
-        box-shadow: 0px 6px 25px #0000000f;
-        border-radius: 20px;
+        box-shadow: 0rem 0.375 1.563rem #0000000f;
+        border-radius: 1.25rem;
 
         .blog3-img1-date {
-          width: 66px;
-          height: 63px;
+          width: 4.125rem;
+          height: 3.938rem;
           text-align: center;
 
           color: #ffffff;
           text-transform: uppercase;
           background: #e41c26 0% 0% no-repeat padding-box;
           position: absolute;
-          bottom: 15px;
-          left: 15px;
+          bottom: 0.938rem;
+          left: 0.938rem;
           .blog3-date1 {
             font-size: x-large;
-            margin-top: 5px;
+            margin-top: 0.313rem;
           }
         }
       }
@@ -975,54 +969,54 @@ $primary: #ff0000;
           @extend .dFlex;
           justify-content: space-around;
           flex-wrap: wrap;
-          margin-top: 24px;
-          margin-bottom: 12px;
+          margin-top: 1.5rem;
+          margin-bottom: 0.75rem;
           .blog-icon-flex {
             display: flex;
             .blog-icon {
               color: #e41c26;
-              margin-right: 5px;
+              margin-right: 0.313rem;
             }
             .blog-icon-text {
               font: var(--unnamed-font-style-normal) normal
                 var(--unnamed-font-weight-normal) var(--unnamed-font-size-14) /
                 var(--unnamed-line-spacing-19) SF Pro Display;
               text-align: left;
-              font: normal normal normal 12px/19px SF Pro Display;
-              letter-spacing: 1.05px;
+              font: normal normal normal 0.75rem/1.188rem SF Pro Display;
+              letter-spacing: 0.066rem;
               color: #7e7e7e;
               text-transform: uppercase;
-              margin-right: 10px;
+              margin-right: 0.625rem;
             }
           }
         }
         .blog3-info2 {
-          max-width: 384px;
-          min-height: 45px;
+          max-width: 24rem;
+          min-height: 2.813rem;
           font: var(--unnamed-font-style-normal) normal
-            var(--unnamed-font-weight-bold) 16px/30px SF Pro Display;
+            var(--unnamed-font-weight-bold) 1rem/1.875rem SF Pro Display;
           text-align: left;
-          font: normal normal bold 16px/30px SF Pro Display;
-          letter-spacing: 1.65px;
+          font: normal normal bold 1rem/1.875rem SF Pro Display;
+          letter-spacing: 0.103rem;
           color: #000000;
           text-transform: uppercase;
         }
         .blog3-info3 {
-          max-width: 389px;
-          min-height: 90px;
+          max-width: 24.313rem;
+          min-height: 5.625rem;
           font: var(--unnamed-font-style-normal) normal
             var(--unnamed-font-weight-medium) var(--unnamed-font-size-18) / 31px
             Futura;
           letter-spacing: var(--unnamed-character-spacing-0);
           text-align: left;
-          font: normal normal medium 18px/31px Futura;
-          letter-spacing: 0px;
+          font: normal normal medium 1.125rem/1.938rem Futura;
+          letter-spacing: 0rem;
           color: #7e7e7e;
         }
         .blog3-info4 {
-          max-width: 180px;
-          min-height: 50px;
-          border: 1px solid #000000;
+          max-width: 11.25rem;
+          min-height: 3.125rem;
+          border: 0.063rem solid #000000;
           @extend .dFlex;
           justify-content: center;
           div {
@@ -1030,8 +1024,8 @@ $primary: #ff0000;
               var(--unnamed-font-size-16) / var(--unnamed-line-spacing-21) SF
               Pro Display;
             text-align: center;
-            font: normal normal 300 14px/21px SF Pro Display;
-            letter-spacing: 0.8px;
+            font: normal normal 300 0.875rem/1.313rem SF Pro Display;
+            letter-spacing: 0.05rem;
             color: #000000;
             text-transform: uppercase;
           }
@@ -1045,25 +1039,25 @@ $primary: #ff0000;
 
 .subscribe {
   background: #eeeeee 0% 0% no-repeat padding-box;
-  margin-top: 109px;
+  margin-top: 6.813rem;
 
   .subscribe-box {
     max-width: 70rem;
     margin: auto;
-    min-height: 427px;
+    min-height: 26.688rem;
     position: relative;
-    bottom: 70px;
+    bottom: 4.375rem;
     background: #e41c26 0% 0% no-repeat padding-box;
     box-shadow: 0px 15px 45px #00000026;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     @extend .dFlex;
     justify-content: center;
 
     .subscribe-subbox {
       max-width: 70rem;
-      min-height: 244px;
+      min-height: 14rem;
 
-      margin: 20px;
+      margin: 1.25rem;
       @extend .dFlex;
       flex-wrap: wrap;
       .subscribe-subbox2 {
@@ -1073,16 +1067,17 @@ $primary: #ff0000;
         form {
           input {
             width: 18.75rem;
-            margin: 0px 10px 28px 10px;
+            margin: 0rem 0.625rem 1.75rem 0.625rem;
 
-            height: 58px;
+            height: 3rem;
+            border-radius: 0.5rem;
             background: #ffffff 0% 0% no-repeat padding-box;
             border: 2px solid #ededed;
           }
           button {
-            width: 300px;
-            height: 56px;
-            margin-left: 10px;
+            width: 18.75rem;
+            height: 3.5rem;
+            margin-left: 0.625rem;
             background: #111111 0% 0% no-repeat padding-box;
             outline: none;
             border: none;
@@ -1090,24 +1085,24 @@ $primary: #ff0000;
               var(--unnamed-font-weight-medium) var(--unnamed-font-size-16) /
               var(--unnamed-line-spacing-21) SF Pro Display;
             text-align: center;
-            font: normal normal medium 16px/21px SF Pro Display;
-            letter-spacing: 0.8px;
+            font: normal normal medium 1rem/1.313rem SF Pro Display;
+            letter-spacing: 0.05rem;
             color: #ffffff;
             text-transform: uppercase;
           }
         }
       }
       .subscribe-subbox1 {
-        max-width: 600px;
-        min-height: 244px;
+        max-width: 37.5rem;
+        min-height: 15.25rem;
         margin-bottom: 1rem;
         .subscribe-subbox11 {
-          min-height: 80px;
+          min-height: 5rem;
           font: var(--unnamed-font-style-normal) normal
             var(--unnamed-font-weight-normal) 60px/56px Futura-Bold;
           text-align: left;
-          font: normal normal normal 60px/56px Futura-Bold;
-          letter-spacing: 3px;
+          font: normal normal normal 3.75rem/3.5rem Futura-Bold;
+          letter-spacing: 0.188rem;
           color: #ffffff;
           text-transform: uppercase;
         }
@@ -1117,11 +1112,11 @@ $primary: #ff0000;
           var(--unnamed-font-weight-normal) 36px/56px Futura;
         letter-spacing: var(--unnamed-character-spacing-0);
         text-align: left;
-        font: normal normal normal 36px/56px Futura;
-        letter-spacing: 0px;
+        font: normal normal normal 2.25rem/3.5rem Futura;
+        letter-spacing: 0rem;
         color: #ffffff;
         text-transform: uppercase;
-        margin-bottom: 24px;
+        margin-bottom: 1.5rem;
       }
       .subscribe-subbox13 {
         font: var(--unnamed-font-style-normal) normal
@@ -1129,8 +1124,8 @@ $primary: #ff0000;
           var(--unnamed-line-spacing-24) Futura;
         letter-spacing: var(--unnamed-character-spacing-0);
         text-align: left;
-        font: normal normal normal 18px/24px Futura;
-        letter-spacing: 0px;
+        font: normal normal normal 1.125rem/1.5rem Futura;
+        letter-spacing: 0rem;
         color: #ffffff;
       }
     }
@@ -1140,10 +1135,10 @@ $primary: #ff0000;
 //////////////////// Footer Section ////////////////////
 
 .footer {
-  margin-top: 50px;
+  margin-top: 3.125rem;
 
   .footer1 {
-    min-height: 400px;
+    min-height: 25rem;
     background: #111111 0% 0% no-repeat padding-box;
     @extend .dFlex;
     justify-content: center;
@@ -1152,37 +1147,37 @@ $primary: #ff0000;
 
       flex-wrap: wrap;
       .footer11 {
-        width: 240px;
+        // width: 15rem;
 
         .footer11-info {
           .footer11-info3 {
             display: flex;
-            margin-top: 44.5px;
+            margin-top: 2.813rem;
             div {
-              margin-right: 25.5px;
+              margin-right: 1.594rem;
               cursor: pointer;
             }
             div:nth-child(1) {
-              width: 32px;
-              height: 32px;
+              width: 2rem;
+              height: 2rem;
               background: transparent url("../Images/Path 170.png") 0% 0%
                 no-repeat padding-box;
             }
             div:nth-child(2) {
-              width: 32px;
-              height: 32px;
+              width: 2rem;
+              height: 2rem;
               background: transparent url("../Images/Path 171.svg") 0% 0%
                 no-repeat padding-box;
             }
             div:nth-child(3) {
-              width: 32px;
-              height: 32px;
+              width: 2rem;
+              height: 2rem;
               background: transparent url("../Images/Group 159.svg") 0% 0%
                 no-repeat padding-box;
             }
           }
           .footer11-info2 {
-            margin-top: 19px;
+            margin-top: 1.188rem;
             cursor: pointer;
             div:hover {
               color: #e41c26;
@@ -1191,57 +1186,60 @@ $primary: #ff0000;
             div:nth-child(1) {
               background: transparent url("../Images/phone.svg") 0% 0% no-repeat
                 padding-box;
-              width: 15px;
-              height: 15px;
-              margin-right: 13px;
+              width: 0.938rem;
+              height: 0.938rem;
+              margin-right: 0.813rem;
             }
             div:nth-child(2) {
-              width: 89px;
-              height: 21px;
+              // width: 89px;
+              border: 1px red solid;
+              // height: 21px;
               font: var(--unnamed-font-style-normal) normal
                 var(--unnamed-font-weight-normal) var(--unnamed-font-size-16) /
                 var(--unnamed-line-spacing-21) Futura;
               letter-spacing: var(--unnamed-character-spacing-0);
               text-align: left;
-              font: normal normal normal 16px/21px Futura;
-              letter-spacing: 0px;
+              font: normal normal normal 1rem/1.313rem Futura;
+              letter-spacing: 0rem;
               color: #ffffff;
             }
           }
           .footer11-info1 {
             display: flex;
+            border: 1px red solid;
             div:nth-child(1) {
-              margin-right: 15px;
-              width: 12px;
-              height: 17px;
+              margin-right: 0.938rem;
+
+              width: 0.75rem;
+              height: 1.063rem;
               background: transparent url("../Images/location-sharp.svg") 0% 0%
                 no-repeat padding-box;
             }
             div:nth-child(2) {
-              width: 200px;
-              height: 42px;
+              width: 12.5rem;
+              // height: 2.625rem;
               font: var(--unnamed-font-style-normal) normal
                 var(--unnamed-font-weight-normal) var(--unnamed-font-size-16) /
                 var(--unnamed-line-spacing-21) Futura;
               letter-spacing: var(--unnamed-character-spacing-0);
               text-align: left;
-              font: normal normal normal 16px/21px Futura;
-              letter-spacing: 0px;
+              font: normal normal normal 1rem/1.313rem Futura;
+              letter-spacing: 0rem;
               color: #ffffff;
             }
           }
         }
         .footer11-image {
+          border: 1px red dotted;
           background: transparent url("../Images/Group 204.svg") 0% 0% no-repeat
             padding-box;
-          width: 220px;
-          height: 88px;
+          width: 13.75rem;
+          height: 5.5rem;
           position: relative;
-          top: -38px;
+          top: -2.375rem;
         }
         .footer11-image:hover {
           cursor: pointer;
-         
         }
       }
       .footer12 {
@@ -1262,12 +1260,12 @@ $primary: #ff0000;
               var(--unnamed-line-spacing-32) Futura;
             letter-spacing: var(--unnamed-character-spacing-0);
             text-align: left;
-            font: normal normal medium 24px/32px Futura;
+            font: normal normal medium 1, 5rem/2rem Futura;
             letter-spacing: 0px;
             color: #ffffff;
-            margin-bottom: 41px;
-            margin-left: 80px;
-            margin-right: 80px;
+            margin-bottom: 2.563rem;
+            margin-left: 5rem;
+            margin-right: 5rem;
           }
           div {
             cursor: pointer;
@@ -1276,19 +1274,19 @@ $primary: #ff0000;
               var(--unnamed-line-spacing-21) Futura;
             letter-spacing: var(--unnamed-character-spacing-0);
             text-align: left;
-            font: normal normal normal 16px/21px Futura;
+            font: normal normal normal 1rem/1.313rem Futura;
             letter-spacing: 0px;
             color: #ffffff;
-            margin-bottom: 29px;
-            margin-left: 80px;
-            margin-right: 80px;
+            margin-bottom: 1.813rem;
+            margin-left: 5rem;
+            margin-right: 5rem;
           }
         }
       }
     }
   }
   .footer2 {
-    height: 60px;
+    height: 3.75rem;
     background: #000000 0% 0% no-repeat padding-box;
     @extend .dFlex;
     justify-content: center;
@@ -1298,7 +1296,7 @@ $primary: #ff0000;
         var(--unnamed-line-spacing-21) Futura;
       letter-spacing: var(--unnamed-character-spacing-0);
       text-align: center;
-      font: normal normal normal 16px/21px Futura;
+      font: normal normal normal 1rem/1.313rem Futura;
       letter-spacing: 0px;
       color: #ffffff;
     }
@@ -1328,88 +1326,89 @@ $primary: #ff0000;
   .slider-content {
     max-width: 28vw;
 
-    border-left: 10px solid #f60000;
-    border-top: 10px solid #f60000;
-    border-bottom: 10px solid #f60000;
+    border-left: 0.625rem solid #f60000;
+    border-top: 0.625rem solid #f60000;
+    border-bottom: 0.625rem solid #f60000;
     position: absolute;
     top: 5em;
     left: 17vw;
     .slider-content-sub1 {
-      border-right: 10px #f60000 solid;
-      min-height: 20px;
+      border-right: 0.625rem #f60000 solid;
+      min-height: 1.25rem;
     }
     .slider-content-sub2 {
-      border-right: 10px #f60000 solid;
-      min-height: 20px;
+      border-right: 0.625rem #f60000 solid;
+      min-height: 1.25rem;
     }
     .slider-content-sub {
-      min-height: 340px;
-      max-width: 400px;
-      margin-left: 20px;
-      border: transparent 2px solid;
+      min-height: 21.25rem;
+      // border: 2px red solid;
+      max-width: 25rem;
+      margin-left: 1.25rem;
+      border: transparent 0.125rem solid;
       #join-box {
-        max-width: 44px;
-        min-height: 44px;
-        border-left: 3px solid #f60000;
-        border-bottom: 3px solid #f60000;
+        max-width: 2.75rem;
+        min-height: 2.75rem;
+        border-left: 0.188rem solid #f60000;
+        border-bottom: 0.188rem solid #f60000;
         position: relative;
-        left: -7px;
-        bottom: 15px;
+        left: -0.438rem;
+        bottom: 0.938rem;
       }
       div:nth-child(1) {
-        margin-top: 31.5px;
-        max-width: 200px;
-        min-height: 33px;
+        margin-top: 1.969rem;
+        max-width: 12.5rem;
+        min-height: 2.063rem;
         font: var(--unnamed-font-style-normal) normal
-          var(--unnamed-font-weight-bold) 25px/33px SF Pro Display;
+          var(--unnamed-font-weight-bold) 1.563rem/2.063rem SF Pro Display;
         letter-spacing: var(--unnamed-character-spacing-0);
         text-align: left;
-        font: normal normal bold 25px/33px SF Pro Display;
-        letter-spacing: 0px;
+        font: normal normal bold 1.563rem/2.063rem SF Pro Display;
+        letter-spacing: 0rem;
         color: #ffffff;
       }
       div:nth-child(2) {
         width: 47vw;
-        min-height: 132px;
+        min-height: 8.25rem;
         font: var(--unnamed-font-style-normal) normal
-          var(--unnamed-font-weight-bold) 99px/132px Futura;
+          var(--unnamed-font-weight-bold) 6.188rem/8.25rem Futura;
         letter-spacing: var(--unnamed-character-spacing-0);
         text-align: left;
-        font: normal normal bold 7vw/132px Futura;
-        letter-spacing: 0px;
+        font: normal normal bold 7vw/8.25rem Futura;
+        letter-spacing: 0rem;
         color: #ffffff;
         text-transform: capitalize;
       }
       div:nth-child(3) {
-        max-width: 296px;
-        min-height: 53px;
+        max-width: 18.5rem;
+        min-height: 3.313rem;
         font: var(--unnamed-font-style-normal) normal
-          var(--unnamed-font-weight-medium) 40px/53px Futura;
+          var(--unnamed-font-weight-medium) 2.5rem/3.313rem Futura;
         letter-spacing: var(--unnamed-character-spacing-0);
         text-align: left;
-        font: normal normal medium 40px/53px Futura;
-        letter-spacing: 0px;
+        font: normal normal medium 2.5rem/3.313rem Futura;
+        letter-spacing: 0rem;
         color: #ffffff;
         text-transform: capitalize;
       }
       div:nth-child(4) {
         position: relative;
-        width: 189px;
-        min-height: 57px;
-        border: 1px solid #ffffff;
+        width: 11.813rem;
+        min-height: 3.563rem;
+        border: 0.063rem solid #ffffff;
         @extend .dFlex;
         justify-content: center;
-        margin-bottom: -20px;
+        margin-bottom: -1.25rem;
         #join-text {
           cursor: pointer;
           position: relative;
-          bottom: 13px;
-          font: var(--unnamed-font-style-normal) normal 300 20px/27px SF Pro
+          bottom: 0.813rem;
+          font: var(--unnamed-font-style-normal) normal 300 1.25rem/1.688rem SF Pro
             Display;
           letter-spacing: var(--unnamed-character-spacing-0);
           text-align: center;
-          font: normal normal 300 20px/27px SF Pro Display;
-          letter-spacing: 0px;
+          font: normal normal 300 1.25rem/1.688rem SF Pro Display;
+          letter-spacing: 0rem;
           color: #ffffff;
           text-transform: uppercase;
         }
@@ -1420,10 +1419,10 @@ $primary: #ff0000;
 //////////Choose us Slider//////////////
 .mySwiper {
   max-width: 70rem;
-
+// border: cyan 2px solid;
   .swiper-box {
     // border: 2px red solid;
-    // height: 16rem;
+    height: 16rem;
     background-color: #2a2a2a;
     width: 16rem;
     padding: 16px;
@@ -1485,122 +1484,122 @@ $primary: #ff0000;
   }
 }
 .review-swiper {
-  .swiperslide-com{
-    // border: 2px blue solid;
-  }
-  // border: 2px red solid;
+  // .swiperslide-com {
+    
+  // }
+  
   .swiper-button-next {
     color: #7e7e7e;
     position: relative;
 
-    top: 509px;
-    left: 40px;
+    top: 31.813rem;
+    left: 2.5rem;
   }
   .swiper-button-prev {
     color: #7e7e7e;
     position: relative;
-    top: 531.5px;
-    left: 0px;
+    top: 33.219rem;
+    left: 0rem;
   }
 
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
   .box1 {
-    max-width: 25px;
-    min-height: 22px;
+    max-width: 1.563rem;
+    min-height: 1.375rem;
     text-align: left;
     font: var(--unnamed-font-style-normal) normal
-      var(--unnamed-font-weight-bold) 17px/22px SF Pro Display;
-    font: normal normal bold 17px/22px SF Pro Display;
-    letter-spacing: 1.27px;
+      var(--unnamed-font-weight-bold) 1.063rem/1.375rem SF Pro Display;
+    font: normal normal bold 1.063rem/1.375rem SF Pro Display;
+    letter-spacing: 0.079rem;
     color: #5e5e5e;
     text-transform: uppercase;
-    // opacity: 1;
+   
   }
   .box2 {
-    // background-color: red;
-    max-width: 83px;
-    min-height: 146px;
+    
+    max-width: 5.188rem;
+    min-height: 9.125rem;
     font: var(--unnamed-font-style-normal) normal
-      var(--unnamed-font-weight-bold) 59px/67px Futura;
+      var(--unnamed-font-weight-bold) 3.688rem/4.188rem Futura;
     letter-spacing: var(--unnamed-character-spacing-0);
     text-align: left;
-    font: normal normal bold 59px/67px Futura;
-    letter-spacing: 0px;
+    font: normal normal bold 3.688rem/4.188rem Futura;
+    letter-spacing: 0rem;
     color: #000000;
     text-transform: capitalize;
   }
   .box3 {
-    max-width: 105px;
-    min-height: 24px;
+    max-width: 6.563rem;
+    min-height: 1.5rem;
     font: var(--unnamed-font-style-normal) normal
       var(--unnamed-font-weight-normal) var(--unnamed-font-size-18) /
       var(--unnamed-line-spacing-24) SF Pro Display;
     text-align: left;
-    font: normal normal normal 18px/24px SF Pro Display;
-    letter-spacing: 1.35px;
+    font: normal normal normal 1.125rem/1.5rem SF Pro Display;
+    letter-spacing: 0.084rem;
     color: #7e7e7e;
     text-transform: capitalize;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
   }
   .box4 {
-    max-width: 280px;
-    min-height: 30px;
+    max-width: 17.5rem;
+    min-height: 1.875rem;
     font: var(--unnamed-font-style-normal) normal
-      var(--unnamed-font-weight-bold) 22px/30px SF Pro Display;
+      var(--unnamed-font-weight-bold) 1.375rem/1.875rem SF Pro Display;
     text-align: left;
-    font: normal normal bold 22px/30px SF Pro Display;
-    letter-spacing: 1.65px;
+    font: normal normal bold 1.375rem/1.875rem SF Pro Display;
+    letter-spacing: 0.103rem;
     color: #000000;
     text-transform: uppercase;
-    margin-bottom: 4px;
+    margin-bottom: 0.25rem;
   }
   .box5 {
     @extend .dFlex;
-    margin-bottom: 44px;
+    margin-bottom: 2.75rem;
     div:nth-child(1) {
-      width: 13px;
-      height: 13px;
+      width: 0.813rem;
+      height: 0.813rem;
       background: transparent url("../Images/Icon awesome-star.png") 0% 0%
         no-repeat padding-box;
     }
     div {
-      margin-right: 9px;
+      margin-right: 0.563rem;
     }
     div:nth-child(2) {
-      width: 13px;
-      height: 13px;
+      width: 0.813rem;
+      height: 0.813rem;
       background: transparent url("../Images/Icon awesome-star.png") 0% 0%
         no-repeat padding-box;
     }
     div:nth-child(3) {
-      width: 13px;
-      height: 13px;
+      width: 0.813rem;
+      height: 0.813rem;
       background: transparent url("../Images/Icon awesome-star.png") 0% 0%
         no-repeat padding-box;
     }
     div:nth-child(4) {
-      width: 13px;
-      height: 13px;
+      width: 0.813rem;
+      height: 0.813rem;
       background: transparent url("../Images/Icon awesome-star.png") 0% 0%
         no-repeat padding-box;
     }
     div:nth-child(5) {
-      width: 13px;
-      height: 13px;
+      width: 0.813rem;
+      height: 0.813rem;
       background: transparent url("../Images/Icon awesome-star.png") 0% 0%
         no-repeat padding-box;
     }
   }
   .box6 {
-    max-width: 521px;
+    max-width: 32.563rem;
 
     font: var(--unnamed-font-style-normal) normal
       var(--unnamed-font-weight-medium) var(--unnamed-font-size-18) / 28px
       Futura;
     letter-spacing: var(--unnamed-character-spacing-0);
     text-align: left;
-    font: normal normal medium 18px/28px Futura;
-    letter-spacing: 0px;
+    font: normal normal medium 1.125rem/1.75rem Futura;
+    letter-spacing: 0rem;
     color: #7e7e7e;
   }
 }
@@ -1609,17 +1608,17 @@ $primary: #ff0000;
 // .swiper-pagination-bullet-active {
 // }
 
-@media only screen and (max-width: 1178px) {
+@media only screen and (max-width: 73.625rem) {
   .footer-main {
     justify-content: center;
   }
   .footer11 {
-    margin-top: 50px;
-    margin-bottom: 10px;
+    margin-top: 3.125rem;
+    margin-bottom: 0.625rem;
   }
 }
 
-@media only screen and (max-width: 1053px) {
+@media only screen and (max-width: 65.813rem) {
   .subscribe-subbox {
     justify-content: center;
   }
@@ -1631,12 +1630,12 @@ $primary: #ff0000;
   }
   .chooseus {
     .main-content {
-      margin-top: 50px;
-      margin-bottom: 50px;
+      margin-top: 3.125rem;
+      margin-bottom: 3.125rem;
     }
   }
 }
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 59.375rem) {
   .header {
     grid-template-areas:
       "logo logo"
@@ -1653,7 +1652,7 @@ $primary: #ff0000;
       justify-content: center;
 
       .progression-box {
-        margin-right: 0px;
+        margin-right: 0rem;
       }
     }
     .workout {
@@ -1663,25 +1662,25 @@ $primary: #ff0000;
       grid-column: 1 / -1;
       justify-content: center;
 
-      margin-left: -50px;
+      margin-left: -3.125rem;
       .nutrition-box {
-        margin-right: 0px;
+        margin-right: 0rem;
       }
     }
   }
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 50rem) {
   .video {
     display: flex;
     flex-direction: column;
-    margin-top: 0px;
+    margin-top: 0rem;
 
     .video1 {
-      margin-left: 80px;
+      margin-left: 5rem;
       transform: rotate(-90deg);
-      width: 74px;
-      margin-top: 0px;
-      margin-bottom: -50px;
+      width: 4.625rem;
+      margin-top: 0rem;
+      margin-bottom: -3.125rem;
     }
 
     .video2 {
@@ -1693,13 +1692,13 @@ $primary: #ff0000;
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 43.75rem) {
   .header {
     .top-header {
       .info-header {
         .info-header1 {
-          margin-left: 0px;
-          margin-right: 0px;
+          margin-left: 0rem;
+          margin-right: 0rem;
         }
       }
     }
@@ -1718,7 +1717,7 @@ $primary: #ff0000;
       .navbar-links {
         width: 100%;
         ul {
-          border: white solid 1px;
+          border: white solid 0.063rem;
           flex-direction: column;
           width: 100%;
         }
@@ -1738,19 +1737,19 @@ $primary: #ff0000;
     }
   }
 }
-@media only screen and (max-width: 410px) {
+@media only screen and (max-width: 25.625rem) {
   // .video {
   //   height: 350px;
   // }
   .review-swiper {
     .swiper-button-next {
-      top: 550px;
+      top: 34.375rem;
     }
     .swiper-button-prev {
-      top: 571px;
+      top: 35.688rem;
     }
   }
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 81.25rem) {
 }

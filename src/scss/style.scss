@@ -48,6 +48,7 @@ $primary: #ff0000;
 
   display: grid;
   grid-template-columns: 18rem 1fr;
+  // grid-template-columns: 25% 75%;
 
   grid-template-areas:
     "logo top"
@@ -58,8 +59,10 @@ $primary: #ff0000;
     cursor: pointer;
     @extend .dFlex;
     justify-content: center;
-
     background-color: #e41c26;
+    // img{
+    //   // transform: scale(20vw);
+    // }
   }
 
   .top-header {
@@ -158,7 +161,8 @@ $primary: #ff0000;
 
 .Category {
   display: grid;
-  grid-template-columns: 1.3fr 1fr 1.3fr;
+  // grid-template-columns: 1.3fr 1fr 1.3fr;
+  grid-template-columns: 35% 30% 35%;
   grid-template-areas: "box1 box2 box3";
   grid-auto-rows: 24.438rem;
   .progression {
@@ -1403,8 +1407,8 @@ $primary: #ff0000;
           cursor: pointer;
           position: relative;
           bottom: 0.813rem;
-          font: var(--unnamed-font-style-normal) normal 300 1.25rem/1.688rem SF Pro
-            Display;
+          font: var(--unnamed-font-style-normal) normal 300 1.25rem/1.688rem SF
+            Pro Display;
           letter-spacing: var(--unnamed-character-spacing-0);
           text-align: center;
           font: normal normal 300 1.25rem/1.688rem SF Pro Display;
@@ -1419,7 +1423,7 @@ $primary: #ff0000;
 //////////Choose us Slider//////////////
 .mySwiper {
   max-width: 70rem;
-// border: cyan 2px solid;
+  // border: cyan 2px solid;
   .swiper-box {
     // border: 2px red solid;
     height: 16rem;
@@ -1485,9 +1489,9 @@ $primary: #ff0000;
 }
 .review-swiper {
   // .swiperslide-com {
-    
+
   // }
-  
+
   .swiper-button-next {
     color: #7e7e7e;
     position: relative;
@@ -1513,10 +1517,8 @@ $primary: #ff0000;
     letter-spacing: 0.079rem;
     color: #5e5e5e;
     text-transform: uppercase;
-   
   }
   .box2 {
-    
     max-width: 5.188rem;
     min-height: 9.125rem;
     font: var(--unnamed-font-style-normal) normal

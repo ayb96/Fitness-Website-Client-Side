@@ -127,7 +127,7 @@
 
 .Category {
   display: grid;
-  grid-template-columns: 1.3fr 1fr 1.3fr;
+  grid-template-columns: 35% 30% 35%;
   grid-template-areas: "box1 box2 box3";
   grid-auto-rows: 24.438rem;
 }

@@ -843,7 +843,7 @@ $primary: #ff0000;
     }
     .blog2 {
       max-width: 1100px;
-      border: solid 2px red;
+      // border: solid 2px red;
       min-height: 4.688rem;
 
       margin-top: 1.875rem;
@@ -1196,7 +1196,7 @@ $primary: #ff0000;
             }
             div:nth-child(2) {
               // width: 89px;
-              border: 1px red solid;
+              
               // height: 21px;
               font: var(--unnamed-font-style-normal) normal
                 var(--unnamed-font-weight-normal) var(--unnamed-font-size-16) /
@@ -1210,7 +1210,7 @@ $primary: #ff0000;
           }
           .footer11-info1 {
             display: flex;
-            border: 1px red solid;
+            
             div:nth-child(1) {
               margin-right: 0.938rem;
 
@@ -1234,7 +1234,7 @@ $primary: #ff0000;
           }
         }
         .footer11-image {
-          border: 1px red dotted;
+          
           background: transparent url("../Images/Group 204.svg") 0% 0% no-repeat
             padding-box;
           width: 13.75rem;

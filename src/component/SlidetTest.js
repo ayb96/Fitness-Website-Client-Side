@@ -41,7 +41,7 @@ export default function Blog() {
                 <div>{fadeImage.caption}</div>
                 <div>{fadeImage.title}</div>
                 <div>Description Here</div>
-                <div>
+                <div className="join-text-out">
                   <div id="join-text">JOIN US NOW</div>
                 </div>
                 <div id="join-box"></div>

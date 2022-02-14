@@ -788,15 +788,16 @@ $primary: #ff0000;
 //////////////////// Blog Section ////////////////////
 
 .blog {
-  min-height: 87.5rem;
+  min-height: 61rem;
   @extend .dFlex;
   flex-direction: column;
+  border: red solid 2px;
 
   justify-content: center;
   .blog-box {
     @extend .dFlex;
     flex-direction: column;
-    justify-content: center;
+    // justify-content: center;
     flex-wrap: wrap;
 
     max-width: 80.188rem;
@@ -854,7 +855,7 @@ $primary: #ff0000;
       .blog2-box {
         max-width: 100%;
         min-height: 3.125rem;
-
+        transition: 1s;
         display: flex;
         align-items: flex-start;
         flex-wrap: wrap;
@@ -886,9 +887,11 @@ $primary: #ff0000;
     flex-wrap: wrap;
 
     .blog3-box {
-      max-width: 20rem;
+      cursor: pointer;
+      max-width: 19rem;
       min-height: 18.75rem;
-      margin: 0.625rem;
+      margin: 1.5rem;
+      // display: inline-block;
       .blog3-img1 {
         max-width: 100%;
         min-height: 12.5rem;
@@ -1036,6 +1039,20 @@ $primary: #ff0000;
         }
       }
     }
+    .blog3-box:hover {
+      .blog3-info {
+        .blog3-info4:hover {
+          div {
+            color: white;
+          }
+          border: none;
+          background-color: #696b69;
+          transition: 0.5s;
+        }
+      }
+
+      // transition: all 0.4s ease-in-out;
+    }
   }
 }
 
@@ -1079,6 +1096,7 @@ $primary: #ff0000;
             border: 2px solid #ededed;
           }
           button {
+            cursor: pointer;
             width: 18.75rem;
             height: 3.5rem;
             margin-left: 0.625rem;
@@ -1196,7 +1214,7 @@ $primary: #ff0000;
             }
             div:nth-child(2) {
               // width: 89px;
-              
+
               // height: 21px;
               font: var(--unnamed-font-style-normal) normal
                 var(--unnamed-font-weight-normal) var(--unnamed-font-size-16) /
@@ -1210,7 +1228,7 @@ $primary: #ff0000;
           }
           .footer11-info1 {
             display: flex;
-            
+
             div:nth-child(1) {
               margin-right: 0.938rem;
 
@@ -1234,7 +1252,6 @@ $primary: #ff0000;
           }
         }
         .footer11-image {
-          
           background: transparent url("../Images/Group 204.svg") 0% 0% no-repeat
             padding-box;
           width: 13.75rem;
@@ -1403,6 +1420,7 @@ $primary: #ff0000;
         @extend .dFlex;
         justify-content: center;
         margin-bottom: -1.25rem;
+
         #join-text {
           cursor: pointer;
           position: relative;
@@ -1417,6 +1435,10 @@ $primary: #ff0000;
           text-transform: uppercase;
         }
       }
+      div:nth-child(4):hover {
+        background-color: #636864;
+        transition: 1s;
+      }
     }
   }
 }
@@ -1424,8 +1446,13 @@ $primary: #ff0000;
 .mySwiper {
   max-width: 70rem;
   // border: cyan 2px solid;
+  .swiper-box:hover {
+    background-color: #5e5c5c;
+    transition: 1s;
+  }
   .swiper-box {
     // border: 2px red solid;
+    cursor: pointer;
     height: 16rem;
     background-color: #2a2a2a;
     width: 16rem;

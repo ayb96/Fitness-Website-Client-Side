@@ -7,7 +7,7 @@ import progression2Icon from "../Images/16-express(1).svg";
 import workout2Icon from "../Images/XMLID_1490_(1).svg";
 import nutrition2Icon from "../Images/clipboard(1).svg";
 export default function Category() {
-  const [offsetY, setOffsetY] = useState(0);
+                  const [offsetY, setOffsetY] = useState(0);
 
   const handleScroll = () => {
     if (window.innerWidth > 950) {

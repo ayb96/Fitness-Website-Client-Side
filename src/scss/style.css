@@ -656,13 +656,13 @@
 }
 
 .blog {
-  min-height: 87.5rem;
+  min-height: 61rem;
   flex-direction: column;
+  border: red solid 2px;
   justify-content: center;
 }
 .blog .blog-box {
   flex-direction: column;
-  justify-content: center;
   flex-wrap: wrap;
   max-width: 80.188rem;
   margin-top: 1.156rem;
@@ -712,6 +712,7 @@
 .blog .blog-box .blog2 .blog2-box {
   max-width: 100%;
   min-height: 3.125rem;
+  transition: 1s;
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
@@ -736,9 +737,10 @@
   flex-wrap: wrap;
 }
 .blog .blog3 .blog3-box {
-  max-width: 20rem;
+  cursor: pointer;
+  max-width: 19rem;
   min-height: 18.75rem;
-  margin: 0.625rem;
+  margin: 1.5rem;
 }
 .blog .blog3 .blog3-box .blog3-img1 {
   max-width: 100%;
@@ -866,6 +868,14 @@
   color: #000000;
   text-transform: uppercase;
 }
+.blog .blog3 .blog3-box:hover .blog3-info .blog3-info4:hover {
+  border: none;
+  background-color: #696b69;
+  transition: 0.5s;
+}
+.blog .blog3 .blog3-box:hover .blog3-info .blog3-info4:hover div {
+  color: white;
+}
 
 .subscribe {
   background: #eeeeee 0% 0% no-repeat padding-box;
@@ -900,6 +910,7 @@
   border: 2px solid #ededed;
 }
 .subscribe .subscribe-box .subscribe-subbox .subscribe-subbox2 form button {
+  cursor: pointer;
   width: 18.75rem;
   height: 3.5rem;
   margin-left: 0.625rem;
@@ -1183,11 +1194,20 @@
   color: #ffffff;
   text-transform: uppercase;
 }
+.slide-show .slider-content .slider-content-sub div:nth-child(4):hover {
+  background-color: #636864;
+  transition: 1s;
+}
 
 .mySwiper {
   max-width: 70rem;
 }
+.mySwiper .swiper-box:hover {
+  background-color: #5e5c5c;
+  transition: 1s;
+}
 .mySwiper .swiper-box {
+  cursor: pointer;
   height: 16rem;
   background-color: #2a2a2a;
   width: 16rem;

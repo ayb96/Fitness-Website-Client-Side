@@ -6,17 +6,17 @@ const fadeImages = [
   {
     url: "https://images.pexels.com/photos/6739958/pexels-photo-6739958.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     caption: "First Slide",
-    title: "Title 1",
+    title: "Slider Title 1",
   },
   {
     url: "https://images.pexels.com/photos/4164658/pexels-photo-4164658.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    caption: "Second Slide",
-    title: "Title 2",
+    caption: " Second Slide",
+    title: "Slider Title 2",
   },
   {
     url: "https://images.pexels.com/photos/949130/pexels-photo-949130.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     caption: "Third Slide",
-    title: "Title 3",
+    title: "Slider Title 3",
   },
 ];
 

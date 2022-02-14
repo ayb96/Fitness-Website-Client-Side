@@ -791,7 +791,7 @@ $primary: #ff0000;
   min-height: 61rem;
   @extend .dFlex;
   flex-direction: column;
-  border: red solid 2px;
+  // border: red solid 2px;
 
   justify-content: center;
   .blog-box {
@@ -1414,7 +1414,7 @@ $primary: #ff0000;
       }
       div:nth-child(4) {
         position: relative;
-        width: 11.813rem;
+        width: 11rem;
         min-height: 3.563rem;
         border: 0.063rem solid #ffffff;
         @extend .dFlex;

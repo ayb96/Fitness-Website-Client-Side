@@ -658,7 +658,6 @@
 .blog {
   min-height: 61rem;
   flex-direction: column;
-  border: red solid 2px;
   justify-content: center;
 }
 .blog .blog-box {
@@ -1176,7 +1175,7 @@
 }
 .slide-show .slider-content .slider-content-sub div:nth-child(4) {
   position: relative;
-  width: 11.813rem;
+  width: 11rem;
   min-height: 3.563rem;
   border: 0.063rem solid #ffffff;
   justify-content: center;

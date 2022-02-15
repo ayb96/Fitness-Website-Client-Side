@@ -8,7 +8,7 @@ import GoogleIcon from "@mui/icons-material/Google";
 import PhoneEnabledIcon from "@mui/icons-material/PhoneEnabled";
 import MailOutlineOutlinedIcon from "@mui/icons-material/MailOutlineOutlined";
 import SearchIcon from "@mui/icons-material/Search";
-// import Rellax from "rellax";
+
 
 export default function Header() {
   const runMe = () => {

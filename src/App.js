@@ -9,12 +9,14 @@ import Subscribe from "./component/Subscribe";
 import Footer from "./component/Footer";
 
 import SlideTest from "./component/SlidetTest";
+import SliderNew from "./component/SliderNew";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <SlideTest />
+      <SliderNew/>
+      {/* <SlideTest /> */}
       <Category />
       <Reviews />
       <ChooseUs />
@@ -22,6 +24,7 @@ function App() {
       <Blog />
       <Subscribe />
       <Footer />
+      
     </div>
   );
 }

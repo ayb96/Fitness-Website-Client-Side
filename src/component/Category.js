@@ -9,25 +9,25 @@ import nutrition2Icon from "../Images/clipboard(1).svg";
 export default function Category() {
                   const [offsetY, setOffsetY] = useState(0);
 
-  const handleScroll = () => {
-    if (window.innerWidth > 950) {
-      setOffsetY(window.pageYOffset);
-      return;
-    }
-    setOffsetY(0);
-  };
+  // const handleScroll = () => {
+  //   if (window.innerWidth > 950) {
+  //     setOffsetY(window.pageYOffset);
+  //     return;
+  //   }
+  //   setOffsetY(0);
+  // };
 
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
+  // useEffect(() => {
+  //   window.addEventListener("scroll", handleScroll);
 
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  //   return () => window.removeEventListener("scroll", handleScroll);
+  // }, []);
 
   return (
     <div className="Category">
       <div
         className="progression"
-        style={{ transform: `translateY(${offsetY * 0.1}px)` }}
+        // style={{ transform: `translateY(${offsetY * 0.1}px)` }}
       >
         <div className="progression-box">
           <div className="progression-box1">
@@ -43,7 +43,7 @@ export default function Category() {
       </div>
       <div
         className="workout"
-        style={{ transform: `translateY(${offsetY * 0.2}px)` }}
+        // style={{ transform: `translateY(${offsetY * 0.2}px)` }}
       >
         <div className="workout-box">
           <div className="workout-box1">
@@ -67,7 +67,7 @@ export default function Category() {
       </div>
       <div
         className="nutrition"
-        style={{ transform: `translateY(${offsetY * 0.3}px)` }}
+        // style={{ transform: `translateY(${offsetY * 0.3}px)` }}
       >
         <div className="nutrition-box">
           <div className="nutrition-box1">

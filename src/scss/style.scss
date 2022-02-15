@@ -60,14 +60,12 @@ $primary: #ff0000;
     @extend .dFlex;
     justify-content: center;
     background-color: #e41c26;
-    // img{
-    //   // transform: scale(20vw);
-    // }
   }
 
   .top-header {
     grid-area: top;
-    // min-height: 48px;
+    min-height: 48px;
+
     background: #111111 0% 0% no-repeat padding-box;
     opacity: 1;
     color: #eeeeee;
@@ -108,6 +106,7 @@ $primary: #ff0000;
       }
       div:hover {
         background-color: #5e5e5e;
+        transition: 0.7s;
       }
       .instagram-icon {
         border-right: #2a2a2a 0.063rem solid;
@@ -147,6 +146,7 @@ $primary: #ff0000;
           }
           li:hover {
             background-color: #5e5e5e;
+            transition: 1s;
             a {
               color: white;
             }
@@ -1636,6 +1636,130 @@ $primary: #ff0000;
 // }
 // .swiper-pagination-bullet-active {
 // }
+.slider-new {
+  background-color: red;
+  width: 100%;
+  height: 33rem;
+  position: absolute;
+
+  .swiper-button-prev {
+    // border: 2px red solid;
+    background-color: #83808083;
+    color: white;
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 30px;
+  }
+  .swiper-button-next {
+    // border: 2px red solid;
+    background-color: #83808083;
+    color: white;
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 30px;
+  }
+  .slider-content {
+    max-width: 28vw;
+    border-left: 0.625rem solid #f60000;
+    border-top: 0.625rem solid #f60000;
+    border-bottom: 0.625rem solid #f60000;
+    position: absolute;
+    z-index: 1000;
+    top: 5em;
+    left: 17vw;
+    .slider-content-sub1 {
+      border-right: 0.625rem #f60000 solid;
+      min-height: 1.25rem;
+    }
+    .slider-content-sub2 {
+      border-right: 0.625rem #f60000 solid;
+      min-height: 1.25rem;
+    }
+    .slider-content-sub {
+      min-height: 21.25rem;
+      // border: 2px red solid;
+      max-width: 25rem;
+      margin-left: 1.25rem;
+      border: transparent 0.125rem solid;
+      #join-box {
+        max-width: 2.75rem;
+        min-height: 2.75rem;
+        border-left: 0.188rem solid #f60000;
+        border-bottom: 0.188rem solid #f60000;
+        position: relative;
+        left: -0.438rem;
+        bottom: 0.938rem;
+      }
+      div:nth-child(1) {
+        margin-top: 1.969rem;
+        max-width: 12.5rem;
+        min-height: 2.063rem;
+        font: var(--unnamed-font-style-normal) normal
+          var(--unnamed-font-weight-bold) 1.563rem/2.063rem SF Pro Display;
+        letter-spacing: var(--unnamed-character-spacing-0);
+        text-align: left;
+        font: normal normal bold 1.563rem/2.063rem SF Pro Display;
+        letter-spacing: 0rem;
+        color: #ffffff;
+      }
+      div:nth-child(2) {
+        width: 47vw;
+        min-height: 8.25rem;
+        font: var(--unnamed-font-style-normal) normal
+          var(--unnamed-font-weight-bold) 6.188rem/8.25rem Futura;
+        letter-spacing: var(--unnamed-character-spacing-0);
+        text-align: left;
+        font: normal normal bold 7vw/8.25rem Futura;
+        letter-spacing: 0rem;
+        color: #ffffff;
+        text-transform: capitalize;
+      }
+      div:nth-child(3) {
+        max-width: 18.5rem;
+        min-height: 3.313rem;
+        font: var(--unnamed-font-style-normal) normal
+          var(--unnamed-font-weight-medium) 2.5rem/3.313rem Futura;
+        letter-spacing: var(--unnamed-character-spacing-0);
+        text-align: left;
+        font: normal normal medium 2.5rem/3.313rem Futura;
+        letter-spacing: 0rem;
+        color: #ffffff;
+        text-transform: capitalize;
+      }
+      div:nth-child(4) {
+        position: relative;
+        width: 11rem;
+        min-height: 3.563rem;
+        border: 0.063rem solid #ffffff;
+        @extend .dFlex;
+        justify-content: center;
+        margin-bottom: -1.25rem;
+
+        #join-text {
+          cursor: pointer;
+          position: relative;
+          bottom: 0.813rem;
+          font: var(--unnamed-font-style-normal) normal 300 1.25rem/1.688rem SF
+            Pro Display;
+          letter-spacing: var(--unnamed-character-spacing-0);
+          text-align: center;
+          font: normal normal 300 1.25rem/1.688rem SF Pro Display;
+          letter-spacing: 0rem;
+          color: #ffffff;
+          text-transform: uppercase;
+        }
+      }
+      div:nth-child(4):hover {
+        background-color: #636864;
+        transition: 1s;
+      }
+    }
+  }
+}
 
 @media only screen and (max-width: 73.625rem) {
   .footer-main {
@@ -1722,6 +1846,12 @@ $primary: #ff0000;
 }
 
 @media screen and (max-width: 43.75rem) {
+  .slider-new {
+    .slider-content {
+      left: 25vw;
+    }
+  }
+
   .header {
     .top-header {
       .info-header {

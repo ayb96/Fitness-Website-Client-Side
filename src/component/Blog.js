@@ -197,7 +197,7 @@ export default function Blog() {
 
       <div className="blog3">
         {
-          categorySingleData
+           categorySingleData
           .filter(task => task.id === id)
           
           .map(task => (
@@ -248,9 +248,7 @@ export default function Blog() {
             })
   ))
         }
-        {/* {[...Array(6)].map((star, index) => (
-          
-        ))} */}
+        
       </div>
     </div>
   );

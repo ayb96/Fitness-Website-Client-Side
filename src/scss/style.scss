@@ -1912,3 +1912,55 @@ $primary: #ff0000;
 
 @media only screen and (max-width: 81.25rem) {
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+// .heading {
+//   font-size: 2em;
+//   text-align: center;
+//   margin: 4em 0;
+// }
+
+.new-blog-nav {
+  ul {
+    list-style-type: none;
+    display: flex;
+    max-width: 62.375rem;
+
+    padding: 10px;
+    // border: 2px red solid;
+  }
+  ul li {
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    padding: 1rem 2.2rem 1rem 2.2rem;
+    border-bottom: 1px solid black;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600)
+      22px/30px Proxima Nova Alt;
+    text-align: left;
+    font: normal normal 600 22px/30px Proxima Nova Alt;
+    letter-spacing: -0.84px;
+    color: #163235;
+  }
+  li.active::after {
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 100%;
+    background-color: #163235;
+    left: 0;
+    bottom: 0px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    animation: appear 0.3s linear;
+  }
+  @keyframes appear {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+}

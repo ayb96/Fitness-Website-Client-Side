@@ -10,6 +10,7 @@ import Footer from "./component/Footer";
 
 import SlideTest from "./component/SlidetTest";
 import SliderNew from "./component/SliderNew";
+import NavBar from "./component/NavBar";
 
 function App() {
   return (
@@ -24,7 +25,6 @@ function App() {
       <Blog />
       <Subscribe />
       <Footer />
-      
     </div>
   );
 }

@@ -4,27 +4,29 @@ import MessageIcon from "@mui/icons-material/Message";
 import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
+import { useMyContext } from "../Context/MyContext";
+import NavBar from "./NavBar";
 export default function Blog() {
-  const [id, setId] = useState(1)
+  const { id, setId } = useMyContext();
+  
   AOS.init();
-  useEffect(() => {
-    var btnContainer = document.getElementById("hovering");
-    console.log(btnContainer);
-    var btns = btnContainer.getElementsByClassName("btnz");
-    for (var i = 0; i < btns.length; i++) {
-      btns[i].addEventListener("click", function () {
-        var current = document.getElementsByClassName("activate");
-        current[0].className = current[0].className.replace(" activate");
-        this.className += " activate";
-      });
-    }
-    console.log(btns);
-  }, []);
+  // useEffect(() => {
+  //   var btnContainer = document.getElementById("hovering");
+  //   console.log(btnContainer);
+  //   var btns = btnContainer.getElementsByClassName("btnz");
+  //   for (var i = 0; i < btns.length; i++) {
+  //     btns[i].addEventListener("click", function () {
+  //       var current = document.getElementsByClassName("activate");
+  //       current[0].className = current[0].className.replace(" activate");
+  //       this.className += " activate";
+  //     });
+  //   }
+  //   console.log(btns);
+  // }, []);
 
-  const handelChange = (idd)=>{
-    setId(idd)
-  }
+  // const handelChange = (idd)=>{
+  //   setId(idd)
+  // }
 
 
   const categoryData = [
@@ -171,7 +173,7 @@ export default function Blog() {
             nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
           </div>
         </div>
-        <div className="blog2">
+        {/* <div className="blog2">
           <div id="hovering" className="blog2-box">
             <div className="btnz activate">
               <div className="blog21" onClick={()=>{handelChange(1)}}>The Weekend Break</div>
@@ -181,18 +183,10 @@ export default function Blog() {
                 <div className="blog21" onClick={()=>handelChange(obj.category_id)}>{obj.name}</div>
               </div>
             ))}
-            
-            {/* <div className="btnz">
-              <div className="blog21" onClick={()=>handelChange(1)}>The Package Holiday</div>
-            </div>
-            <div className="btnz">
-              <div className="blog21" onClick={()=>handelChange(1)}>The Group Package</div>
-            </div>
-            <div className="btnz">
-              <div className="blog21" onClick={()=>handelChange(1)}>Annual Package</div>
-            </div> */}
+ 
           </div>
-        </div>
+        </div> */}
+        <NavBar/>
       </div>
 
       <div className="blog3">

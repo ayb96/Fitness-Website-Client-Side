@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-.dFlex, .slider-new .slider-content .slider-content-sub div:nth-child(4), .review-swiper .box5, .mySwiper .swiper-box, .slide-show .slider-content .slider-content-sub div:nth-child(4), .footer .footer2, .footer .footer1, .subscribe .subscribe-box .subscribe-subbox .subscribe-subbox2, .subscribe .subscribe-box .subscribe-subbox, .subscribe .subscribe-box, .blog .blog3 .blog3-box .blog3-info .blog3-info4, .blog .blog3 .blog3-box .blog3-info .blog3-info1, .blog .blog3, .blog .blog-box .blog2, .blog .blog-box .blog1, .blog .blog-box, .blog, .chooseus .main-content .box4 .accessories, .chooseus .main-content .box4 .hoodies, .chooseus .main-content .box4 .bottoms, .chooseus .main-content .box4 .tops, .chooseus .main-content .box4, .chooseus .main-content, .chooseus, .reviews .reviews-box .review-img-box, .reviews .reviews-box .first-box .box7, .reviews .reviews-box .first-box .box5, .reviews .reviews-box, .reviews, .Category .nutrition .nutrition-box, .Category .nutrition, .Category .workout .workout-box, .Category .workout, .Category .progression .progression-box .progression-box1, .Category .progression, .header .top-header .social-icon, .header .top-header .info-header .info-header2, .header .top-header .info-header .info-header1, .header .top-header .info-header, .header .top-header, .header .header-logo {
+.dFlex, .new-blog-nav ul, .slider-new .slider-content .slider-content-sub div:nth-child(4), .review-swiper .box5, .mySwiper .swiper-box, .slide-show .slider-content .slider-content-sub div:nth-child(4), .footer .footer2, .footer .footer1, .subscribe .subscribe-box .subscribe-subbox .subscribe-subbox2, .subscribe .subscribe-box .subscribe-subbox, .subscribe .subscribe-box, .blog .blog3 .blog3-box .blog3-info .blog3-info4, .blog .blog3 .blog3-box .blog3-info .blog3-info1, .blog .blog3, .blog .blog-box .blog2, .blog .blog-box .blog1, .blog .blog-box, .blog, .chooseus .main-content .box4 .accessories, .chooseus .main-content .box4 .hoodies, .chooseus .main-content .box4 .bottoms, .chooseus .main-content .box4 .tops, .chooseus .main-content .box4, .chooseus .main-content, .chooseus, .reviews .reviews-box .review-img-box, .reviews .reviews-box .first-box .box7, .reviews .reviews-box .first-box .box5, .reviews .reviews-box, .reviews, .Category .nutrition .nutrition-box, .Category .nutrition, .Category .workout .workout-box, .Category .workout, .Category .progression .progression-box .progression-box1, .Category .progression, .header .top-header .social-icon, .header .top-header .info-header .info-header2, .header .top-header .info-header .info-header1, .header .top-header .info-header, .header .top-header, .header .header-logo {
   display: flex;
   align-items: center;
 }
@@ -1571,9 +1571,13 @@
   }
 }
 .new-blog-nav ul {
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.new-blog-nav .nav-blog-content {
   list-style-type: none;
   display: flex;
-  max-width: 62.375rem;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   border: 2px red solid;

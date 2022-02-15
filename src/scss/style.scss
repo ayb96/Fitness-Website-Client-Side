@@ -1915,18 +1915,18 @@ $primary: #ff0000;
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-// .heading {
-//   font-size: 2em;
-//   text-align: center;
-//   margin: 4em 0;
-// }
-
 .new-blog-nav {
   ul {
+    @extend .dFlex;
+    justify-content: center;
+    flex-wrap: wrap;
+    // min-width: 72.375rem;
+  }
+  .nav-blog-content {
     list-style-type: none;
     display: flex;
-    // justify-content: space-evenly;
-    max-width: 62.375rem;
+    justify-content: center;
+
     align-items: center;
     flex-wrap: wrap;
     border: 2px red solid;

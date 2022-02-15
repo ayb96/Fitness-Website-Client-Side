@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import CalendarTodayIcon from "@mui/icons-material/CalendarToday";
 import MessageIcon from "@mui/icons-material/Message";
 import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
@@ -7,27 +7,9 @@ import "aos/dist/aos.css";
 import { useMyContext } from "../Context/MyContext";
 import NavBar from "./NavBar";
 export default function Blog() {
-  const { id, setId } = useMyContext();
+  const { id } = useMyContext();
   
   AOS.init();
-  // useEffect(() => {
-  //   var btnContainer = document.getElementById("hovering");
-  //   console.log(btnContainer);
-  //   var btns = btnContainer.getElementsByClassName("btnz");
-  //   for (var i = 0; i < btns.length; i++) {
-  //     btns[i].addEventListener("click", function () {
-  //       var current = document.getElementsByClassName("activate");
-  //       current[0].className = current[0].className.replace(" activate");
-  //       this.className += " activate";
-  //     });
-  //   }
-  //   console.log(btns);
-  // }, []);
-
-  // const handelChange = (idd)=>{
-  //   setId(idd)
-  // }
-
 
   const categoryData = [
    

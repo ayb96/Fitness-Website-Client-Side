@@ -1362,7 +1362,7 @@
 .slider-new {
   background-color: red;
   width: 100%;
-  height: 33rem;
+  height: 40rem;
   position: absolute;
 }
 .slider-new .swiper-button-prev {
@@ -1388,7 +1388,7 @@
   border-bottom: 0.625rem solid #f60000;
   position: absolute;
   z-index: 1000;
-  top: 5em;
+  top: 6.5em;
   left: 17vw;
 }
 .slider-new .slider-content .slider-content-sub1 {

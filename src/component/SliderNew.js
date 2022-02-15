@@ -39,7 +39,7 @@ const fadeImages = [
           "--swiper-pagination-color": "#fff",
         }}
         
-        speed={600}
+        speed={1000}
         parallax={true}
         pagination={{
           clickable: true,

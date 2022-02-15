@@ -712,28 +712,6 @@
   flex-direction: column;
   justify-content: center;
 }
-.blog .blog-box .blog2 .blog2-box {
-  max-width: 100%;
-  min-height: 3.125rem;
-  transition: 1s;
-  display: flex;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-.blog .blog-box .blog2 .blog2-box .blog21 {
-  padding: 1.25rem;
-  border-bottom: 0.063rem solid #a7a7a7;
-  cursor: pointer;
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) 1.375rem/1.875rem Proxima Nova Alt;
-  text-align: left;
-  font: normal normal 600 1.375rem/1.875rem Proxima Nova Alt;
-  letter-spacing: -0.053rem;
-  color: #163235;
-}
-.blog .blog-box .blog2 .blog2-box .activate {
-  border-bottom: 0.313rem solid #163235;
-}
 .blog .blog3 {
   max-width: 68.75rem;
   justify-content: space-around;
@@ -1596,6 +1574,9 @@
   list-style-type: none;
   display: flex;
   max-width: 62.375rem;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 2px red solid;
   padding: 10px;
 }
 .new-blog-nav ul li {
@@ -1603,23 +1584,23 @@
   position: relative;
   text-align: center;
   padding: 1rem 2.2rem 1rem 2.2rem;
-  border-bottom: 1px solid black;
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) 22px/30px Proxima Nova Alt;
+  border-bottom: 0.063rem solid black;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) 1.375rem/1.875rem Proxima Nova Alt;
   text-align: left;
-  font: normal normal 600 22px/30px Proxima Nova Alt;
-  letter-spacing: -0.84px;
+  font: normal normal 600 1.375rem/1.875rem Proxima Nova Alt;
+  letter-spacing: -0.053rem;
   color: #163235;
 }
 .new-blog-nav li.active::after {
   position: absolute;
   content: "";
-  height: 3px;
+  height: 0.188rem;
   width: 100%;
   background-color: #163235;
   left: 0;
-  bottom: 0px;
-  border-top-left-radius: 2px;
-  border-top-right-radius: 2px;
+  bottom: 0rem;
+  border-top-left-radius: 0.125rem;
+  border-top-right-radius: 0.125rem;
   animation: appear 0.3s linear;
 }
 @keyframes appear {

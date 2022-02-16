@@ -17,8 +17,8 @@ export default function ReviewSwiper() {
           "--swiper-pagination-color": "#fff",
 
           maxWidth: "31.25rem",
-          marginLeft:"20px",
-          marginRight:"20px"
+          marginLeft:"10px",
+          marginRight:"10px"
         }}
         speed={1000}
         parallax={true}

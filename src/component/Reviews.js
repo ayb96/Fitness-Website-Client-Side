@@ -27,7 +27,7 @@ export default function Reviews() {
 
         <div
           className="review-img-box"
-          style={{ transform: `translateY(${offsetY * 0.2}px)` }}
+          // style={{ transform: `translateY(${offsetY * 0.2}px)` }}
         >
           <img className="review-img" src={reviewpic} alt="" />
         </div>

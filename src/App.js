@@ -7,17 +7,14 @@ import Video from "./component/Video";
 import Blog from "./component/Blog";
 import Subscribe from "./component/Subscribe";
 import Footer from "./component/Footer";
-
-import SlideTest from "./component/SlidetTest";
 import SliderNew from "./component/SliderNew";
-import NavBar from "./component/NavBar";
+
 
 function App() {
   return (
     <div className="App">
       <Header />
       <SliderNew/>
-      {/* <SlideTest /> */}
       <Category />
       <Reviews />
       <ChooseUs />

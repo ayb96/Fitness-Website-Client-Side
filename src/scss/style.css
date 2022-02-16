@@ -68,6 +68,7 @@
   flex-wrap: wrap;
 }
 .header .top-header .info-header .info-header1 {
+  justify-content: center;
   margin-right: 4.375rem;
   margin-left: 1.25rem;
 }
@@ -660,7 +661,8 @@
 }
 
 .blog {
-  min-height: 61rem;
+  min-height: 51rem;
+  justify-content: flex-start;
   flex-direction: column;
   justify-content: center;
 }
@@ -678,6 +680,9 @@
   min-height: 9.875rem;
 }
 .blog .blog-box .blog1 .blog11 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   max-width: 44.625rem;
   min-height: 4.938rem;
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 3.688rem/4.938rem Futura;
@@ -687,6 +692,10 @@
   letter-spacing: 0rem;
   color: #000000;
   text-transform: capitalize;
+}
+.blog .blog-box .blog1 .blog11 .blog11-line {
+  width: 11.7rem;
+  border: 0.125rem solid #e41c26;
 }
 .blog .blog-box .blog1 .blog12 {
   max-width: 11.625rem;
@@ -713,7 +722,7 @@
   justify-content: center;
 }
 .blog .blog3 {
-  max-width: 68.75rem;
+  max-width: 66rem;
   justify-content: space-around;
   flex-wrap: wrap;
 }
@@ -1240,6 +1249,7 @@
 }
 
 .review-swiper {
+  margin: 0px 20px 0px 20px;
   margin-bottom: 1.25rem;
 }
 .review-swiper .swiper-button-next {
@@ -1564,7 +1574,7 @@
 }
 @media only screen and (max-width: 25.625rem) {
   .review-swiper .swiper-button-next {
-    top: 34.375rem;
+    top: 34.3rem;
   }
   .review-swiper .swiper-button-prev {
     top: 35.688rem;
@@ -1580,7 +1590,6 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  border: 2px red solid;
   padding: 10px;
 }
 .new-blog-nav ul li {

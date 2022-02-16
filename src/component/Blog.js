@@ -148,7 +148,10 @@ export default function Blog() {
     <div className="blog">
       <div className="blog-box">
         <div className="blog1">
-          <div className="blog11">OUR LATEST BLOG</div>
+          <div className="blog11">
+            <div>OUR LATEST BLOG</div>
+            <div className="blog11-line"></div>
+          </div>
           <div className="blog12"></div>
           <div className="blog13">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam

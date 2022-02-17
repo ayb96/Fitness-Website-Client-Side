@@ -25,21 +25,21 @@ export default function Footer() {
           </div>
           <div className="footer12">
             <div className="footer12-box1">
-              <h1>Category</h1>
+              <h2>Category</h2>
               <div>First Link</div>
               <div>Second Long Link</div>
               <div>Third Link</div>
               <div>Fourth long Link</div>
             </div>
             <div className="footer12-box1">
-              <h1>Category</h1>
+              <h2>Category</h2>
               <div>First Link</div>
               <div>Second Long Link</div>
               <div>Third Link</div>
               <div>Fourth long Link</div>
             </div>
             <div className="footer12-box1">
-              <h1>Category</h1>
+              <h2>Category</h2>
               <div>First Link</div>
               <div>Second Long Link</div>
               <div>Third Link</div>

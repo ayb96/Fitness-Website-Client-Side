@@ -13,8 +13,7 @@ import "swiper/css/navigation";
 import { Parallax, Pagination, Navigation } from "swiper";
 
 export default function SliderNew() {
-    
-const fadeImages = [
+  const fadeImages = [
     {
       url: "https://images.pexels.com/photos/28054/pexels-photo-28054.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       caption: "First Slide",
@@ -38,9 +37,12 @@ const fadeImages = [
           "--swiper-navigation-color": "#fff",
           "--swiper-pagination-color": "#fff",
         }}
-        
+        loop={true}
         speed={1000}
         parallax={true}
+        // autoplay= {5000}
+        spaceBetween={30}
+
         pagination={{
           clickable: true,
         }}
@@ -48,40 +50,35 @@ const fadeImages = [
         modules={[Parallax, Pagination, Navigation]}
         className=" slider-new"
       >
-        {fadeImages.map((obj, index)=>(
-            <SwiperSlide key={index}>
+        {fadeImages.map((obj, index) => (
+          <SwiperSlide key={index}>
             <div className="slider-content ">
-                  <div className="slider-content-sub1"></div>
-                  <div className="slider-content-sub">
-                    <div data-swiper-parallax="-600">{obj.caption}</div>
-                    <div data-swiper-parallax="-500">{obj.title}</div>
-                    <div  data-swiper-parallax="-400">Description Here</div>
-                    <div className="join-text-out" data-swiper-parallax="-300">
-                      <div id="join-text">JOIN US NOW</div>
-                    </div>
-                    <div id="join-box"></div>
-                  </div>
-                  <div className="slider-content-sub2"></div>
+              <div className="slider-content-sub1"></div>
+              <div className="slider-content-sub">
+                <div data-swiper-parallax="-600">{obj.caption}</div>
+                <div data-swiper-parallax="-500">{obj.title}</div>
+                <div data-swiper-parallax="-400">Description Here</div>
+                <div className="join-text-out" data-swiper-parallax="-300">
+                  <div id="join-text">JOIN US NOW</div>
                 </div>
+                <div id="join-box"></div>
+              </div>
+              <div className="slider-content-sub2"></div>
+            </div>
             <div
               slot="container-start"
               style={{
-                "background-image":
-                  `url(${obj.url})`,
-                 width:"100%",
-                 height:"100%",
-                 backgroundSize:"cover",
-                  position:"absolute", 
-                  zIndex:"10"      
+                "background-image": `url(${obj.url})`,
+                width: "100%",
+                height: "100%",
+                backgroundSize: "cover",
+                position: "absolute",
+                zIndex: "10",
               }}
-            
             ></div>
-           
-              
-            </SwiperSlide>
-
+          </SwiperSlide>
         ))}
-        
+
         {/* <SwiperSlide>
         <div className="slider-content ">
               <div className="slider-content-sub1"></div>
@@ -140,7 +137,6 @@ const fadeImages = [
        
           
         </SwiperSlide> */}
-        
       </Swiper>
     </>
   );

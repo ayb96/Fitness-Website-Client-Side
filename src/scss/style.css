@@ -5,42 +5,9 @@
   box-sizing: border-box;
 }
 
-.dFlex, .new-blog-nav ul, .slider-new .slider-content .slider-content-sub div:nth-child(4), .review-swiper .box5, .mySwiper .swiper-box, .slide-show .slider-content .slider-content-sub div:nth-child(4), .footer .footer2, .footer .footer1, .subscribe .subscribe-box .subscribe-subbox .subscribe-subbox2, .subscribe .subscribe-box .subscribe-subbox, .subscribe .subscribe-box, .blog .blog3 .blog3-box .blog3-info .blog3-info4, .blog .blog3 .blog3-box .blog3-info .blog3-info1, .blog .blog3, .blog .blog-box .blog2, .blog .blog-box .blog1, .blog .blog-box, .blog, .chooseus .main-content .box4 .accessories, .chooseus .main-content .box4 .hoodies, .chooseus .main-content .box4 .bottoms, .chooseus .main-content .box4 .tops, .chooseus .main-content .box4, .chooseus .main-content, .chooseus, .reviews .reviews-box .review-img-box, .reviews .reviews-box .first-box .box7, .reviews .reviews-box .first-box .box5, .reviews .reviews-box, .reviews, .Category .nutrition .nutrition-box, .Category .nutrition, .Category .workout .workout-box, .Category .workout, .Category .progression .progression-box .progression-box1, .Category .progression, .header .top-header .social-icon, .header .top-header .info-header .info-header2, .header .top-header .info-header .info-header1, .header .top-header .info-header, .header .top-header, .header .header-logo {
+.dFlex, .new-blog-nav ul, .slider-new .slider-content .slider-content-sub div:nth-child(4), .review-swiper .box5, .mySwiper .swiper-box, .footer .footer2, .footer .footer1, .subscribe .subscribe-box .subscribe-subbox .subscribe-subbox2, .subscribe .subscribe-box .subscribe-subbox, .subscribe .subscribe-box, .blog .blog3 .blog3-box .blog3-info .blog3-info4, .blog .blog3 .blog3-box .blog3-info .blog3-info1, .blog .blog3, .blog .blog-box .blog2, .blog .blog-box .blog1, .blog .blog-box, .blog, .chooseus .main-content .box4 .accessories, .chooseus .main-content .box4 .hoodies, .chooseus .main-content .box4 .bottoms, .chooseus .main-content .box4 .tops, .chooseus .main-content .box4, .chooseus .main-content, .chooseus, .reviews .reviews-box .review-img-box, .reviews .reviews-box .first-box .box7, .reviews .reviews-box .first-box .box5, .reviews .reviews-box, .reviews, .Category .nutrition .nutrition-box, .Category .nutrition, .Category .workout .workout-box, .Category .workout, .Category .progression .progression-box .progression-box1, .Category .progression, .header .top-header .social-icon, .header .top-header .info-header .info-header2, .header .top-header .info-header .info-header1, .header .top-header .info-header, .header .top-header, .header .header-logo {
   display: flex;
   align-items: center;
-}
-
-.margin-h {
-  margin: 60px 0px 60px 0px;
-}
-
-:root {
-  /* Colors: */
-  --unnamed-color-181a27: #181a27;
-  --unnamed-color-090d17: #090d17;
-  --unnamed-color-17b241: #17b241;
-  /* Font/text values */
-  --unnamed-font-family-sf-compact-display: SF Compact Display;
-  --unnamed-font-style-normal: normal;
-  --unnamed-font-weight-600: 37.5rem;
-  --unnamed-font-weight-medium: medium;
-  --unnamed-font-weight-bold: bold;
-  --unnamed-font-weight-normal: normal;
-  --unnamed-font-size-9: 0.563rem;
-  --unnamed-font-size-11: 0.688rem;
-  --unnamed-font-size-12: 0.75rem;
-  --unnamed-font-size-14: 0.875rem;
-  --unnamed-font-size-16: 1rem;
-  --unnamed-font-size-18: 1.125rem;
-  --unnamed-font-size-24: 1.5rem;
-  --unnamed-character-spacing-0: 0rem;
-  --unnamed-line-spacing-12: 0.75rem;
-  --unnamed-line-spacing-15: 0.938rem;
-  --unnamed-line-spacing-16: 1rem;
-  --unnamed-line-spacing-19: 1.188rem;
-  --unnamed-line-spacing-21: 1.313rem;
-  --unnamed-line-spacing-24: 1.5rem;
-  --unnamed-line-spacing-32: 2rem;
 }
 
 .header {
@@ -462,7 +429,7 @@
   font: normal normal medium 1.25rem/1.688rem Futura;
   letter-spacing: 0rem;
   color: #d1d1d1;
-  margin-bottom: 6.813rem;
+  margin-bottom: 5rem;
 }
 .chooseus .main-content .box4 {
   justify-content: center;
@@ -661,7 +628,7 @@
 }
 
 .blog {
-  min-height: 51rem;
+  min-height: 49rem;
   justify-content: flex-start;
   flex-direction: column;
   justify-content: center;
@@ -671,7 +638,7 @@
   flex-wrap: wrap;
   max-width: 80.188rem;
   margin-top: 1.156rem;
-  margin-bottom: 4.563rem;
+  margin-bottom: 2rem;
 }
 .blog .blog-box .blog1 {
   justify-content: center;
@@ -695,7 +662,7 @@
 }
 .blog .blog-box .blog1 .blog11 .blog11-line {
   width: 11.7rem;
-  border: 0.125rem solid #e41c26;
+  border-bottom: 0.313rem solid #e41c26;
 }
 .blog .blog-box .blog1 .blog12 {
   max-width: 11.625rem;
@@ -997,10 +964,7 @@
   margin-right: 0.813rem;
 }
 .footer .footer1 .footer-main .footer11 .footer11-info .footer11-info2 div:nth-child(2) {
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-21) Futura;
-  letter-spacing: var(--unnamed-character-spacing-0);
   text-align: left;
-  font: normal normal normal 1rem/1.313rem Futura;
   letter-spacing: 0rem;
   color: #ffffff;
 }
@@ -1015,10 +979,7 @@
 }
 .footer .footer1 .footer-main .footer11 .footer11-info .footer11-info1 div:nth-child(2) {
   width: 12.5rem;
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-21) Futura;
-  letter-spacing: var(--unnamed-character-spacing-0);
   text-align: left;
-  font: normal normal normal 1rem/1.313rem Futura;
   letter-spacing: 0rem;
   color: #ffffff;
 }
@@ -1041,11 +1002,9 @@
 .footer .footer1 .footer-main .footer12 .footer12-box1 div:hover {
   color: #e41c26;
 }
-.footer .footer1 .footer-main .footer12 .footer12-box1 h1 {
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-32) Futura;
+.footer .footer1 .footer-main .footer12 .footer12-box1 h2 {
   letter-spacing: var(--unnamed-character-spacing-0);
   text-align: left;
-  font: normal normal medium 1, 5rem/2rem Futura;
   letter-spacing: 0px;
   color: #ffffff;
   margin-bottom: 2.563rem;
@@ -1054,10 +1013,7 @@
 }
 .footer .footer1 .footer-main .footer12 .footer12-box1 div {
   cursor: pointer;
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-21) Futura;
-  letter-spacing: var(--unnamed-character-spacing-0);
   text-align: left;
-  font: normal normal normal 1rem/1.313rem Futura;
   letter-spacing: 0px;
   color: #ffffff;
   margin-bottom: 1.813rem;
@@ -1070,11 +1026,7 @@
   justify-content: center;
 }
 .footer .footer2 div {
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-21) Futura;
-  letter-spacing: var(--unnamed-character-spacing-0);
   text-align: center;
-  font: normal normal normal 1rem/1.313rem Futura;
-  letter-spacing: 0px;
   color: #ffffff;
 }
 
@@ -1088,105 +1040,6 @@
   cursor: pointer;
   width: 25px;
   height: 25px;
-}
-
-.slider {
-  background-image: url("../Images/Group 13.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.slide-show {
-  position: relative;
-}
-.slide-show .slider-content {
-  max-width: 28vw;
-  border-left: 0.625rem solid #f60000;
-  border-top: 0.625rem solid #f60000;
-  border-bottom: 0.625rem solid #f60000;
-  position: absolute;
-  top: 5em;
-  left: 17vw;
-}
-.slide-show .slider-content .slider-content-sub1 {
-  border-right: 0.625rem #f60000 solid;
-  min-height: 1.25rem;
-}
-.slide-show .slider-content .slider-content-sub2 {
-  border-right: 0.625rem #f60000 solid;
-  min-height: 1.25rem;
-}
-.slide-show .slider-content .slider-content-sub {
-  min-height: 21.25rem;
-  max-width: 25rem;
-  margin-left: 1.25rem;
-  border: transparent 0.125rem solid;
-}
-.slide-show .slider-content .slider-content-sub #join-box {
-  max-width: 2.75rem;
-  min-height: 2.75rem;
-  border-left: 0.188rem solid #f60000;
-  border-bottom: 0.188rem solid #f60000;
-  position: relative;
-  left: -0.438rem;
-  bottom: 0.938rem;
-}
-.slide-show .slider-content .slider-content-sub div:nth-child(1) {
-  margin-top: 1.969rem;
-  max-width: 12.5rem;
-  min-height: 2.063rem;
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 1.563rem/2.063rem SF Pro Display;
-  letter-spacing: var(--unnamed-character-spacing-0);
-  text-align: left;
-  font: normal normal bold 1.563rem/2.063rem SF Pro Display;
-  letter-spacing: 0rem;
-  color: #ffffff;
-}
-.slide-show .slider-content .slider-content-sub div:nth-child(2) {
-  width: 47vw;
-  min-height: 8.25rem;
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 6.188rem/8.25rem Futura;
-  letter-spacing: var(--unnamed-character-spacing-0);
-  text-align: left;
-  font: normal normal bold 7vw/8.25rem Futura;
-  letter-spacing: 0rem;
-  color: #ffffff;
-  text-transform: capitalize;
-}
-.slide-show .slider-content .slider-content-sub div:nth-child(3) {
-  max-width: 18.5rem;
-  min-height: 3.313rem;
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) 2.5rem/3.313rem Futura;
-  letter-spacing: var(--unnamed-character-spacing-0);
-  text-align: left;
-  font: normal normal medium 2.5rem/3.313rem Futura;
-  letter-spacing: 0rem;
-  color: #ffffff;
-  text-transform: capitalize;
-}
-.slide-show .slider-content .slider-content-sub div:nth-child(4) {
-  position: relative;
-  width: 11rem;
-  min-height: 3.563rem;
-  border: 0.063rem solid #ffffff;
-  justify-content: center;
-  margin-bottom: -1.25rem;
-}
-.slide-show .slider-content .slider-content-sub div:nth-child(4) #join-text {
-  cursor: pointer;
-  position: relative;
-  bottom: 0.813rem;
-  font: var(--unnamed-font-style-normal) normal 300 1.25rem/1.688rem SF Pro Display;
-  letter-spacing: var(--unnamed-character-spacing-0);
-  text-align: center;
-  font: normal normal 300 1.25rem/1.688rem SF Pro Display;
-  letter-spacing: 0rem;
-  color: #ffffff;
-  text-transform: uppercase;
-}
-.slide-show .slider-content .slider-content-sub div:nth-child(4):hover {
-  background-color: #636864;
-  transition: 1s;
 }
 
 .mySwiper {
@@ -1390,9 +1243,11 @@
 }
 .slider-new .slider-content .slider-content-sub {
   min-height: 21.25rem;
-  max-width: 25rem;
+  border-radius: 1rem;
+  padding: 0.8rem;
+  width: 48vw;
   margin-left: 1.25rem;
-  border: transparent 0.125rem solid;
+  background-color: #0000008f;
 }
 .slider-new .slider-content .slider-content-sub #join-box {
   max-width: 2.75rem;
@@ -1600,7 +1455,7 @@
   border-bottom: 0.063rem solid black;
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) 1.375rem/1.875rem Proxima Nova Alt;
   text-align: left;
-  font: normal normal 600 1.375rem/1.875rem Proxima Nova Alt;
+  font: normal normal 600 1.375rem/1.875rem Futura;
   letter-spacing: -0.053rem;
   color: #163235;
 }

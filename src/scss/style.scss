@@ -8,37 +8,8 @@ $primary: #ff0000;
   display: flex;
   align-items: center;
 }
-.margin-h {
-  margin: 60px 0px 60px 0px;
-}
+// @import url("http://fonts.cdnfonts.com/css/sf-pro-display");
 :root {
-  /* Colors: */
-  --unnamed-color-181a27: #181a27;
-  --unnamed-color-090d17: #090d17;
-  --unnamed-color-17b241: #17b241;
-
-  /* Font/text values */
-  --unnamed-font-family-sf-compact-display: SF Compact Display;
-  --unnamed-font-style-normal: normal;
-  --unnamed-font-weight-600: 37.5rem;
-  --unnamed-font-weight-medium: medium;
-  --unnamed-font-weight-bold: bold;
-  --unnamed-font-weight-normal: normal;
-  --unnamed-font-size-9: 0.563rem;
-  --unnamed-font-size-11: 0.688rem;
-  --unnamed-font-size-12: 0.75rem;
-  --unnamed-font-size-14: 0.875rem;
-  --unnamed-font-size-16: 1rem;
-  --unnamed-font-size-18: 1.125rem;
-  --unnamed-font-size-24: 1.5rem;
-  --unnamed-character-spacing-0: 0rem;
-  --unnamed-line-spacing-12: 0.75rem;
-  --unnamed-line-spacing-15: 0.938rem;
-  --unnamed-line-spacing-16: 1rem;
-  --unnamed-line-spacing-19: 1.188rem;
-  --unnamed-line-spacing-21: 1.313rem;
-  --unnamed-line-spacing-24: 1.5rem;
-  --unnamed-line-spacing-32: 2rem;
   // font-size: 32px;
 }
 
@@ -494,9 +465,7 @@ $primary: #ff0000;
 
 .chooseus {
   position: relative;
-
   min-height: 40.625rem;
-
   @extend .dFlex;
   justify-content: center;
   background: #111111 0% 0% no-repeat padding-box;
@@ -505,7 +474,6 @@ $primary: #ff0000;
     @extend .dFlex;
     justify-content: center;
     flex-direction: column;
-
     .line1 {
       width: 11.625rem;
       height: 0.313rem;
@@ -555,7 +523,7 @@ $primary: #ff0000;
       font: normal normal medium 1.25rem/1.688rem Futura;
       letter-spacing: 0rem;
       color: #d1d1d1;
-      margin-bottom: 6.813rem;
+      margin-bottom: 5rem;
     }
     .box4 {
       @extend .dFlex;
@@ -750,6 +718,7 @@ $primary: #ff0000;
         var(--unnamed-font-weight-bold) 7.688rem/10.25rem SF Pro Display;
       text-align: center;
       font: normal normal bold 8vw/10.25rem SF Pro Display;
+      // font-family: "SF Pro Display", sans-serif;
       letter-spacing: 1.499rem;
       color: #5e5e5e;
       text-transform: uppercase;
@@ -790,8 +759,9 @@ $primary: #ff0000;
 //////////////////// Blog Section ////////////////////
 
 .blog {
-  min-height: 51rem;
+  min-height: 49rem;
   @extend .dFlex;
+
   justify-content: flex-start;
   flex-direction: column;
   justify-content: center;
@@ -804,7 +774,7 @@ $primary: #ff0000;
     max-width: 80.188rem;
 
     margin-top: 1.156rem;
-    margin-bottom: 4.563rem;
+    margin-bottom: 2rem;
     .blog1 {
       @extend .dFlex;
       justify-content: center;
@@ -828,7 +798,7 @@ $primary: #ff0000;
         text-transform: capitalize;
         .blog11-line {
           width: 11.7rem;
-          border: 0.125rem solid #e41c26;
+          border-bottom: 0.313rem solid #e41c26;
         }
       }
       .blog12 {
@@ -1195,15 +1165,7 @@ $primary: #ff0000;
               margin-right: 0.813rem;
             }
             div:nth-child(2) {
-              // width: 89px;
-
-              // height: 21px;
-              font: var(--unnamed-font-style-normal) normal
-                var(--unnamed-font-weight-normal) var(--unnamed-font-size-16) /
-                var(--unnamed-line-spacing-21) Futura;
-              letter-spacing: var(--unnamed-character-spacing-0);
               text-align: left;
-              font: normal normal normal 1rem/1.313rem Futura;
               letter-spacing: 0rem;
               color: #ffffff;
             }
@@ -1213,7 +1175,6 @@ $primary: #ff0000;
 
             div:nth-child(1) {
               margin-right: 0.938rem;
-
               width: 0.75rem;
               height: 1.063rem;
               background: transparent url("../Images/location-sharp.svg") 0% 0%
@@ -1221,13 +1182,7 @@ $primary: #ff0000;
             }
             div:nth-child(2) {
               width: 12.5rem;
-              // height: 2.625rem;
-              font: var(--unnamed-font-style-normal) normal
-                var(--unnamed-font-weight-normal) var(--unnamed-font-size-16) /
-                var(--unnamed-line-spacing-21) Futura;
-              letter-spacing: var(--unnamed-character-spacing-0);
               text-align: left;
-              font: normal normal normal 1rem/1.313rem Futura;
               letter-spacing: 0rem;
               color: #ffffff;
             }
@@ -1250,6 +1205,7 @@ $primary: #ff0000;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
+        // margin-top: 1rem;
         .footer12-box1 {
           div:hover {
             color: #e41c26;
@@ -1257,13 +1213,9 @@ $primary: #ff0000;
         }
 
         .footer12-box1 {
-          h1 {
-            font: var(--unnamed-font-style-normal) normal
-              var(--unnamed-font-weight-medium) var(--unnamed-font-size-24) /
-              var(--unnamed-line-spacing-32) Futura;
+          h2 {
             letter-spacing: var(--unnamed-character-spacing-0);
             text-align: left;
-            font: normal normal medium 1, 5rem/2rem Futura;
             letter-spacing: 0px;
             color: #ffffff;
             margin-bottom: 2.563rem;
@@ -1272,12 +1224,7 @@ $primary: #ff0000;
           }
           div {
             cursor: pointer;
-            font: var(--unnamed-font-style-normal) normal
-              var(--unnamed-font-weight-normal) var(--unnamed-font-size-16) /
-              var(--unnamed-line-spacing-21) Futura;
-            letter-spacing: var(--unnamed-character-spacing-0);
             text-align: left;
-            font: normal normal normal 1rem/1.313rem Futura;
             letter-spacing: 0px;
             color: #ffffff;
             margin-bottom: 1.813rem;
@@ -1294,13 +1241,7 @@ $primary: #ff0000;
     @extend .dFlex;
     justify-content: center;
     div {
-      font: var(--unnamed-font-style-normal) normal
-        var(--unnamed-font-weight-normal) var(--unnamed-font-size-16) /
-        var(--unnamed-line-spacing-21) Futura;
-      letter-spacing: var(--unnamed-character-spacing-0);
       text-align: center;
-      font: normal normal normal 1rem/1.313rem Futura;
-      letter-spacing: 0px;
       color: #ffffff;
     }
   }
@@ -1316,112 +1257,6 @@ $primary: #ff0000;
     cursor: pointer;
     width: 25px;
     height: 25px;
-  }
-}
-
-.slider {
-  background-image: url("../Images/Group 13.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.slide-show {
-  position: relative;
-  .slider-content {
-    max-width: 28vw;
-
-    border-left: 0.625rem solid #f60000;
-    border-top: 0.625rem solid #f60000;
-    border-bottom: 0.625rem solid #f60000;
-    position: absolute;
-    top: 5em;
-    left: 17vw;
-    .slider-content-sub1 {
-      border-right: 0.625rem #f60000 solid;
-      min-height: 1.25rem;
-    }
-    .slider-content-sub2 {
-      border-right: 0.625rem #f60000 solid;
-      min-height: 1.25rem;
-    }
-    .slider-content-sub {
-      min-height: 21.25rem;
-      // border: 2px red solid;
-      max-width: 25rem;
-      margin-left: 1.25rem;
-      border: transparent 0.125rem solid;
-      #join-box {
-        max-width: 2.75rem;
-        min-height: 2.75rem;
-        border-left: 0.188rem solid #f60000;
-        border-bottom: 0.188rem solid #f60000;
-        position: relative;
-        left: -0.438rem;
-        bottom: 0.938rem;
-      }
-      div:nth-child(1) {
-        margin-top: 1.969rem;
-        max-width: 12.5rem;
-        min-height: 2.063rem;
-        font: var(--unnamed-font-style-normal) normal
-          var(--unnamed-font-weight-bold) 1.563rem/2.063rem SF Pro Display;
-        letter-spacing: var(--unnamed-character-spacing-0);
-        text-align: left;
-        font: normal normal bold 1.563rem/2.063rem SF Pro Display;
-        letter-spacing: 0rem;
-        color: #ffffff;
-      }
-      div:nth-child(2) {
-        width: 47vw;
-        min-height: 8.25rem;
-        font: var(--unnamed-font-style-normal) normal
-          var(--unnamed-font-weight-bold) 6.188rem/8.25rem Futura;
-        letter-spacing: var(--unnamed-character-spacing-0);
-        text-align: left;
-        font: normal normal bold 7vw/8.25rem Futura;
-        letter-spacing: 0rem;
-        color: #ffffff;
-        text-transform: capitalize;
-      }
-      div:nth-child(3) {
-        max-width: 18.5rem;
-        min-height: 3.313rem;
-        font: var(--unnamed-font-style-normal) normal
-          var(--unnamed-font-weight-medium) 2.5rem/3.313rem Futura;
-        letter-spacing: var(--unnamed-character-spacing-0);
-        text-align: left;
-        font: normal normal medium 2.5rem/3.313rem Futura;
-        letter-spacing: 0rem;
-        color: #ffffff;
-        text-transform: capitalize;
-      }
-      div:nth-child(4) {
-        position: relative;
-        width: 11rem;
-        min-height: 3.563rem;
-        border: 0.063rem solid #ffffff;
-        @extend .dFlex;
-        justify-content: center;
-        margin-bottom: -1.25rem;
-
-        #join-text {
-          cursor: pointer;
-          position: relative;
-          bottom: 0.813rem;
-          font: var(--unnamed-font-style-normal) normal 300 1.25rem/1.688rem SF
-            Pro Display;
-          letter-spacing: var(--unnamed-character-spacing-0);
-          text-align: center;
-          font: normal normal 300 1.25rem/1.688rem SF Pro Display;
-          letter-spacing: 0rem;
-          color: #ffffff;
-          text-transform: uppercase;
-        }
-      }
-      div:nth-child(4):hover {
-        background-color: #636864;
-        transition: 1s;
-      }
-    }
   }
 }
 //////////Choose us Slider//////////////
@@ -1665,9 +1500,12 @@ $primary: #ff0000;
     .slider-content-sub {
       min-height: 21.25rem;
       // border: 2px red solid;
-      max-width: 25rem;
+      border-radius: 1rem;
+
+      padding: 0.8rem;
+      width: 48vw;
       margin-left: 1.25rem;
-      border: transparent 0.125rem solid;
+      background-color: #0000008f;
       #join-box {
         max-width: 2.75rem;
         min-height: 2.75rem;
@@ -1925,7 +1763,7 @@ $primary: #ff0000;
     font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600)
       1.375rem/1.875rem Proxima Nova Alt;
     text-align: left;
-    font: normal normal 600 1.375rem/1.875rem Proxima Nova Alt;
+    font: normal normal 600 1.375rem/1.875rem Futura;
     letter-spacing: -0.053rem;
     color: #163235;
   }

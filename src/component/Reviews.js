@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import reviewpic from "../Images/Group 91.png";
+import group36 from "../Images/Group 36.svg";
 
 import ReviewSwiper from "./ReviewSwiper";
 
@@ -24,6 +25,7 @@ export default function Reviews() {
     <div className="reviews">
       <div className="reviews-box">
         <ReviewSwiper />
+        {/* <div className="review-img1-box"> <img className="" src={group36} alt="" /></div> */}
 
         <div
           className="review-img-box"

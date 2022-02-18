@@ -8,19 +8,13 @@ $primary: #ff0000;
   display: flex;
   align-items: center;
 }
-// @import url("http://fonts.cdnfonts.com/css/sf-pro-display");
 :root {
-  // font-size: 32px;
 }
 
 //////////////////// Header Section ////////////////////
 .header {
-  // width: 100%;
-
   display: grid;
-  // grid-template-columns: 18rem 1fr;
   grid-template-columns: 25% 75%;
-
   grid-template-areas:
     "logo top"
     "logo nav";
@@ -134,7 +128,6 @@ $primary: #ff0000;
 
 .Category {
   display: grid;
-  // grid-template-columns: 1.3fr 1fr 1.3fr;
   grid-template-columns: 35% 30% 35%;
   grid-template-areas: "box1 box2 box3";
   grid-auto-rows: 24.438rem;
@@ -1553,7 +1546,7 @@ $primary: #ff0000;
       }
       div:nth-child(4) {
         position: relative;
-        width: 11rem;
+        width: 9rem;
         min-height: 3.563rem;
         border: 0.063rem solid #ffffff;
         @extend .dFlex;

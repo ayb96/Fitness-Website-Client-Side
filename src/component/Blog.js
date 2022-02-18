@@ -158,19 +158,6 @@ export default function Blog() {
             nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
           </div>
         </div>
-        {/* <div className="blog2">
-          <div id="hovering" className="blog2-box">
-            <div className="btnz activate">
-              <div className="blog21" onClick={()=>{handelChange(1)}}>The Weekend Break</div>
-            </div>
-            {categoryData.map((obj, index)=>(
-              <div className="btnz" key={index}>
-                <div className="blog21" onClick={()=>handelChange(obj.category_id)}>{obj.name}</div>
-              </div>
-            ))}
- 
-          </div>
-        </div> */}
         <NavBar/>
       </div>
 
@@ -181,10 +168,9 @@ export default function Blog() {
           
           .map(task => (
             // console.log("category data:",task);
-            task.data.map((objj)=>{
-              console.log(objj.name);
+            task.data.map((objj, index)=>{
               return (
-                 <div className="blog3-box" data-aos="zoom-in">
+                 <div className="blog3-box" data-aos="zoom-in" key={index}>
                   <div className="blog3-img1">
                     <div className="blog3-img1-date">
                       <div className="blog3-date1">23 </div>

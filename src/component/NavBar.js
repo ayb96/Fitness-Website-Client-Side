@@ -19,15 +19,14 @@ export default function NavBar() {
     
   return (
     <div className="new-blog-nav">
-
-  <ul>
-    <div className='nav-blog-content'>
-      <li className="active" onClick={()=>{handelChange(1)}}>The Weekend Break</li>
-      <li onClick={()=>{handelChange(2)}}>The Package Holiday</li>
-      <li onClick={()=>{handelChange(3)}}>The Group Package</li>
-      <li onClick={()=>{handelChange(4)}}>Annual Package</li>
+      <ul>
+        <div className='nav-blog-content'>
+          <li className="active" onClick={()=>{handelChange(1)}}>The Weekend Break</li>
+          <li onClick={()=>{handelChange(2)}}>The Package Holiday</li>
+          <li onClick={()=>{handelChange(3)}}>The Group Package</li>
+          <li onClick={()=>{handelChange(4)}}>Annual Package</li>
+        </div>
+      </ul>
     </div>
-  </ul>
-</div>
   )
 }

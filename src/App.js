@@ -8,13 +8,14 @@ import Blog from "./component/Blog";
 import Subscribe from "./component/Subscribe";
 import Footer from "./component/Footer";
 import SliderNew from "./component/SliderNew";
-
+import VirtualTour from "./component/VirtualTour";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <SliderNew/>
+      <VirtualTour />
+      <SliderNew />
       <Category />
       <Reviews />
       <ChooseUs />

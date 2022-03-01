@@ -52,11 +52,7 @@ export default function Subscribe() {
 
                 <div>
                   <label />
-                  <button
-                    className="primary"
-                    type="submit"
-                    
-                  >
+                  <button className="primary" type="submit">
                     Subscribe
                   </button>
                 </div>

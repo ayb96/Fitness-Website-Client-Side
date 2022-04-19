@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <VirtualTour />
+      {/* <VirtualTour /> */}
       <SliderNew />
       <Category />
       <Reviews />
